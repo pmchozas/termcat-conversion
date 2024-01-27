@@ -8,7 +8,7 @@ In the era of Linguistic Data Science, language resources are increasingly gaini
 
 ## Our proposal: a mapping-based conversion platform
 
-In order to ease the data conversion to the producers of terminological resources, we propose a mappings-based conversion platform. To this aim, two complementary modules will be built: a Data Conversion Module, and a Data Querying Module. The former will be in charge of transforming the terminological resources into RDF, using Ontolex-lemon as the core ontology. The latter, on the other hand, will enable users to query the data transformed by the Data Conversion Module.
+In order to ease the data conversion to the producers of terminological resources, we propose a mappings-based conversion platform. To this aim, two complementary modules will be built: a Data Conversion Module and a Data Querying Module. The former will be in charge of transforming the terminological resources into RDF, using Ontolex-lemon as the core ontology. The latter, on the other hand, will enable non SPARQL users to easily query the data transformed by the Data Conversion Module.
 
 <p align="center">
 
