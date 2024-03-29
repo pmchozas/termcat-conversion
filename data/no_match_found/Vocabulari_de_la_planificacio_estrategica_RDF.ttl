@@ -1,0 +1,2443 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix etv: <https://w3id.org/def/easytv#> .
+@prefix grel: <http://semweb.datasciencelab.be/ns/grel#> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lime: <http://www.w3.org/ns/lemon/lime#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix tc: <http://w3id.org/termcat-ld/> .
+@prefix termlex: <https://termlex.oeg.fi.upm.es/static/termlex.rdf/> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C1 a ontolex:LexicalConcept;
+  dct:identifier "1";
+  dct:subject "Empresa > Administració i direcció d'empreses > Planificació estratègica";
+  skos:inScheme tc:Vocabulari_de_la_planificacio_estrategica_ConSet;
+  ontolex:lexicalizedSense tc:Vocabulari_de_la_planificacio_estrategica_C1_amenaca_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C1_amenaza_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C1_menace_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C1_threat_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C10 a ontolex:LexicalConcept;
+  dct:identifier "10";
+  dct:subject "Empresa > Administració i direcció d'empreses > Planificació estratègica";
+  skos:inScheme tc:Vocabulari_de_la_planificacio_estrategica_ConSet;
+  ontolex:lexicalizedSense tc:Vocabulari_de_la_planificacio_estrategica_C10_direccio_per_objectius_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C10_direccion_por_objetivos_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C10_direction_par_objectifs_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C10_management_by_objectives_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C10_direccio_per_objectius_ca_form_femenine
+  a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "direcció per objectius" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C10_direccio_per_objectius_ca_noun a
+    ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C10;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C10_direccio_per_objectius_ca_form_femenine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C10_direccio_per_objectius_ca_noun_sense
+  a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C10_direccio_per_objectius_ca_noun;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C10_direccion_por_objetivos_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C10_direction_par_objectifs_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C10_management_by_objectives_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C10_direccion_por_objetivos_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C10;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C10_direccion_por_objetivos_es_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C10_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C10_direccion_por_objetivos_es_form a
+    ontolex:LexicalForm;
+  ontolex:writtenRep "dirección por objetivos" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C10_direccion_por_objetivos_es_sense
+  a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C10_direccion_por_objetivos_es;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C10_direccio_per_objectius_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C10_direction_par_objectifs_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C10_management_by_objectives_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C10_direction_par_objectifs_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C10;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C10_direction_par_objectifs_fr_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C10_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C10_direction_par_objectifs_fr_form a
+    ontolex:LexicalForm;
+  ontolex:writtenRep "direction par objectifs" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C10_direction_par_objectifs_fr_sense
+  a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C10_direction_par_objectifs_fr;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C10_direccio_per_objectius_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C10_direccion_por_objetivos_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C10_management_by_objectives_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C10_form a ontolex:LexicalForm;
+  ontolex:writtenRep "dirección por objetivos", "direction par objectifs", "management by objectives" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C10_management_by_objectives_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C10;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C10_form, tc:Vocabulari_de_la_planificacio_estrategica_C10_management_by_objectives_en_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C10_management_by_objectives_en_form
+  a ontolex:LexicalForm;
+  ontolex:writtenRep "management by objectives" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C10_management_by_objectives_en_sense
+  a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C10_management_by_objectives_en;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C10_direccio_per_objectius_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C10_direccion_por_objetivos_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C10_direction_par_objectifs_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C11 a ontolex:LexicalConcept;
+  dct:identifier "11";
+  dct:subject "Empresa > Administració i direcció d'empreses > Planificació estratègica";
+  skos:inScheme tc:Vocabulari_de_la_planificacio_estrategica_ConSet;
+  ontolex:lexicalizedSense tc:Vocabulari_de_la_planificacio_estrategica_C11_entorn_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C11_entorno_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C11_environment_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C11_environnement_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C11_entorn_ca_form_masculine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "entorn" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C11_entorn_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C11;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C11_entorn_ca_form_masculine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C11_entorn_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C11_entorn_ca_noun;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C11_entorno_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C11_environment_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C11_environnement_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C11_entorno_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C11;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C11_entorno_es_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C11_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C11_entorno_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "entorno" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C11_entorno_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C11_entorno_es;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C11_entorn_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C11_environment_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C11_environnement_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C11_environment_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C11;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C11_environment_en_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C11_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C11_environment_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "environment" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C11_environment_en_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C11_environment_en;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C11_entorn_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C11_entorno_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C11_environnement_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C11_environnement_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C11;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C11_environnement_fr_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C11_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C11_environnement_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "environnement" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C11_environnement_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C11_environnement_fr;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C11_entorn_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C11_entorno_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C11_environment_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C11_form a ontolex:LexicalForm;
+  ontolex:writtenRep "entorno", "environment", "environnement" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C12 a ontolex:LexicalConcept;
+  dct:identifier "12";
+  dct:subject "Empresa > Administració i direcció d'empreses > Planificació estratègica";
+  skos:inScheme tc:Vocabulari_de_la_planificacio_estrategica_ConSet;
+  ontolex:lexicalizedSense tc:Vocabulari_de_la_planificacio_estrategica_C12_escenari_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C12_escenario_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C12_scenario_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C12_scenario_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C12_escenari_ca_form_masculine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "escenari" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C12_escenari_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C12;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C12_escenari_ca_form_masculine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C12_escenari_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C12_escenari_ca_noun;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C12_escenario_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C12_scenario_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C12_scenario_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C12_escenario_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C12;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C12_escenario_es_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C12_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C12_escenario_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "escenario" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C12_escenario_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C12_escenario_es;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C12_escenari_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C12_scenario_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C12_scenario_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C12_form a ontolex:LexicalForm;
+  ontolex:writtenRep "escenario", "scenario", "scénario" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C12_scenario_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C12;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C12_form, tc:Vocabulari_de_la_planificacio_estrategica_C12_scenario_en_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C12_scenario_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "scenario" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C12_scenario_en_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C12_scenario_en;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C12_escenari_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C12_escenario_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C12_scenario_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C12_scenario_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C12;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C12_form, tc:Vocabulari_de_la_planificacio_estrategica_C12_scenario_fr_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C12_scenario_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "scénario" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C12_scenario_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C12_scenario_fr;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C12_escenari_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C12_escenario_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C12_scenario_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C13 a ontolex:LexicalConcept;
+  dct:identifier "13";
+  dct:subject "Empresa > Administració i direcció d'empreses > Planificació estratègica";
+  skos:inScheme tc:Vocabulari_de_la_planificacio_estrategica_ConSet;
+  ontolex:lexicalizedSense tc:Vocabulari_de_la_planificacio_estrategica_C13_estrategia_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C13_estrategia_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C13_strategie_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C13_strategy_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C13_estrategia_ca_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "estratègia" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C13_estrategia_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C13;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C13_estrategia_ca_form_femenine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C13_estrategia_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C13_estrategia_ca_noun;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C13_estrategia_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C13_strategie_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C13_strategy_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C13_estrategia_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C13;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C13_estrategia_es_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C13_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C13_estrategia_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "estrategia" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C13_estrategia_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C13_estrategia_es;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C13_estrategia_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C13_strategie_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C13_strategy_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C13_form a ontolex:LexicalForm;
+  ontolex:writtenRep "estrategia", "strategy", "stratégie" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C13_strategie_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C13;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C13_form, tc:Vocabulari_de_la_planificacio_estrategica_C13_strategie_fr_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C13_strategie_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "stratégie" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C13_strategie_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C13_strategie_fr;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C13_estrategia_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C13_estrategia_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C13_strategy_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C13_strategy_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C13;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C13_form, tc:Vocabulari_de_la_planificacio_estrategica_C13_strategy_en_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C13_strategy_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "strategy" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C13_strategy_en_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C13_strategy_en;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C13_estrategia_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C13_estrategia_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C13_strategie_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C14 a ontolex:LexicalConcept;
+  dct:identifier "14";
+  dct:subject "Empresa > Administració i direcció d'empreses > Planificació estratègica";
+  skos:inScheme tc:Vocabulari_de_la_planificacio_estrategica_ConSet;
+  ontolex:lexicalizedSense tc:Vocabulari_de_la_planificacio_estrategica_C14_facteur_cle_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C14_factor_clau_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C14_factor_clave_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C14_key_factor_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C14_facteur_cle_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C14;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C14_facteur_cle_fr_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C14_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C14_facteur_cle_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "facteur clé" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C14_facteur_cle_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C14_facteur_cle_fr;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C14_factor_clau_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C14_factor_clave_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C14_key_factor_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C14_factor_clau_ca_form_masculine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "factor clau" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C14_factor_clau_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C14;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C14_factor_clau_ca_form_masculine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C14_factor_clau_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C14_factor_clau_ca_noun;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C14_facteur_cle_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C14_factor_clave_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C14_key_factor_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C14_factor_clave_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C14;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C14_factor_clave_es_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C14_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C14_factor_clave_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "factor clave" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C14_factor_clave_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C14_factor_clave_es;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C14_facteur_cle_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C14_factor_clau_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C14_key_factor_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C14_form a ontolex:LexicalForm;
+  ontolex:writtenRep "facteur clé", "factor clave", "key factor" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C14_key_factor_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C14;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C14_form, tc:Vocabulari_de_la_planificacio_estrategica_C14_key_factor_en_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C14_key_factor_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "key factor" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C14_key_factor_en_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C14_key_factor_en;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C14_facteur_cle_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C14_factor_clau_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C14_factor_clave_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C15 a ontolex:LexicalConcept;
+  dct:identifier "15";
+  dct:subject "Empresa > Administració i direcció d'empreses > Planificació estratègica";
+  skos:inScheme tc:Vocabulari_de_la_planificacio_estrategica_ConSet;
+  ontolex:lexicalizedSense tc:Vocabulari_de_la_planificacio_estrategica_C15_atout_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C15_force_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C15_fortalesa_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C15_fortaleza_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C15_punt_fort_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C15_punto_fuerte_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C15_strength_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C15_atout_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C15;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C15_atout_fr_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C15_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C15_atout_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "atout" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C15_atout_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C15_atout_fr;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C15_force_fr_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C15_fortalesa_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C15_fortaleza_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C15_punt_fort_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C15_punto_fuerte_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C15_strength_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C15_force_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C15;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C15_force_fr_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C15_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C15_force_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "force" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C15_force_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C15_force_fr;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C15_atout_fr_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C15_fortalesa_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C15_fortaleza_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C15_punt_fort_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C15_punto_fuerte_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C15_strength_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C15_form a ontolex:LexicalForm;
+  ontolex:writtenRep "atout", "force", "fortaleza", "punto fuerte", "strength" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C15_fortalesa_ca_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "fortalesa" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C15_fortalesa_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C15;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C15_fortalesa_ca_form_femenine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C15_fortalesa_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C15_fortalesa_ca_noun;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C15_punt_fort_ca_noun_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C15_atout_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C15_force_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C15_fortaleza_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C15_punto_fuerte_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C15_strength_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C15_fortaleza_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C15;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C15_form, tc:Vocabulari_de_la_planificacio_estrategica_C15_fortaleza_es_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C15_fortaleza_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "fortaleza" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C15_fortaleza_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C15_fortaleza_es;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C15_punto_fuerte_es_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C15_atout_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C15_force_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C15_fortalesa_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C15_punt_fort_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C15_strength_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C15_punt_fort_ca_form_masculine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "punt fort" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C15_punt_fort_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C15;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C15_punt_fort_ca_form_masculine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C15_punt_fort_ca_noun_sense a ontolex:LexicalSense;
+  lexinfo:normativeAuthorization lexinfo:deprecated;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C15_punt_fort_ca_noun;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C15_fortalesa_ca_noun_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C15_atout_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C15_force_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C15_fortaleza_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C15_punto_fuerte_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C15_strength_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C15_punto_fuerte_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C15;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C15_form, tc:Vocabulari_de_la_planificacio_estrategica_C15_punto_fuerte_es_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C15_punto_fuerte_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "punto fuerte" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C15_punto_fuerte_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C15_punto_fuerte_es;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C15_fortaleza_es_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C15_atout_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C15_force_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C15_fortalesa_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C15_punt_fort_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C15_strength_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C15_strength_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C15;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C15_form, tc:Vocabulari_de_la_planificacio_estrategica_C15_strength_en_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C15_strength_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "strength" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C15_strength_en_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C15_strength_en;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C15_atout_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C15_force_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C15_fortalesa_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C15_fortaleza_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C15_punt_fort_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C15_punto_fuerte_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C16 a ontolex:LexicalConcept;
+  dct:identifier "16";
+  dct:subject "Empresa > Administració i direcció d'empreses > Planificació estratègica";
+  skos:inScheme tc:Vocabulari_de_la_planificacio_estrategica_ConSet;
+  ontolex:lexicalizedSense tc:Vocabulari_de_la_planificacio_estrategica_C16_groupe_implique_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C16_grup_implicat_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C16_grupo_implicado_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C16_involved_group_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C16_form a ontolex:LexicalForm;
+  ontolex:writtenRep "groupe impliqué", "grupo implicado", "involved group" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C16_groupe_implique_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C16;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C16_form, tc:Vocabulari_de_la_planificacio_estrategica_C16_groupe_implique_fr_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C16_groupe_implique_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "groupe impliqué" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C16_groupe_implique_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C16_groupe_implique_fr;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C16_grup_implicat_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C16_grupo_implicado_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C16_involved_group_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C16_grup_implicat_ca_form_masculine a
+    ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "grup implicat" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C16_grup_implicat_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C16;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C16_grup_implicat_ca_form_masculine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C16_grup_implicat_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C16_grup_implicat_ca_noun;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C16_groupe_implique_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C16_grupo_implicado_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C16_involved_group_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C16_grupo_implicado_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C16;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C16_form, tc:Vocabulari_de_la_planificacio_estrategica_C16_grupo_implicado_es_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C16_grupo_implicado_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "grupo implicado" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C16_grupo_implicado_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C16_grupo_implicado_es;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C16_groupe_implique_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C16_grup_implicat_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C16_involved_group_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C16_involved_group_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C16;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C16_form, tc:Vocabulari_de_la_planificacio_estrategica_C16_involved_group_en_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C16_involved_group_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "involved group" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C16_involved_group_en_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C16_involved_group_en;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C16_groupe_implique_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C16_grup_implicat_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C16_grupo_implicado_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C17 a ontolex:LexicalConcept;
+  dct:identifier "17";
+  dct:subject "Empresa > Administració i direcció d'empreses > Planificació estratègica";
+  skos:inScheme tc:Vocabulari_de_la_planificacio_estrategica_ConSet;
+  ontolex:lexicalizedSense tc:Vocabulari_de_la_planificacio_estrategica_C17_implementacio_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C17_implementacion_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C17_implementation_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C17_mise_en_oeuvre_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C17_form a ontolex:LexicalForm;
+  ontolex:writtenRep "implementación", "implementation", "mise en oeuvre" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C17_implementacio_ca_form_femenine a
+    ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "implementació" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C17_implementacio_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C17;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C17_implementacio_ca_form_femenine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C17_implementacio_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C17_implementacio_ca_noun;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C17_implementacion_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C17_implementation_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C17_mise_en_oeuvre_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C17_implementacion_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C17;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C17_form, tc:Vocabulari_de_la_planificacio_estrategica_C17_implementacion_es_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C17_implementacion_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "implementación" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C17_implementacion_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C17_implementacion_es;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C17_implementacio_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C17_implementation_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C17_mise_en_oeuvre_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C17_implementation_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C17;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C17_form, tc:Vocabulari_de_la_planificacio_estrategica_C17_implementation_en_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C17_implementation_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "implementation" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C17_implementation_en_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C17_implementation_en;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C17_implementacio_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C17_implementacion_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C17_mise_en_oeuvre_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C17_mise_en_oeuvre_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C17;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C17_form, tc:Vocabulari_de_la_planificacio_estrategica_C17_mise_en_oeuvre_fr_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C17_mise_en_oeuvre_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "mise en oeuvre" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C17_mise_en_oeuvre_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C17_mise_en_oeuvre_fr;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C17_implementacio_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C17_implementacion_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C17_implementation_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C18 a ontolex:LexicalConcept;
+  dct:identifier "18";
+  dct:subject "Empresa > Administració i direcció d'empreses > Planificació estratègica";
+  skos:inScheme tc:Vocabulari_de_la_planificacio_estrategica_ConSet;
+  ontolex:lexicalizedSense tc:Vocabulari_de_la_planificacio_estrategica_C18_SWOT_matrix_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C18_TOWS_matrix_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C18_matrice_AFOM_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C18_matrice_FFPM_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C18_matriu_DAFO_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C18_matriz_DAFO_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C18_matriz_FODA_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C18_SWOT_matrix_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C18;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C18_SWOT_matrix_en_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C18_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C18_SWOT_matrix_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "SWOT matrix" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C18_SWOT_matrix_en_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C18_SWOT_matrix_en;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C18_TOWS_matrix_en_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C18_matrice_AFOM_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C18_matrice_FFPM_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C18_matriu_DAFO_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C18_matriz_DAFO_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C18_matriz_FODA_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C18_TOWS_matrix_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C18;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C18_TOWS_matrix_en_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C18_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C18_TOWS_matrix_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "TOWS matrix" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C18_TOWS_matrix_en_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C18_TOWS_matrix_en;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C18_SWOT_matrix_en_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C18_matrice_AFOM_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C18_matrice_FFPM_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C18_matriu_DAFO_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C18_matriz_DAFO_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C18_matriz_FODA_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C18_form a ontolex:LexicalForm;
+  ontolex:writtenRep "SWOT matrix", "TOWS matrix", "matrice AFOM", "matrice FFPM", "matriz DAFO",
+    "matriz FODA" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C18_matrice_AFOM_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C18;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C18_form, tc:Vocabulari_de_la_planificacio_estrategica_C18_matrice_AFOM_fr_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C18_matrice_AFOM_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "matrice AFOM" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C18_matrice_AFOM_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C18_matrice_AFOM_fr;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C18_matrice_FFPM_fr_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C18_SWOT_matrix_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C18_TOWS_matrix_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C18_matriu_DAFO_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C18_matriz_DAFO_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C18_matriz_FODA_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C18_matrice_FFPM_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C18;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C18_form, tc:Vocabulari_de_la_planificacio_estrategica_C18_matrice_FFPM_fr_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C18_matrice_FFPM_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "matrice FFPM" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C18_matrice_FFPM_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C18_matrice_FFPM_fr;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C18_matrice_AFOM_fr_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C18_SWOT_matrix_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C18_TOWS_matrix_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C18_matriu_DAFO_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C18_matriz_DAFO_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C18_matriz_FODA_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C18_matriu_DAFO_ca_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "matriu DAFO" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C18_matriu_DAFO_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C18;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C18_matriu_DAFO_ca_form_femenine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C18_matriu_DAFO_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C18_matriu_DAFO_ca_noun;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C18_SWOT_matrix_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C18_TOWS_matrix_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C18_matrice_AFOM_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C18_matrice_FFPM_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C18_matriz_DAFO_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C18_matriz_FODA_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C18_matriz_DAFO_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C18;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C18_form, tc:Vocabulari_de_la_planificacio_estrategica_C18_matriz_DAFO_es_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C18_matriz_DAFO_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "matriz DAFO" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C18_matriz_DAFO_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C18_matriz_DAFO_es;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C18_matriz_FODA_es_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C18_SWOT_matrix_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C18_TOWS_matrix_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C18_matrice_AFOM_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C18_matrice_FFPM_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C18_matriu_DAFO_ca_noun_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C18_matriz_FODA_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C18;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C18_form, tc:Vocabulari_de_la_planificacio_estrategica_C18_matriz_FODA_es_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C18_matriz_FODA_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "matriz FODA" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C18_matriz_FODA_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C18_matriz_FODA_es;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C18_matriz_DAFO_es_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C18_SWOT_matrix_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C18_TOWS_matrix_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C18_matrice_AFOM_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C18_matrice_FFPM_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C18_matriu_DAFO_ca_noun_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C19 a ontolex:LexicalConcept;
+  dct:identifier "19";
+  dct:subject "Empresa > Administració i direcció d'empreses > Planificació estratègica";
+  skos:inScheme tc:Vocabulari_de_la_planificacio_estrategica_ConSet;
+  ontolex:lexicalizedSense tc:Vocabulari_de_la_planificacio_estrategica_C19_but_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C19_goal_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C19_meta_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C19_meta_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C19_objectiu_general_ca_noun_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C19_but_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C19;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C19_but_fr_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C19_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C19_but_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "but" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C19_but_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C19_but_fr;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C19_goal_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C19_meta_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C19_meta_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C19_objectiu_general_ca_noun_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C19_form a ontolex:LexicalForm;
+  ontolex:writtenRep "but", "goal", "meta" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C19_goal_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C19;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C19_form, tc:Vocabulari_de_la_planificacio_estrategica_C19_goal_en_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C19_goal_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "goal" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C19_goal_en_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C19_goal_en;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C19_but_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C19_meta_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C19_meta_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C19_objectiu_general_ca_noun_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C19_meta_ca_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "meta" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C19_meta_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C19;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C19_meta_ca_form_femenine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C19_meta_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C19_meta_ca_noun;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C19_objectiu_general_ca_noun_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C19_but_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C19_goal_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C19_meta_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C19_meta_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C19;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C19_form, tc:Vocabulari_de_la_planificacio_estrategica_C19_meta_es_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C19_meta_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "meta" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C19_meta_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C19_meta_es;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C19_but_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C19_goal_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C19_meta_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C19_objectiu_general_ca_noun_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C19_objectiu_general_ca_form_masculine
+  a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "objectiu general" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C19_objectiu_general_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C19;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C19_objectiu_general_ca_form_masculine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C19_objectiu_general_ca_noun_sense a
+    ontolex:LexicalSense;
+  lexinfo:normativeAuthorization lexinfo:deprecated;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C19_objectiu_general_ca_noun;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C19_meta_ca_noun_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C19_but_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C19_goal_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C19_meta_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C1_amenaca_ca_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "amenaça" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C1_amenaca_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C1;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C1_amenaca_ca_form_femenine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C1_amenaca_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C1_amenaca_ca_noun;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C1_amenaza_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C1_menace_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C1_threat_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C1_amenaza_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C1;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C1_amenaza_es_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C1_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C1_amenaza_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "amenaza" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C1_amenaza_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C1_amenaza_es;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C1_amenaca_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C1_menace_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C1_threat_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C1_form a ontolex:LexicalForm;
+  ontolex:writtenRep "amenaza", "menace", "threat" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C1_menace_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C1;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C1_form, tc:Vocabulari_de_la_planificacio_estrategica_C1_menace_fr_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C1_menace_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "menace" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C1_menace_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C1_menace_fr;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C1_amenaca_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C1_amenaza_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C1_threat_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C1_threat_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C1;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C1_form, tc:Vocabulari_de_la_planificacio_estrategica_C1_threat_en_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C1_threat_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "threat" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C1_threat_en_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C1_threat_en;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C1_amenaca_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C1_amenaza_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C1_menace_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C2 a ontolex:LexicalConcept;
+  dct:identifier "2";
+  dct:subject "Empresa > Administració i direcció d'empreses > Planificació estratègica";
+  skos:inScheme tc:Vocabulari_de_la_planificacio_estrategica_ConSet;
+  ontolex:lexicalizedSense tc:Vocabulari_de_la_planificacio_estrategica_C2_SWOT_analysis_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C2_TOWS_analysis_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C2_analisi_DAFO_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C2_analisis_DAFO_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C2_analisis_FODA_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C2_analyse_AFOM_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C2_analyse_FFPM_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C20 a ontolex:LexicalConcept;
+  dct:identifier "20";
+  dct:subject "Empresa > Administració i direcció d'empreses > Planificació estratègica";
+  skos:inScheme tc:Vocabulari_de_la_planificacio_estrategica_ConSet;
+  ontolex:lexicalizedSense tc:Vocabulari_de_la_planificacio_estrategica_C20_mision_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C20_missio_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C20_mission_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C20_mission_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C20_form a ontolex:LexicalForm;
+  ontolex:writtenRep "misión", "mission" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C20_mision_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C20;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C20_form, tc:Vocabulari_de_la_planificacio_estrategica_C20_mision_es_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C20_mision_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "misión" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C20_mision_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C20_mision_es;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C20_missio_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C20_mission_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C20_mission_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C20_missio_ca_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "missió" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C20_missio_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C20;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C20_missio_ca_form_femenine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C20_missio_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C20_missio_ca_noun;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C20_mision_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C20_mission_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C20_mission_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C20_mission_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C20;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C20_form, tc:Vocabulari_de_la_planificacio_estrategica_C20_mission_en_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C20_mission_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "mission" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C20_mission_en_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C20_mission_en;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C20_mision_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C20_missio_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C20_mission_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C20_mission_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C20;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C20_form, tc:Vocabulari_de_la_planificacio_estrategica_C20_mission_fr_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C20_mission_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "mission" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C20_mission_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C20_mission_fr;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C20_mision_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C20_missio_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C20_mission_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C21 a ontolex:LexicalConcept;
+  dct:identifier "21";
+  dct:subject "Empresa > Administració i direcció d'empreses > Planificació estratègica";
+  skos:inScheme tc:Vocabulari_de_la_planificacio_estrategica_ConSet;
+  ontolex:lexicalizedSense tc:Vocabulari_de_la_planificacio_estrategica_C21_objectif_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C21_objectiu_especific_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C21_objectiu_operatiu_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C21_objective_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C21_objetivo_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C21_form a ontolex:LexicalForm;
+  ontolex:writtenRep "objectif", "objective", "objetivo" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C21_objectif_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C21;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C21_form, tc:Vocabulari_de_la_planificacio_estrategica_C21_objectif_fr_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C21_objectif_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "objectif" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C21_objectif_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C21_objectif_fr;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C21_objectiu_especific_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C21_objectiu_operatiu_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C21_objective_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C21_objetivo_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C21_objectiu_especific_ca_form_masculine
+  a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "objectiu específic" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C21_objectiu_especific_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C21;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C21_objectiu_especific_ca_form_masculine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C21_objectiu_especific_ca_noun_sense
+  a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C21_objectiu_especific_ca_noun;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C21_objectiu_operatiu_ca_noun_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C21_objectif_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C21_objective_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C21_objetivo_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C21_objectiu_operatiu_ca_form_masculine
+  a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "objectiu operatiu" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C21_objectiu_operatiu_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C21;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C21_objectiu_operatiu_ca_form_masculine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C21_objectiu_operatiu_ca_noun_sense a
+    ontolex:LexicalSense;
+  lexinfo:normativeAuthorization lexinfo:deprecated;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C21_objectiu_operatiu_ca_noun;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C21_objectiu_especific_ca_noun_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C21_objectif_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C21_objective_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C21_objetivo_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C21_objective_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C21;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C21_form, tc:Vocabulari_de_la_planificacio_estrategica_C21_objective_en_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C21_objective_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "objective" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C21_objective_en_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C21_objective_en;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C21_objectif_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C21_objectiu_especific_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C21_objectiu_operatiu_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C21_objetivo_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C21_objetivo_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C21;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C21_form, tc:Vocabulari_de_la_planificacio_estrategica_C21_objetivo_es_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C21_objetivo_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "objetivo" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C21_objetivo_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C21_objetivo_es;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C21_objectif_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C21_objectiu_especific_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C21_objectiu_operatiu_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C21_objective_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C22 a ontolex:LexicalConcept;
+  dct:identifier "22";
+  dct:subject "Empresa > Administració i direcció d'empreses > Planificació estratègica";
+  skos:inScheme tc:Vocabulari_de_la_planificacio_estrategica_ConSet;
+  ontolex:lexicalizedSense tc:Vocabulari_de_la_planificacio_estrategica_C22_occasion_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C22_oportunidad_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C22_oportunitat_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C22_opportunite_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C22_opportunity_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C22_possibilite_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C22_form a ontolex:LexicalForm;
+  ontolex:writtenRep "occasion", "oportunidad", "opportunity", "opportunité", "possibilité" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C22_occasion_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C22;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C22_form, tc:Vocabulari_de_la_planificacio_estrategica_C22_occasion_fr_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C22_occasion_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "occasion" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C22_occasion_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C22_occasion_fr;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C22_opportunite_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C22_possibilite_fr_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C22_oportunidad_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C22_oportunitat_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C22_opportunity_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C22_oportunidad_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C22;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C22_form, tc:Vocabulari_de_la_planificacio_estrategica_C22_oportunidad_es_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C22_oportunidad_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "oportunidad" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C22_oportunidad_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C22_oportunidad_es;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C22_occasion_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C22_oportunitat_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C22_opportunite_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C22_opportunity_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C22_possibilite_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C22_oportunitat_ca_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "oportunitat" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C22_oportunitat_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C22;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C22_oportunitat_ca_form_femenine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C22_oportunitat_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C22_oportunitat_ca_noun;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C22_occasion_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C22_oportunidad_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C22_opportunite_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C22_opportunity_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C22_possibilite_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C22_opportunite_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C22;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C22_form, tc:Vocabulari_de_la_planificacio_estrategica_C22_opportunite_fr_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C22_opportunite_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "opportunité" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C22_opportunite_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C22_opportunite_fr;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C22_occasion_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C22_possibilite_fr_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C22_oportunidad_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C22_oportunitat_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C22_opportunity_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C22_opportunity_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C22;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C22_form, tc:Vocabulari_de_la_planificacio_estrategica_C22_opportunity_en_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C22_opportunity_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "opportunity" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C22_opportunity_en_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C22_opportunity_en;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C22_occasion_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C22_oportunidad_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C22_oportunitat_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C22_opportunite_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C22_possibilite_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C22_possibilite_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C22;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C22_form, tc:Vocabulari_de_la_planificacio_estrategica_C22_possibilite_fr_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C22_possibilite_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "possibilité" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C22_possibilite_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C22_possibilite_fr;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C22_occasion_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C22_opportunite_fr_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C22_oportunidad_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C22_oportunitat_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C22_opportunity_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C23 a ontolex:LexicalConcept;
+  dct:identifier "23";
+  dct:subject "Empresa > Administració i direcció d'empreses > Planificació estratègica";
+  skos:inScheme tc:Vocabulari_de_la_planificacio_estrategica_ConSet;
+  ontolex:lexicalizedSense tc:Vocabulari_de_la_planificacio_estrategica_C23_participant_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C23_participant_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C23_participant_participant_ca_noun_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C23_participante_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C23_form a ontolex:LexicalForm;
+  ontolex:writtenRep "participant", "participante" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C23_participant_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C23;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C23_form, tc:Vocabulari_de_la_planificacio_estrategica_C23_participant_en_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C23_participant_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "participant" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C23_participant_en_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C23_participant_en;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C23_participant_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C23_participant_participant_ca_noun_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C23_participante_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C23_participant_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C23;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C23_form, tc:Vocabulari_de_la_planificacio_estrategica_C23_participant_fr_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C23_participant_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "participant" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C23_participant_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C23_participant_fr;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C23_participant_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C23_participant_participant_ca_noun_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C23_participante_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C23_participant_participant_ca_form_masculine
+  a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "participant" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C23_participant_participant_ca_noun_form_femenine
+  a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "participant" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C23_participant_participant_ca_noun_noun
+  a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C23;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C23_participant_participant_ca_form_masculine,
+    tc:Vocabulari_de_la_planificacio_estrategica_C23_participant_participant_ca_noun_form_femenine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C23_participant_participant_ca_noun_noun_sense
+  a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C23_participant_participant_ca_noun_noun;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C23_participant_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C23_participant_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C23_participante_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C23_participante_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C23;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C23_form, tc:Vocabulari_de_la_planificacio_estrategica_C23_participante_es_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C23_participante_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "participante" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C23_participante_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C23_participante_es;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C23_participant_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C23_participant_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C23_participant_participant_ca_noun_noun_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C24 a ontolex:LexicalConcept;
+  dct:identifier "24";
+  dct:subject "Empresa > Administració i direcció d'empreses > Planificació estratègica";
+  skos:inScheme tc:Vocabulari_de_la_planificacio_estrategica_ConSet;
+  ontolex:lexicalizedSense tc:Vocabulari_de_la_planificacio_estrategica_C24_pla_estrategic_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C24_plan_estrategico_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C24_plan_strategique_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C24_strategic_plan_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C24_form a ontolex:LexicalForm;
+  ontolex:writtenRep "plan estratégico", "plan stratégique", "strategic plan" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C24_pla_estrategic_ca_form_masculine
+  a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "pla estratègic" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C24_pla_estrategic_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C24;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C24_pla_estrategic_ca_form_masculine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C24_pla_estrategic_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C24_pla_estrategic_ca_noun;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C24_plan_estrategico_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C24_plan_strategique_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C24_strategic_plan_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C24_plan_estrategico_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C24;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C24_form, tc:Vocabulari_de_la_planificacio_estrategica_C24_plan_estrategico_es_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C24_plan_estrategico_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "plan estratégico" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C24_plan_estrategico_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C24_plan_estrategico_es;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C24_pla_estrategic_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C24_plan_strategique_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C24_strategic_plan_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C24_plan_strategique_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C24;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C24_form, tc:Vocabulari_de_la_planificacio_estrategica_C24_plan_strategique_fr_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C24_plan_strategique_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "plan stratégique" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C24_plan_strategique_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C24_plan_strategique_fr;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C24_pla_estrategic_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C24_plan_estrategico_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C24_strategic_plan_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C24_strategic_plan_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C24;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C24_form, tc:Vocabulari_de_la_planificacio_estrategica_C24_strategic_plan_en_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C24_strategic_plan_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "strategic plan" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C24_strategic_plan_en_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C24_strategic_plan_en;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C24_pla_estrategic_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C24_plan_estrategico_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C24_plan_strategique_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C25 a ontolex:LexicalConcept;
+  dct:identifier "25";
+  dct:subject "Empresa > Administració i direcció d'empreses > Planificació estratègica";
+  skos:inScheme tc:Vocabulari_de_la_planificacio_estrategica_ConSet;
+  ontolex:lexicalizedSense tc:Vocabulari_de_la_planificacio_estrategica_C25_planificacio_estrategica_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C25_planificacion_estrategica_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C25_planification_strategique_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C25_strategic_planning_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C25_form a ontolex:LexicalForm;
+  ontolex:writtenRep "planificación estratégica", "planification stratégique", "strategic planning" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C25_planificacio_estrategica_ca_form_femenine
+  a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "planificació estratègica" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C25_planificacio_estrategica_ca_noun
+  a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C25;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C25_planificacio_estrategica_ca_form_femenine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C25_planificacio_estrategica_ca_noun_sense
+  a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C25_planificacio_estrategica_ca_noun;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C25_planificacion_estrategica_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C25_planification_strategique_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C25_strategic_planning_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C25_planificacion_estrategica_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C25;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C25_form, tc:Vocabulari_de_la_planificacio_estrategica_C25_planificacion_estrategica_es_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C25_planificacion_estrategica_es_form
+  a ontolex:LexicalForm;
+  ontolex:writtenRep "planificación estratégica" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C25_planificacion_estrategica_es_sense
+  a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C25_planificacion_estrategica_es;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C25_planificacio_estrategica_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C25_planification_strategique_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C25_strategic_planning_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C25_planification_strategique_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C25;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C25_form, tc:Vocabulari_de_la_planificacio_estrategica_C25_planification_strategique_fr_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C25_planification_strategique_fr_form
+  a ontolex:LexicalForm;
+  ontolex:writtenRep "planification stratégique" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C25_planification_strategique_fr_sense
+  a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C25_planification_strategique_fr;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C25_planificacio_estrategica_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C25_planificacion_estrategica_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C25_strategic_planning_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C25_strategic_planning_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C25;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C25_form, tc:Vocabulari_de_la_planificacio_estrategica_C25_strategic_planning_en_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C25_strategic_planning_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "strategic planning" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C25_strategic_planning_en_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C25_strategic_planning_en;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C25_planificacio_estrategica_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C25_planificacion_estrategica_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C25_planification_strategique_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C26 a ontolex:LexicalConcept;
+  dct:identifier "26";
+  dct:subject "Empresa > Administració i direcció d'empreses > Planificació estratègica";
+  skos:inScheme tc:Vocabulari_de_la_planificacio_estrategica_ConSet;
+  ontolex:lexicalizedSense tc:Vocabulari_de_la_planificacio_estrategica_C26_program_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C26_programa_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C26_programa_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C26_programme_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C26_form a ontolex:LexicalForm;
+  ontolex:writtenRep "program", "programa", "programme" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C26_program_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C26;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C26_form, tc:Vocabulari_de_la_planificacio_estrategica_C26_program_en_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C26_program_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "program" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C26_program_en_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C26_program_en;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C26_programa_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C26_programa_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C26_programme_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C26_programa_ca_form_masculine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "programa" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C26_programa_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C26;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C26_programa_ca_form_masculine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C26_programa_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C26_programa_ca_noun;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C26_program_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C26_programa_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C26_programme_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C26_programa_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C26;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C26_form, tc:Vocabulari_de_la_planificacio_estrategica_C26_programa_es_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C26_programa_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "programa" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C26_programa_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C26_programa_es;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C26_program_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C26_programa_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C26_programme_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C26_programme_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C26;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C26_form, tc:Vocabulari_de_la_planificacio_estrategica_C26_programme_fr_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C26_programme_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "programme" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C26_programme_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C26_programme_fr;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C26_program_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C26_programa_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C26_programa_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C27 a ontolex:LexicalConcept;
+  dct:identifier "27";
+  dct:subject "Empresa > Administració i direcció d'empreses > Planificació estratègica";
+  skos:inScheme tc:Vocabulari_de_la_planificacio_estrategica_ConSet;
+  ontolex:lexicalizedSense tc:Vocabulari_de_la_planificacio_estrategica_C27_feedback_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C27_realimentacio_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C27_retroaccio_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C27_retroaccion_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C27_retroaction_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C27_feedback_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C27;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C27_feedback_en_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C27_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C27_feedback_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "feedback" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C27_feedback_en_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C27_feedback_en;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C27_realimentacio_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C27_retroaccio_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C27_retroaccion_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C27_retroaction_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C27_form a ontolex:LexicalForm;
+  ontolex:writtenRep "feedback", "retroacción", "rétroaction" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C27_realimentacio_ca_form_femenine a
+    ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "realimentació" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C27_realimentacio_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C27;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C27_realimentacio_ca_form_femenine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C27_realimentacio_ca_noun_sense a ontolex:LexicalSense;
+  lexinfo:normativeAuthorization lexinfo:deprecated;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C27_realimentacio_ca_noun;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C27_retroaccio_ca_noun_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C27_feedback_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C27_retroaccion_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C27_retroaction_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C27_retroaccio_ca_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "retroacció" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C27_retroaccio_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C27;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C27_retroaccio_ca_form_femenine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C27_retroaccio_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C27_retroaccio_ca_noun;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C27_realimentacio_ca_noun_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C27_feedback_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C27_retroaccion_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C27_retroaction_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C27_retroaccion_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C27;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C27_form, tc:Vocabulari_de_la_planificacio_estrategica_C27_retroaccion_es_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C27_retroaccion_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "retroacción" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C27_retroaccion_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C27_retroaccion_es;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C27_feedback_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C27_realimentacio_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C27_retroaccio_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C27_retroaction_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C27_retroaction_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C27;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C27_form, tc:Vocabulari_de_la_planificacio_estrategica_C27_retroaction_fr_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C27_retroaction_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "rétroaction" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C27_retroaction_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C27_retroaction_fr;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C27_feedback_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C27_realimentacio_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C27_retroaccio_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C27_retroaccion_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C28 a ontolex:LexicalConcept;
+  dct:identifier "28";
+  dct:subject "Empresa > Administració i direcció d'empreses > Planificació estratègica";
+  skos:inScheme tc:Vocabulari_de_la_planificacio_estrategica_ConSet;
+  ontolex:lexicalizedSense tc:Vocabulari_de_la_planificacio_estrategica_C28_responsable_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C28_responsable_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C28_responsable_responsable_ca_noun_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C28_responsible_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C28_form a ontolex:LexicalForm;
+  ontolex:writtenRep "responsable", "responsible" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C28_responsable_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C28;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C28_form, tc:Vocabulari_de_la_planificacio_estrategica_C28_responsable_es_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C28_responsable_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "responsable" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C28_responsable_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C28_responsable_es;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C28_responsable_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C28_responsable_responsable_ca_noun_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C28_responsible_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C28_responsable_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C28;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C28_form, tc:Vocabulari_de_la_planificacio_estrategica_C28_responsable_fr_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C28_responsable_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "responsable" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C28_responsable_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C28_responsable_fr;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C28_responsable_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C28_responsable_responsable_ca_noun_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C28_responsible_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C28_responsable_responsable_ca_form_masculine
+  a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "responsable" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C28_responsable_responsable_ca_noun_form_femenine
+  a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "responsable" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C28_responsable_responsable_ca_noun_noun
+  a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C28;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C28_responsable_responsable_ca_form_masculine,
+    tc:Vocabulari_de_la_planificacio_estrategica_C28_responsable_responsable_ca_noun_form_femenine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C28_responsable_responsable_ca_noun_noun_sense
+  a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C28_responsable_responsable_ca_noun_noun;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C28_responsable_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C28_responsable_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C28_responsible_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C28_responsible_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C28;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C28_form, tc:Vocabulari_de_la_planificacio_estrategica_C28_responsible_en_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C28_responsible_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "responsible" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C28_responsible_en_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C28_responsible_en;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C28_responsable_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C28_responsable_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C28_responsable_responsable_ca_noun_noun_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C29 a ontolex:LexicalConcept;
+  dct:identifier "29";
+  dct:subject "Empresa > Administració i direcció d'empreses > Planificació estratègica";
+  skos:inScheme tc:Vocabulari_de_la_planificacio_estrategica_ConSet;
+  ontolex:lexicalizedSense tc:Vocabulari_de_la_planificacio_estrategica_C29_tache_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C29_tarea_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C29_tasca_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C29_task_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C29_form a ontolex:LexicalForm;
+  ontolex:writtenRep "tarea", "task", "tâche" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C29_tache_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C29;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C29_form, tc:Vocabulari_de_la_planificacio_estrategica_C29_tache_fr_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C29_tache_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "tâche" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C29_tache_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C29_tache_fr;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C29_tarea_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C29_tasca_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C29_task_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C29_tarea_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C29;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C29_form, tc:Vocabulari_de_la_planificacio_estrategica_C29_tarea_es_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C29_tarea_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "tarea" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C29_tarea_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C29_tarea_es;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C29_tache_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C29_tasca_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C29_task_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C29_tasca_ca_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "tasca" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C29_tasca_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C29;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C29_tasca_ca_form_femenine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C29_tasca_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C29_tasca_ca_noun;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C29_tache_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C29_tarea_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C29_task_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C29_task_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C29;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C29_form, tc:Vocabulari_de_la_planificacio_estrategica_C29_task_en_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C29_task_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "task" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C29_task_en_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C29_task_en;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C29_tache_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C29_tarea_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C29_tasca_ca_noun_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C2_SWOT_analysis_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C2;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C2_SWOT_analysis_en_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C2_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C2_SWOT_analysis_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "SWOT analysis" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C2_SWOT_analysis_en_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C2_SWOT_analysis_en;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C2_TOWS_analysis_en_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C2_analisi_DAFO_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C2_analisis_DAFO_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C2_analisis_FODA_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C2_analyse_AFOM_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C2_analyse_FFPM_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C2_TOWS_analysis_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C2;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C2_TOWS_analysis_en_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C2_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C2_TOWS_analysis_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "TOWS analysis" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C2_TOWS_analysis_en_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C2_TOWS_analysis_en;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C2_SWOT_analysis_en_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C2_analisi_DAFO_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C2_analisis_DAFO_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C2_analisis_FODA_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C2_analyse_AFOM_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C2_analyse_FFPM_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C2_analisi_DAFO_ca_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "anàlisi DAFO" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C2_analisi_DAFO_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C2;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C2_analisi_DAFO_ca_form_femenine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C2_analisi_DAFO_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C2_analisi_DAFO_ca_noun;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C2_SWOT_analysis_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C2_TOWS_analysis_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C2_analisis_DAFO_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C2_analisis_FODA_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C2_analyse_AFOM_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C2_analyse_FFPM_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C2_analisis_DAFO_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C2;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C2_analisis_DAFO_es_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C2_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C2_analisis_DAFO_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "análisis DAFO" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C2_analisis_DAFO_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C2_analisis_DAFO_es;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C2_analisis_FODA_es_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C2_SWOT_analysis_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C2_TOWS_analysis_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C2_analisi_DAFO_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C2_analyse_AFOM_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C2_analyse_FFPM_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C2_analisis_FODA_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C2;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C2_analisis_FODA_es_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C2_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C2_analisis_FODA_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "análisis FODA" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C2_analisis_FODA_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C2_analisis_FODA_es;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C2_analisis_DAFO_es_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C2_SWOT_analysis_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C2_TOWS_analysis_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C2_analisi_DAFO_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C2_analyse_AFOM_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C2_analyse_FFPM_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C2_analyse_AFOM_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C2;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C2_analyse_AFOM_fr_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C2_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C2_analyse_AFOM_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "analyse AFOM" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C2_analyse_AFOM_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C2_analyse_AFOM_fr;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C2_analyse_FFPM_fr_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C2_SWOT_analysis_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C2_TOWS_analysis_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C2_analisi_DAFO_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C2_analisis_DAFO_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C2_analisis_FODA_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C2_analyse_FFPM_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C2;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C2_analyse_FFPM_fr_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C2_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C2_analyse_FFPM_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "analyse FFPM" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C2_analyse_FFPM_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C2_analyse_FFPM_fr;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C2_analyse_AFOM_fr_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C2_SWOT_analysis_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C2_TOWS_analysis_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C2_analisi_DAFO_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C2_analisis_DAFO_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C2_analisis_FODA_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C2_form a ontolex:LexicalForm;
+  ontolex:writtenRep "SWOT analysis", "TOWS analysis", "analyse AFOM", "analyse FFPM",
+    "análisis DAFO", "análisis FODA" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C3 a ontolex:LexicalConcept;
+  dct:identifier "3";
+  dct:subject "Empresa > Administració i direcció d'empreses > Planificació estratègica";
+  skos:inScheme tc:Vocabulari_de_la_planificacio_estrategica_ConSet;
+  ontolex:lexicalizedSense tc:Vocabulari_de_la_planificacio_estrategica_C3_area_clau_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C3_area_clave_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C3_unidad_de_accion_estrategica_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C3_unitat_d%27accio_estrategica_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C3_unite_d%27action_strategique_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C30 a ontolex:LexicalConcept;
+  dct:identifier "30";
+  dct:subject "Empresa > Administració i direcció d'empreses > Planificació estratègica";
+  skos:inScheme tc:Vocabulari_de_la_planificacio_estrategica_ConSet;
+  ontolex:lexicalizedSense tc:Vocabulari_de_la_planificacio_estrategica_C30_visio_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C30_vision_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C30_vision_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C30_vision_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C30_form a ontolex:LexicalForm;
+  ontolex:writtenRep "vision", "visión" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C30_visio_ca_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "visió" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C30_visio_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C30;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C30_visio_ca_form_femenine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C30_visio_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C30_visio_ca_noun;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C30_vision_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C30_vision_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C30_vision_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C30_vision_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C30;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C30_form, tc:Vocabulari_de_la_planificacio_estrategica_C30_vision_en_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C30_vision_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "vision" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C30_vision_en_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C30_vision_en;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C30_visio_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C30_vision_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C30_vision_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C30_vision_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C30;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C30_form, tc:Vocabulari_de_la_planificacio_estrategica_C30_vision_es_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C30_vision_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "visión" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C30_vision_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C30_vision_es;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C30_visio_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C30_vision_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C30_vision_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C30_vision_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C30;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C30_form, tc:Vocabulari_de_la_planificacio_estrategica_C30_vision_fr_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C30_vision_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "vision" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C30_vision_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C30_vision_fr;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C30_visio_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C30_vision_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C30_vision_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C3_area_clau_ca_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "àrea clau" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C3_area_clau_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C3;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C3_area_clau_ca_form_femenine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C3_area_clau_ca_noun_sense a ontolex:LexicalSense;
+  lexinfo:normativeAuthorization lexinfo:deprecated;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C3_area_clau_ca_noun;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C3_unitat_d%27accio_estrategica_ca_noun_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C3_area_clave_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C3_unidad_de_accion_estrategica_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C3_unite_d%27action_strategique_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C3_area_clave_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C3;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C3_area_clave_es_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C3_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C3_area_clave_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "área clave" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C3_area_clave_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C3_area_clave_es;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C3_unidad_de_accion_estrategica_es_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C3_area_clau_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C3_unitat_d%27accio_estrategica_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C3_unite_d%27action_strategique_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C3_form a ontolex:LexicalForm;
+  ontolex:writtenRep "unidad de acción estratégica", "unité d'action stratégique", "área clave" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C3_unidad_de_accion_estrategica_es a
+    ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C3;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C3_form, tc:Vocabulari_de_la_planificacio_estrategica_C3_unidad_de_accion_estrategica_es_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C3_unidad_de_accion_estrategica_es_form
+  a ontolex:LexicalForm;
+  ontolex:writtenRep "unidad de acción estratégica" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C3_unidad_de_accion_estrategica_es_sense
+  a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C3_unidad_de_accion_estrategica_es;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C3_area_clave_es_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C3_area_clau_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C3_unitat_d%27accio_estrategica_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C3_unite_d%27action_strategique_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C3_unitat_d%27accio_estrategica_ca_form_femenine
+  a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "unitat d'acció estratègica" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C3_unitat_d%27accio_estrategica_ca_noun
+  a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C3;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C3_unitat_d%27accio_estrategica_ca_form_femenine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C3_unitat_d%27accio_estrategica_ca_noun_sense
+  a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C3_unitat_d%27accio_estrategica_ca_noun;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C3_area_clau_ca_noun_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C3_area_clave_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C3_unidad_de_accion_estrategica_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C3_unite_d%27action_strategique_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C3_unite_d%27action_strategique_fr a
+    ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C3;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C3_form, tc:Vocabulari_de_la_planificacio_estrategica_C3_unite_d%27action_strategique_fr_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C3_unite_d%27action_strategique_fr_form
+  a ontolex:LexicalForm;
+  ontolex:writtenRep "unité d'action stratégique" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C3_unite_d%27action_strategique_fr_sense
+  a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C3_unite_d%27action_strategique_fr;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C3_area_clau_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C3_area_clave_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C3_unidad_de_accion_estrategica_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C3_unitat_d%27accio_estrategica_ca_noun_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C4 a ontolex:LexicalConcept;
+  dct:identifier "4";
+  dct:subject "Empresa > Administració i direcció d'empreses > Planificació estratègica";
+  skos:inScheme tc:Vocabulari_de_la_planificacio_estrategica_ConSet;
+  ontolex:lexicalizedSense tc:Vocabulari_de_la_planificacio_estrategica_C4_avantage_concurrentiel_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C4_avantatge_competitiu_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C4_competitive_advantage_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C4_ventaja_competitiva_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C4_avantage_concurrentiel_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C4;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C4_avantage_concurrentiel_fr_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C4_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C4_avantage_concurrentiel_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "avantage concurrentiel" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C4_avantage_concurrentiel_fr_sense a
+    ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C4_avantage_concurrentiel_fr;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C4_avantatge_competitiu_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C4_competitive_advantage_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C4_ventaja_competitiva_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C4_avantatge_competitiu_ca_form_masculine
+  a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "avantatge competitiu" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C4_avantatge_competitiu_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C4;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C4_avantatge_competitiu_ca_form_masculine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C4_avantatge_competitiu_ca_noun_sense
+  a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C4_avantatge_competitiu_ca_noun;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C4_avantage_concurrentiel_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C4_competitive_advantage_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C4_ventaja_competitiva_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C4_competitive_advantage_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C4;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C4_competitive_advantage_en_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C4_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C4_competitive_advantage_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "competitive advantage" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C4_competitive_advantage_en_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C4_competitive_advantage_en;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C4_avantage_concurrentiel_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C4_avantatge_competitiu_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C4_ventaja_competitiva_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C4_form a ontolex:LexicalForm;
+  ontolex:writtenRep "avantage concurrentiel", "competitive advantage", "ventaja competitiva" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C4_ventaja_competitiva_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C4;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C4_form, tc:Vocabulari_de_la_planificacio_estrategica_C4_ventaja_competitiva_es_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C4_ventaja_competitiva_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "ventaja competitiva" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C4_ventaja_competitiva_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C4_ventaja_competitiva_es;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C4_avantage_concurrentiel_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C4_avantatge_competitiu_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C4_competitive_advantage_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C5 a ontolex:LexicalConcept;
+  dct:identifier "5";
+  dct:subject "Empresa > Administració i direcció d'empreses > Planificació estratègica";
+  skos:inScheme tc:Vocabulari_de_la_planificacio_estrategica_ConSet;
+  ontolex:lexicalizedSense tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_%5Ben%5D_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_%5Ben%5D_ca_form_masculine
+  a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "benchmarking [en]" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_%5Ben%5D_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C5;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_%5Ben%5D_ca_form_masculine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_%5Ben%5D_ca_noun_sense
+  a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_%5Ben%5D_ca_noun;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_en_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C5;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_en_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C5_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "benchmarking" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_en_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_en;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_%5Ben%5D_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C5;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_es_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C5_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "benchmarking" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_es;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_%5Ben%5D_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C5;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_fr_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C5_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "benchmarking" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_fr;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_%5Ben%5D_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_en_sense, tc:Vocabulari_de_la_planificacio_estrategica_C5_benchmarking_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C5_form a ontolex:LexicalForm;
+  ontolex:writtenRep "benchmarking" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C6 a ontolex:LexicalConcept;
+  dct:identifier "6";
+  dct:subject "Empresa > Administració i direcció d'empreses > Planificació estratègica";
+  skos:inScheme tc:Vocabulari_de_la_planificacio_estrategica_ConSet;
+  ontolex:lexicalizedSense tc:Vocabulari_de_la_planificacio_estrategica_C6_carta_de_serveis_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C6_carta_de_servicios_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C6_charte_de_service_a_la_clientele_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C6_customer_service_charter_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C6_carta_de_serveis_ca_form_femenine
+  a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "carta de serveis" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C6_carta_de_serveis_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C6;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C6_carta_de_serveis_ca_form_femenine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C6_carta_de_serveis_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C6_carta_de_serveis_ca_noun;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C6_carta_de_servicios_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C6_charte_de_service_a_la_clientele_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C6_customer_service_charter_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C6_carta_de_servicios_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C6;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C6_carta_de_servicios_es_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C6_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C6_carta_de_servicios_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "carta de servicios" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C6_carta_de_servicios_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C6_carta_de_servicios_es;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C6_carta_de_serveis_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C6_charte_de_service_a_la_clientele_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C6_customer_service_charter_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C6_charte_de_service_a_la_clientele_fr
+  a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C6;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C6_charte_de_service_a_la_clientele_fr_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C6_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C6_charte_de_service_a_la_clientele_fr_form
+  a ontolex:LexicalForm;
+  ontolex:writtenRep "charte de service à la clientèle" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C6_charte_de_service_a_la_clientele_fr_sense
+  a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C6_charte_de_service_a_la_clientele_fr;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C6_carta_de_serveis_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C6_carta_de_servicios_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C6_customer_service_charter_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C6_customer_service_charter_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C6;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C6_customer_service_charter_en_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C6_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C6_customer_service_charter_en_form a
+    ontolex:LexicalForm;
+  ontolex:writtenRep "customer service charter" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C6_customer_service_charter_en_sense
+  a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C6_customer_service_charter_en;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C6_carta_de_serveis_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C6_carta_de_servicios_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C6_charte_de_service_a_la_clientele_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C6_form a ontolex:LexicalForm;
+  ontolex:writtenRep "carta de servicios", "charte de service à la clientèle", "customer service charter" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C7 a ontolex:LexicalConcept;
+  dct:identifier "7";
+  dct:subject "Empresa > Administració i direcció d'empreses > Planificació estratègica";
+  skos:inScheme tc:Vocabulari_de_la_planificacio_estrategica_ConSet;
+  ontolex:lexicalizedSense tc:Vocabulari_de_la_planificacio_estrategica_C7_debilidad_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C7_debilitat_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C7_faiblesse_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C7_point_faible_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C7_punt_feble_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C7_punto_debil_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C7_weakness_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C7_debilidad_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C7;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C7_debilidad_es_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C7_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C7_debilidad_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "debilidad" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C7_debilidad_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C7_debilidad_es;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C7_punto_debil_es_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C7_debilitat_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C7_faiblesse_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C7_point_faible_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C7_punt_feble_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C7_weakness_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C7_debilitat_ca_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "debilitat" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C7_debilitat_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C7;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C7_debilitat_ca_form_femenine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C7_debilitat_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C7_debilitat_ca_noun;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C7_punt_feble_ca_noun_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C7_debilidad_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C7_faiblesse_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C7_point_faible_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C7_punto_debil_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C7_weakness_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C7_faiblesse_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C7;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C7_faiblesse_fr_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C7_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C7_faiblesse_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "faiblesse" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C7_faiblesse_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C7_faiblesse_fr;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C7_point_faible_fr_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C7_debilidad_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C7_debilitat_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C7_punt_feble_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C7_punto_debil_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C7_weakness_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C7_form a ontolex:LexicalForm;
+  ontolex:writtenRep "debilidad", "faiblesse", "point faible", "punto débil", "weakness" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C7_point_faible_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C7;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C7_form, tc:Vocabulari_de_la_planificacio_estrategica_C7_point_faible_fr_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C7_point_faible_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "point faible" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C7_point_faible_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C7_point_faible_fr;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C7_faiblesse_fr_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C7_debilidad_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C7_debilitat_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C7_punt_feble_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C7_punto_debil_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C7_weakness_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C7_punt_feble_ca_form_masculine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "punt feble" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C7_punt_feble_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C7;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C7_punt_feble_ca_form_masculine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C7_punt_feble_ca_noun_sense a ontolex:LexicalSense;
+  lexinfo:normativeAuthorization lexinfo:deprecated;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C7_punt_feble_ca_noun;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C7_debilitat_ca_noun_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C7_debilidad_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C7_faiblesse_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C7_point_faible_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C7_punto_debil_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C7_weakness_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C7_punto_debil_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C7;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C7_form, tc:Vocabulari_de_la_planificacio_estrategica_C7_punto_debil_es_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C7_punto_debil_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "punto débil" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C7_punto_debil_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C7_punto_debil_es;
+  vartrans:synonym tc:Vocabulari_de_la_planificacio_estrategica_C7_debilidad_es_sense;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C7_debilitat_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C7_faiblesse_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C7_point_faible_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C7_punt_feble_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C7_weakness_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C7_weakness_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C7;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C7_form, tc:Vocabulari_de_la_planificacio_estrategica_C7_weakness_en_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C7_weakness_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "weakness" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C7_weakness_en_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C7_weakness_en;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C7_debilidad_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C7_debilitat_ca_noun_sense, tc:Vocabulari_de_la_planificacio_estrategica_C7_faiblesse_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C7_point_faible_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C7_punt_feble_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C7_punto_debil_es_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C8 a ontolex:LexicalConcept;
+  dct:identifier "8";
+  dct:subject "Empresa > Administració i direcció d'empreses > Planificació estratègica";
+  skos:inScheme tc:Vocabulari_de_la_planificacio_estrategica_ConSet;
+  ontolex:lexicalizedSense tc:Vocabulari_de_la_planificacio_estrategica_C8_declaracio_de_valors_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C8_declaracion_de_valores_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C8_enonce_de_valeurs_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C8_values_statement_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C8_declaracio_de_valors_ca_form_femenine
+  a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "declaració de valors" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C8_declaracio_de_valors_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C8;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C8_declaracio_de_valors_ca_form_femenine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C8_declaracio_de_valors_ca_noun_sense
+  a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C8_declaracio_de_valors_ca_noun;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C8_declaracion_de_valores_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C8_enonce_de_valeurs_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C8_values_statement_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C8_declaracion_de_valores_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C8;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C8_declaracion_de_valores_es_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C8_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C8_declaracion_de_valores_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "declaración de valores" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C8_declaracion_de_valores_es_sense a
+    ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C8_declaracion_de_valores_es;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C8_declaracio_de_valors_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C8_enonce_de_valeurs_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C8_values_statement_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C8_enonce_de_valeurs_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C8;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C8_enonce_de_valeurs_fr_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C8_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C8_enonce_de_valeurs_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "énoncé de valeurs" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C8_enonce_de_valeurs_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C8_enonce_de_valeurs_fr;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C8_declaracio_de_valors_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C8_declaracion_de_valores_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C8_values_statement_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C8_form a ontolex:LexicalForm;
+  ontolex:writtenRep "declaración de valores", "values statement", "énoncé de valeurs" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C8_values_statement_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C8;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C8_form, tc:Vocabulari_de_la_planificacio_estrategica_C8_values_statement_en_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C8_values_statement_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "values statement" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C8_values_statement_en_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C8_values_statement_en;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C8_declaracio_de_valors_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C8_declaracion_de_valores_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C8_enonce_de_valeurs_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C9 a ontolex:LexicalConcept;
+  dct:identifier "9";
+  dct:subject "Empresa > Administració i direcció d'empreses > Planificació estratègica";
+  skos:inScheme tc:Vocabulari_de_la_planificacio_estrategica_ConSet;
+  ontolex:lexicalizedSense tc:Vocabulari_de_la_planificacio_estrategica_C9_direccio_estrategica_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C9_direccion_estrategica_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C9_direction_strategique_fr_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C9_strategic_management_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C9_direccio_estrategica_ca_form_femenine
+  a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "direcció estratègica" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C9_direccio_estrategica_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C9;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C9_direccio_estrategica_ca_form_femenine .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C9_direccio_estrategica_ca_noun_sense
+  a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C9_direccio_estrategica_ca_noun;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C9_direccion_estrategica_es_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C9_direction_strategique_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C9_strategic_management_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C9_direccion_estrategica_es a ontolex:LexicalEntry;
+  lime:language "es";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C9;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C9_direccion_estrategica_es_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C9_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C9_direccion_estrategica_es_form a ontolex:LexicalForm;
+  ontolex:writtenRep "dirección estratégica" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C9_direccion_estrategica_es_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C9_direccion_estrategica_es;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C9_direccio_estrategica_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C9_direction_strategique_fr_sense, tc:Vocabulari_de_la_planificacio_estrategica_C9_strategic_management_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C9_direction_strategique_fr a ontolex:LexicalEntry;
+  lime:language "fr";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C9;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C9_direction_strategique_fr_form,
+    tc:Vocabulari_de_la_planificacio_estrategica_C9_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C9_direction_strategique_fr_form a ontolex:LexicalForm;
+  ontolex:writtenRep "direction stratégique" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C9_direction_strategique_fr_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C9_direction_strategique_fr;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C9_direccio_estrategica_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C9_direccion_estrategica_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C9_strategic_management_en_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C9_form a ontolex:LexicalForm;
+  ontolex:writtenRep "dirección estratégica", "direction stratégique", "strategic management" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C9_strategic_management_en a ontolex:LexicalEntry;
+  lime:language "en";
+  ontolex:evokes tc:Vocabulari_de_la_planificacio_estrategica_C9;
+  ontolex:lexicalForm tc:Vocabulari_de_la_planificacio_estrategica_C9_form, tc:Vocabulari_de_la_planificacio_estrategica_C9_strategic_management_en_form .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C9_strategic_management_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "strategic management" .
+
+tc:Vocabulari_de_la_planificacio_estrategica_C9_strategic_management_en_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Vocabulari_de_la_planificacio_estrategica_C9_strategic_management_en;
+  vartrans:translation tc:Vocabulari_de_la_planificacio_estrategica_C9_direccio_estrategica_ca_noun_sense,
+    tc:Vocabulari_de_la_planificacio_estrategica_C9_direccion_estrategica_es_sense, tc:Vocabulari_de_la_planificacio_estrategica_C9_direction_strategique_fr_sense .
+
+tc:Vocabulari_de_la_planificacio_estrategica_ConSet a ontolex:ConceptSet .

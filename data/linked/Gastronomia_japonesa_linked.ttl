@@ -1,0 +1,2110 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lime: <http://www.w3.org/ns/lemon/lime#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix tc: <http://w3id.org/termcat-ld/> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+
+tc:Gastronomia_japonesa_C10_sake_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "sake" .
+
+tc:Gastronomia_japonesa_C10_sake_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C10 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C10_sake_ca_form_masculine .
+
+tc:Gastronomia_japonesa_C10_sake_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C10 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C10_form,
+        tc:Gastronomia_japonesa_C10_sake_en_form .
+
+tc:Gastronomia_japonesa_C10_sake_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "sake",
+        "saké" .
+
+tc:Gastronomia_japonesa_C10_sake_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C10 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C10_form,
+        tc:Gastronomia_japonesa_C10_sake_es_form .
+
+tc:Gastronomia_japonesa_C10_sake_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "sake" .
+
+tc:Gastronomia_japonesa_C10_sake_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C10 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C10_form,
+        tc:Gastronomia_japonesa_C10_sake_fr_form .
+
+tc:Gastronomia_japonesa_C10_sake_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "saké" .
+
+tc:Gastronomia_japonesa_C10_saki_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C10 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C10_form,
+        tc:Gastronomia_japonesa_C10_saki_en_form .
+
+tc:Gastronomia_japonesa_C10_saki_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "saki" .
+
+tc:Gastronomia_japonesa_C10_saki_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C10 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C10_form,
+        tc:Gastronomia_japonesa_C10_saki_fr_form .
+
+tc:Gastronomia_japonesa_C10_saki_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "saki" .
+
+tc:Gastronomia_japonesa_C11_gomashio_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C11 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C11_form,
+        tc:Gastronomia_japonesa_C11_gomashio_en_form .
+
+tc:Gastronomia_japonesa_C11_gomashio_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "gomashio" .
+
+tc:Gastronomia_japonesa_C11_gomashio_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C11 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C11_form,
+        tc:Gastronomia_japonesa_C11_gomashio_es_form .
+
+tc:Gastronomia_japonesa_C11_gomashio_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "gomashio" .
+
+tc:Gastronomia_japonesa_C11_gomashio_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C11 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C11_form,
+        tc:Gastronomia_japonesa_C11_gomashio_fr_form .
+
+tc:Gastronomia_japonesa_C11_gomashio_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "gomashio" .
+
+tc:Gastronomia_japonesa_C11_gomasio_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C11 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C11_form,
+        tc:Gastronomia_japonesa_C11_gomasio_en_form .
+
+tc:Gastronomia_japonesa_C11_gomasio_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "gomasio" .
+
+tc:Gastronomia_japonesa_C11_gomasio_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C11 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C11_form,
+        tc:Gastronomia_japonesa_C11_gomasio_es_form .
+
+tc:Gastronomia_japonesa_C11_gomasio_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "gomasio" .
+
+tc:Gastronomia_japonesa_C11_gomasio_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C11 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C11_form,
+        tc:Gastronomia_japonesa_C11_gomasio_fr_form .
+
+tc:Gastronomia_japonesa_C11_gomasio_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "gomasio" .
+
+tc:Gastronomia_japonesa_C11_sal_de_sesam_ca_form_femenine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:femenine ;
+    ontolex:writtenRep "sal de sèsam" .
+
+tc:Gastronomia_japonesa_C11_sal_de_sesam_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C11 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C11_sal_de_sesam_ca_form_femenine .
+
+tc:Gastronomia_japonesa_C11_sal_de_sesamo_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C11 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C11_form,
+        tc:Gastronomia_japonesa_C11_sal_de_sesamo_es_form .
+
+tc:Gastronomia_japonesa_C11_sal_de_sesamo_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "sal de sésamo" .
+
+tc:Gastronomia_japonesa_C11_sel_de_sesame_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C11 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C11_form,
+        tc:Gastronomia_japonesa_C11_sel_de_sesame_fr_form .
+
+tc:Gastronomia_japonesa_C11_sel_de_sesame_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "sel de sésame" .
+
+tc:Gastronomia_japonesa_C11_sesame_salt_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C11 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C11_form,
+        tc:Gastronomia_japonesa_C11_sesame_salt_en_form .
+
+tc:Gastronomia_japonesa_C11_sesame_salt_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "sesame salt" .
+
+tc:Gastronomia_japonesa_C12_sashimi_%5Bja%5D_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "sashimi [ja]" .
+
+tc:Gastronomia_japonesa_C12_sashimi_%5Bja%5D_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C12 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C12_sashimi_%5Bja%5D_ca_form_masculine .
+
+tc:Gastronomia_japonesa_C12_sashimi_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C12 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C12_form,
+        tc:Gastronomia_japonesa_C12_sashimi_en_form .
+
+tc:Gastronomia_japonesa_C12_sashimi_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "sashimi" .
+
+tc:Gastronomia_japonesa_C12_sashimi_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C12 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C12_form,
+        tc:Gastronomia_japonesa_C12_sashimi_es_form .
+
+tc:Gastronomia_japonesa_C12_sashimi_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "sashimi" .
+
+tc:Gastronomia_japonesa_C12_sashimi_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C12 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C12_form,
+        tc:Gastronomia_japonesa_C12_sashimi_fr_form .
+
+tc:Gastronomia_japonesa_C12_sashimi_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "sashimi" .
+
+tc:Gastronomia_japonesa_C13_shoyu_%5Bja%5D_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "shoyu [ja]" .
+
+tc:Gastronomia_japonesa_C13_shoyu_%5Bja%5D_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C13 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C13_shoyu_%5Bja%5D_ca_form_masculine .
+
+tc:Gastronomia_japonesa_C13_shoyu_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C13 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C13_form,
+        tc:Gastronomia_japonesa_C13_shoyu_en_form .
+
+tc:Gastronomia_japonesa_C13_shoyu_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "shoyu" .
+
+tc:Gastronomia_japonesa_C13_shoyu_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C13 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C13_form,
+        tc:Gastronomia_japonesa_C13_shoyu_es_form .
+
+tc:Gastronomia_japonesa_C13_shoyu_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "shōyu" .
+
+tc:Gastronomia_japonesa_C13_shoyu_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C13 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C13_form,
+        tc:Gastronomia_japonesa_C13_shoyu_fr_form .
+
+tc:Gastronomia_japonesa_C13_shoyu_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "shoyu" .
+
+tc:Gastronomia_japonesa_C14_soukiyaki_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C14 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C14_form,
+        tc:Gastronomia_japonesa_C14_soukiyaki_fr_form .
+
+tc:Gastronomia_japonesa_C14_soukiyaki_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "soukiyaki" .
+
+tc:Gastronomia_japonesa_C14_sukiyaki_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "sukiyaki" .
+
+tc:Gastronomia_japonesa_C14_sukiyaki_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C14 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C14_sukiyaki_ca_form_masculine .
+
+tc:Gastronomia_japonesa_C14_sukiyaki_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C14 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C14_form,
+        tc:Gastronomia_japonesa_C14_sukiyaki_en_form .
+
+tc:Gastronomia_japonesa_C14_sukiyaki_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "sukiyaki" .
+
+tc:Gastronomia_japonesa_C14_sukiyaki_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C14 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C14_form,
+        tc:Gastronomia_japonesa_C14_sukiyaki_es_form .
+
+tc:Gastronomia_japonesa_C14_sukiyaki_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "sukiyaki" .
+
+tc:Gastronomia_japonesa_C14_sukiyaki_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C14 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C14_form,
+        tc:Gastronomia_japonesa_C14_sukiyaki_fr_form .
+
+tc:Gastronomia_japonesa_C14_sukiyaki_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "sukiyaki" .
+
+tc:Gastronomia_japonesa_C15_souchi_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C15 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C15_form,
+        tc:Gastronomia_japonesa_C15_souchi_fr_form .
+
+tc:Gastronomia_japonesa_C15_souchi_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "souchi" .
+
+tc:Gastronomia_japonesa_C15_sushi_%5Bja%5D_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "sushi [ja]" .
+
+tc:Gastronomia_japonesa_C15_sushi_%5Bja%5D_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C15 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C15_sushi_%5Bja%5D_ca_form_masculine .
+
+tc:Gastronomia_japonesa_C15_sushi_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C15 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C15_form,
+        tc:Gastronomia_japonesa_C15_sushi_en_form .
+
+tc:Gastronomia_japonesa_C15_sushi_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "sushi" .
+
+tc:Gastronomia_japonesa_C15_sushi_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C15 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C15_form,
+        tc:Gastronomia_japonesa_C15_sushi_es_form .
+
+tc:Gastronomia_japonesa_C15_sushi_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "sushi" .
+
+tc:Gastronomia_japonesa_C15_sushi_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C15 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C15_form,
+        tc:Gastronomia_japonesa_C15_sushi_fr_form .
+
+tc:Gastronomia_japonesa_C15_sushi_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "sushi" .
+
+tc:Gastronomia_japonesa_C16_tempoura_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C16 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C16_form,
+        tc:Gastronomia_japonesa_C16_tempoura_fr_form .
+
+tc:Gastronomia_japonesa_C16_tempoura_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "tempoura" .
+
+tc:Gastronomia_japonesa_C16_tempura_ca_form_femenine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:femenine ;
+    ontolex:writtenRep "tempura" .
+
+tc:Gastronomia_japonesa_C16_tempura_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C16 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C16_tempura_ca_form_femenine .
+
+tc:Gastronomia_japonesa_C16_tempura_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C16 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C16_form,
+        tc:Gastronomia_japonesa_C16_tempura_en_form .
+
+tc:Gastronomia_japonesa_C16_tempura_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "tempura" .
+
+tc:Gastronomia_japonesa_C16_tempura_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C16 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C16_form,
+        tc:Gastronomia_japonesa_C16_tempura_es_form .
+
+tc:Gastronomia_japonesa_C16_tempura_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "tempura" .
+
+tc:Gastronomia_japonesa_C16_tempura_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C16 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C16_form,
+        tc:Gastronomia_japonesa_C16_tempura_fr_form .
+
+tc:Gastronomia_japonesa_C16_tempura_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "tempura" .
+
+tc:Gastronomia_japonesa_C16_tenpura_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C16 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C16_form,
+        tc:Gastronomia_japonesa_C16_tenpura_en_form .
+
+tc:Gastronomia_japonesa_C16_tenpura_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "tenpura" .
+
+tc:Gastronomia_japonesa_C16_tenpura_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C16 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C16_form,
+        tc:Gastronomia_japonesa_C16_tenpura_es_form .
+
+tc:Gastronomia_japonesa_C16_tenpura_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "tenpura" .
+
+tc:Gastronomia_japonesa_C17_teriyaki_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "teriyaki" .
+
+tc:Gastronomia_japonesa_C17_teriyaki_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C17 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C17_teriyaki_ca_form_masculine .
+
+tc:Gastronomia_japonesa_C17_teriyaki_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C17 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C17_form,
+        tc:Gastronomia_japonesa_C17_teriyaki_en_form .
+
+tc:Gastronomia_japonesa_C17_teriyaki_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "teriyaki" .
+
+tc:Gastronomia_japonesa_C17_teriyaki_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C17 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C17_form,
+        tc:Gastronomia_japonesa_C17_teriyaki_es_form .
+
+tc:Gastronomia_japonesa_C17_teriyaki_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "teriyaki" .
+
+tc:Gastronomia_japonesa_C17_teriyaki_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C17 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C17_form,
+        tc:Gastronomia_japonesa_C17_teriyaki_fr_form .
+
+tc:Gastronomia_japonesa_C17_teriyaki_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "teriyaki" .
+
+tc:Gastronomia_japonesa_C18_ondarie_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C18 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C18_form,
+        tc:Gastronomia_japonesa_C18_ondarie_fr_form .
+
+tc:Gastronomia_japonesa_C18_ondarie_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "ondarie" .
+
+tc:Gastronomia_japonesa_C18_wakame_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "wakame" .
+
+tc:Gastronomia_japonesa_C18_wakame_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C18 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C18_wakame_ca_form_masculine .
+
+tc:Gastronomia_japonesa_C18_wakame_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C18 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C18_form,
+        tc:Gastronomia_japonesa_C18_wakame_en_form .
+
+tc:Gastronomia_japonesa_C18_wakame_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "wakame" .
+
+tc:Gastronomia_japonesa_C18_wakame_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C18 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C18_form,
+        tc:Gastronomia_japonesa_C18_wakame_es_form .
+
+tc:Gastronomia_japonesa_C18_wakame_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "wakame" .
+
+tc:Gastronomia_japonesa_C18_wakame_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C18 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C18_form,
+        tc:Gastronomia_japonesa_C18_wakame_fr_form .
+
+tc:Gastronomia_japonesa_C18_wakame_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "wakamé" .
+
+tc:Gastronomia_japonesa_C19_Oriental_black_mushroom_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C19 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C19_Oriental_black_mushroom_en_form,
+        tc:Gastronomia_japonesa_C19_form .
+
+tc:Gastronomia_japonesa_C19_Oriental_black_mushroom_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "Oriental black mushroom" .
+
+tc:Gastronomia_japonesa_C19_champignon_noir_chinois_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C19 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C19_champignon_noir_chinois_fr_form,
+        tc:Gastronomia_japonesa_C19_form .
+
+tc:Gastronomia_japonesa_C19_champignon_noir_chinois_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "champignon noir chinois" .
+
+tc:Gastronomia_japonesa_C19_golden_oak_mushroom_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C19 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C19_form,
+        tc:Gastronomia_japonesa_C19_golden_oak_mushroom_en_form .
+
+tc:Gastronomia_japonesa_C19_golden_oak_mushroom_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "golden oak mushroom" .
+
+tc:Gastronomia_japonesa_C19_shiitake_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C19 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C19_form,
+        tc:Gastronomia_japonesa_C19_shiitake_en_form .
+
+tc:Gastronomia_japonesa_C19_shiitake_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "shiitake" .
+
+tc:Gastronomia_japonesa_C19_shiitake_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C19 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C19_form,
+        tc:Gastronomia_japonesa_C19_shiitake_es_form .
+
+tc:Gastronomia_japonesa_C19_shiitake_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "shiitake" .
+
+tc:Gastronomia_japonesa_C19_shiitake_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C19 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C19_form,
+        tc:Gastronomia_japonesa_C19_shiitake_fr_form .
+
+tc:Gastronomia_japonesa_C19_shiitake_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "shiitake" .
+
+tc:Gastronomia_japonesa_C19_xiitake_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "xiitake" .
+
+tc:Gastronomia_japonesa_C19_xiitake_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C19 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C19_xiitake_ca_form_masculine .
+
+tc:Gastronomia_japonesa_C1_dashi_%5Bja%5D_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "dashi [ja]" .
+
+tc:Gastronomia_japonesa_C1_dashi_%5Bja%5D_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C1 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C1_dashi_%5Bja%5D_ca_form_masculine .
+
+tc:Gastronomia_japonesa_C1_dashi_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C1 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C1_dashi_en_form,
+        tc:Gastronomia_japonesa_C1_form .
+
+tc:Gastronomia_japonesa_C1_dashi_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "dashi" .
+
+tc:Gastronomia_japonesa_C1_dashi_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C1 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C1_dashi_es_form,
+        tc:Gastronomia_japonesa_C1_form .
+
+tc:Gastronomia_japonesa_C1_dashi_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "dashi" .
+
+tc:Gastronomia_japonesa_C1_dashi_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C1 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C1_dashi_fr_form,
+        tc:Gastronomia_japonesa_C1_form .
+
+tc:Gastronomia_japonesa_C1_dashi_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "dashi" .
+
+tc:Gastronomia_japonesa_C20_yakitori_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "yakitori" .
+
+tc:Gastronomia_japonesa_C20_yakitori_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C20 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C20_yakitori_ca_form_masculine .
+
+tc:Gastronomia_japonesa_C20_yakitori_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C20 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C20_form,
+        tc:Gastronomia_japonesa_C20_yakitori_en_form .
+
+tc:Gastronomia_japonesa_C20_yakitori_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "yakitori" .
+
+tc:Gastronomia_japonesa_C20_yakitori_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C20 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C20_form,
+        tc:Gastronomia_japonesa_C20_yakitori_es_form .
+
+tc:Gastronomia_japonesa_C20_yakitori_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "yakitori" .
+
+tc:Gastronomia_japonesa_C20_yakitori_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C20 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C20_form,
+        tc:Gastronomia_japonesa_C20_yakitori_fr_form .
+
+tc:Gastronomia_japonesa_C20_yakitori_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "yakitori" .
+
+tc:Gastronomia_japonesa_C2_katsuobushi_%5Bja%5D_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "katsuobushi [ja]" .
+
+tc:Gastronomia_japonesa_C2_katsuobushi_%5Bja%5D_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C2 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C2_katsuobushi_%5Bja%5D_ca_form_masculine .
+
+tc:Gastronomia_japonesa_C2_katsuobushi_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C2 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C2_form,
+        tc:Gastronomia_japonesa_C2_katsuobushi_en_form .
+
+tc:Gastronomia_japonesa_C2_katsuobushi_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "katsuobushi" .
+
+tc:Gastronomia_japonesa_C2_katsuobushi_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C2 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C2_form,
+        tc:Gastronomia_japonesa_C2_katsuobushi_es_form .
+
+tc:Gastronomia_japonesa_C2_katsuobushi_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "katsuobushi" .
+
+tc:Gastronomia_japonesa_C2_katsuobushi_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C2 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C2_form,
+        tc:Gastronomia_japonesa_C2_katsuobushi_fr_form .
+
+tc:Gastronomia_japonesa_C2_katsuobushi_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "katsuobushi" .
+
+tc:Gastronomia_japonesa_C3_kombou_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C3 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C3_form,
+        tc:Gastronomia_japonesa_C3_kombou_fr_form .
+
+tc:Gastronomia_japonesa_C3_kombou_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "kombou" .
+
+tc:Gastronomia_japonesa_C3_kombu_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "kombu" .
+
+tc:Gastronomia_japonesa_C3_kombu_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C3 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C3_kombu_ca_form_masculine .
+
+tc:Gastronomia_japonesa_C3_kombu_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C3 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C3_form,
+        tc:Gastronomia_japonesa_C3_kombu_en_form .
+
+tc:Gastronomia_japonesa_C3_kombu_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "kombu" .
+
+tc:Gastronomia_japonesa_C3_kombu_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C3 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C3_form,
+        tc:Gastronomia_japonesa_C3_kombu_es_form .
+
+tc:Gastronomia_japonesa_C3_kombu_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "kombu" .
+
+tc:Gastronomia_japonesa_C3_konbu_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C3 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C3_form,
+        tc:Gastronomia_japonesa_C3_konbu_en_form .
+
+tc:Gastronomia_japonesa_C3_konbu_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "konbu" .
+
+tc:Gastronomia_japonesa_C3_konbu_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C3 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C3_form,
+        tc:Gastronomia_japonesa_C3_konbu_es_form .
+
+tc:Gastronomia_japonesa_C3_konbu_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "konbu" .
+
+tc:Gastronomia_japonesa_C3_konbu_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C3 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C3_form,
+        tc:Gastronomia_japonesa_C3_konbu_fr_form .
+
+tc:Gastronomia_japonesa_C3_konbu_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "konbu" .
+
+tc:Gastronomia_japonesa_C3_laminaire_japonaise_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C3 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C3_form,
+        tc:Gastronomia_japonesa_C3_laminaire_japonaise_fr_form .
+
+tc:Gastronomia_japonesa_C3_laminaire_japonaise_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "laminaire japonaise" .
+
+tc:Gastronomia_japonesa_C4_matsutake_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "matsutake" .
+
+tc:Gastronomia_japonesa_C4_matsutake_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C4 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C4_matsutake_ca_form_masculine .
+
+tc:Gastronomia_japonesa_C4_matsutake_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C4 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C4_form,
+        tc:Gastronomia_japonesa_C4_matsutake_en_form .
+
+tc:Gastronomia_japonesa_C4_matsutake_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "matsutake" .
+
+tc:Gastronomia_japonesa_C4_matsutake_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C4 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C4_form,
+        tc:Gastronomia_japonesa_C4_matsutake_es_form .
+
+tc:Gastronomia_japonesa_C4_matsutake_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "matsutake" .
+
+tc:Gastronomia_japonesa_C4_matsutake_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C4 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C4_form,
+        tc:Gastronomia_japonesa_C4_matsutake_fr_form .
+
+tc:Gastronomia_japonesa_C4_matsutake_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "matsutake" .
+
+tc:Gastronomia_japonesa_C5_mirin_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "mirin" .
+
+tc:Gastronomia_japonesa_C5_mirin_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C5 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C5_mirin_ca_form_masculine .
+
+tc:Gastronomia_japonesa_C5_mirin_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C5 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C5_form,
+        tc:Gastronomia_japonesa_C5_mirin_en_form .
+
+tc:Gastronomia_japonesa_C5_mirin_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "mirin" .
+
+tc:Gastronomia_japonesa_C5_mirin_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C5 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C5_form,
+        tc:Gastronomia_japonesa_C5_mirin_es_form .
+
+tc:Gastronomia_japonesa_C5_mirin_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "mirin" .
+
+tc:Gastronomia_japonesa_C5_mirin_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C5 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C5_form,
+        tc:Gastronomia_japonesa_C5_mirin_fr_form .
+
+tc:Gastronomia_japonesa_C5_mirin_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "mirin" .
+
+tc:Gastronomia_japonesa_C6_miso_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "miso" .
+
+tc:Gastronomia_japonesa_C6_miso_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C6 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C6_miso_ca_form_masculine .
+
+tc:Gastronomia_japonesa_C6_miso_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C6 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C6_form,
+        tc:Gastronomia_japonesa_C6_miso_en_form .
+
+tc:Gastronomia_japonesa_C6_miso_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "miso" .
+
+tc:Gastronomia_japonesa_C6_miso_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C6 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C6_form,
+        tc:Gastronomia_japonesa_C6_miso_es_form .
+
+tc:Gastronomia_japonesa_C6_miso_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "miso" .
+
+tc:Gastronomia_japonesa_C6_miso_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C6 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C6_form,
+        tc:Gastronomia_japonesa_C6_miso_fr_form .
+
+tc:Gastronomia_japonesa_C6_miso_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "miso" .
+
+tc:Gastronomia_japonesa_C7_adzouki_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C7 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C7_adzouki_fr_form,
+        tc:Gastronomia_japonesa_C7_form .
+
+tc:Gastronomia_japonesa_C7_adzouki_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "adzouki" .
+
+tc:Gastronomia_japonesa_C7_adzuki_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C7 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C7_adzuki_fr_form,
+        tc:Gastronomia_japonesa_C7_form .
+
+tc:Gastronomia_japonesa_C7_adzuki_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "adzuki" .
+
+tc:Gastronomia_japonesa_C7_alubia_adzuki_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C7 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C7_alubia_adzuki_es_form,
+        tc:Gastronomia_japonesa_C7_form .
+
+tc:Gastronomia_japonesa_C7_alubia_adzuki_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "alubia adzuki" .
+
+tc:Gastronomia_japonesa_C7_azuki_bean_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C7 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C7_azuki_bean_en_form,
+        tc:Gastronomia_japonesa_C7_form .
+
+tc:Gastronomia_japonesa_C7_azuki_bean_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "azuki bean" .
+
+tc:Gastronomia_japonesa_C7_haricot_anguleux_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C7 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C7_form,
+        tc:Gastronomia_japonesa_C7_haricot_anguleux_fr_form .
+
+tc:Gastronomia_japonesa_C7_haricot_anguleux_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "haricot anguleux" .
+
+tc:Gastronomia_japonesa_C7_judia_azuki_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C7 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C7_form,
+        tc:Gastronomia_japonesa_C7_judia_azuki_es_form .
+
+tc:Gastronomia_japonesa_C7_judia_azuki_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "judía azuki" .
+
+tc:Gastronomia_japonesa_C7_mongeta_azuki_ca_form_femenine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:femenine ;
+    ontolex:writtenRep "mongeta azuki" .
+
+tc:Gastronomia_japonesa_C7_mongeta_azuki_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C7 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C7_mongeta_azuki_ca_form_femenine .
+
+tc:Gastronomia_japonesa_C8_Japanese_horseradish_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C8 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C8_Japanese_horseradish_en_form,
+        tc:Gastronomia_japonesa_C8_form .
+
+tc:Gastronomia_japonesa_C8_Japanese_horseradish_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "Japanese horseradish" .
+
+tc:Gastronomia_japonesa_C8_raifort_du_Japon_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C8 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C8_form,
+        tc:Gastronomia_japonesa_C8_raifort_du_Japon_fr_form .
+
+tc:Gastronomia_japonesa_C8_raifort_du_Japon_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "raifort du Japon" .
+
+tc:Gastronomia_japonesa_C8_rave_japones_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "rave japonès" .
+
+tc:Gastronomia_japonesa_C8_rave_japones_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C8 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C8_rave_japones_ca_form_masculine .
+
+tc:Gastronomia_japonesa_C8_wasabi_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C8 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C8_form,
+        tc:Gastronomia_japonesa_C8_wasabi_en_form .
+
+tc:Gastronomia_japonesa_C8_wasabi_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "wasabi" .
+
+tc:Gastronomia_japonesa_C8_wasabi_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C8 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C8_form,
+        tc:Gastronomia_japonesa_C8_wasabi_es_form .
+
+tc:Gastronomia_japonesa_C8_wasabi_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "wasabi" .
+
+tc:Gastronomia_japonesa_C8_wasabi_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C8 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C8_form,
+        tc:Gastronomia_japonesa_C8_wasabi_fr_form .
+
+tc:Gastronomia_japonesa_C8_wasabi_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "wasabi" .
+
+tc:Gastronomia_japonesa_C9_makizushi_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C9 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C9_form,
+        tc:Gastronomia_japonesa_C9_makizushi_en_form .
+
+tc:Gastronomia_japonesa_C9_makizushi_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "makizushi" .
+
+tc:Gastronomia_japonesa_C9_makizushi_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C9 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C9_form,
+        tc:Gastronomia_japonesa_C9_makizushi_es_form .
+
+tc:Gastronomia_japonesa_C9_makizushi_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "makizushi" .
+
+tc:Gastronomia_japonesa_C9_makizushi_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C9 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C9_form,
+        tc:Gastronomia_japonesa_C9_makizushi_fr_form .
+
+tc:Gastronomia_japonesa_C9_makizushi_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "makizushi" .
+
+tc:Gastronomia_japonesa_C9_rotlle_de_sushi_%5Bsushi%3A_ja%5D_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "rotlle de sushi [sushi: ja]" .
+
+tc:Gastronomia_japonesa_C9_rotlle_de_sushi_%5Bsushi%3A_ja%5D_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_japonesa_C9 ;
+    ontolex:lexicalForm tc:Gastronomia_japonesa_C9_rotlle_de_sushi_%5Bsushi%3A_ja%5D_ca_form_masculine .
+
+tc:Gastronomia_japonesa_C12_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "sashimi" .
+
+tc:Gastronomia_japonesa_C13_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "shoyu",
+        "shōyu" .
+
+tc:Gastronomia_japonesa_C17_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "teriyaki" .
+
+tc:Gastronomia_japonesa_C1_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "dashi" .
+
+tc:Gastronomia_japonesa_C20_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "yakitori" .
+
+tc:Gastronomia_japonesa_C2_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "katsuobushi" .
+
+tc:Gastronomia_japonesa_C4_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "matsutake" .
+
+tc:Gastronomia_japonesa_C5_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "mirin" .
+
+tc:Gastronomia_japonesa_C6_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "miso" .
+
+tc:Gastronomia_japonesa_C9_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "makizushi" .
+
+tc:Gastronomia_japonesa_C1 a ontolex:LexicalConcept ;
+    dct:identifier "1" ;
+    dct:subject "Gastronomia" ;
+    skos:inScheme tc:Gastronomia_japonesa_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_japonesa_C1_dashi_%5Bja%5D_ca_noun_sense,
+        tc:Gastronomia_japonesa_C1_dashi_en_sense,
+        tc:Gastronomia_japonesa_C1_dashi_es_sense,
+        tc:Gastronomia_japonesa_C1_dashi_fr_sense .
+
+tc:Gastronomia_japonesa_C12 a ontolex:LexicalConcept ;
+    dct:identifier "12" ;
+    dct:subject "Gastronomia" ;
+    skos:inScheme tc:Gastronomia_japonesa_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_japonesa_C12_sashimi_%5Bja%5D_ca_noun_sense,
+        tc:Gastronomia_japonesa_C12_sashimi_en_sense,
+        tc:Gastronomia_japonesa_C12_sashimi_es_sense,
+        tc:Gastronomia_japonesa_C12_sashimi_fr_sense .
+
+tc:Gastronomia_japonesa_C12_sashimi_%5Bja%5D_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C12_sashimi_%5Bja%5D_ca_noun ;
+    vartrans:translation tc:Gastronomia_japonesa_C12_sashimi_en_sense,
+        tc:Gastronomia_japonesa_C12_sashimi_es_sense,
+        tc:Gastronomia_japonesa_C12_sashimi_fr_sense .
+
+tc:Gastronomia_japonesa_C12_sashimi_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C12_sashimi_en ;
+    vartrans:translation tc:Gastronomia_japonesa_C12_sashimi_%5Bja%5D_ca_noun_sense,
+        tc:Gastronomia_japonesa_C12_sashimi_es_sense,
+        tc:Gastronomia_japonesa_C12_sashimi_fr_sense .
+
+tc:Gastronomia_japonesa_C12_sashimi_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C12_sashimi_es ;
+    vartrans:translation tc:Gastronomia_japonesa_C12_sashimi_%5Bja%5D_ca_noun_sense,
+        tc:Gastronomia_japonesa_C12_sashimi_en_sense,
+        tc:Gastronomia_japonesa_C12_sashimi_fr_sense .
+
+tc:Gastronomia_japonesa_C12_sashimi_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C12_sashimi_fr ;
+    vartrans:translation tc:Gastronomia_japonesa_C12_sashimi_%5Bja%5D_ca_noun_sense,
+        tc:Gastronomia_japonesa_C12_sashimi_en_sense,
+        tc:Gastronomia_japonesa_C12_sashimi_es_sense .
+
+tc:Gastronomia_japonesa_C13 a ontolex:LexicalConcept ;
+    dct:identifier "13" ;
+    dct:subject "Gastronomia" ;
+    skos:inScheme tc:Gastronomia_japonesa_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_japonesa_C13_shoyu_%5Bja%5D_ca_noun_sense,
+        tc:Gastronomia_japonesa_C13_shoyu_en_sense,
+        tc:Gastronomia_japonesa_C13_shoyu_es_sense,
+        tc:Gastronomia_japonesa_C13_shoyu_fr_sense .
+
+tc:Gastronomia_japonesa_C13_shoyu_%5Bja%5D_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C13_shoyu_%5Bja%5D_ca_noun ;
+    vartrans:translation tc:Gastronomia_japonesa_C13_shoyu_en_sense,
+        tc:Gastronomia_japonesa_C13_shoyu_es_sense,
+        tc:Gastronomia_japonesa_C13_shoyu_fr_sense .
+
+tc:Gastronomia_japonesa_C13_shoyu_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C13_shoyu_en ;
+    vartrans:translation tc:Gastronomia_japonesa_C13_shoyu_%5Bja%5D_ca_noun_sense,
+        tc:Gastronomia_japonesa_C13_shoyu_es_sense,
+        tc:Gastronomia_japonesa_C13_shoyu_fr_sense .
+
+tc:Gastronomia_japonesa_C13_shoyu_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C13_shoyu_es ;
+    vartrans:translation tc:Gastronomia_japonesa_C13_shoyu_%5Bja%5D_ca_noun_sense,
+        tc:Gastronomia_japonesa_C13_shoyu_en_sense,
+        tc:Gastronomia_japonesa_C13_shoyu_fr_sense .
+
+tc:Gastronomia_japonesa_C13_shoyu_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C13_shoyu_fr ;
+    vartrans:translation tc:Gastronomia_japonesa_C13_shoyu_%5Bja%5D_ca_noun_sense,
+        tc:Gastronomia_japonesa_C13_shoyu_en_sense,
+        tc:Gastronomia_japonesa_C13_shoyu_es_sense .
+
+tc:Gastronomia_japonesa_C14_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "soukiyaki",
+        "sukiyaki" .
+
+tc:Gastronomia_japonesa_C15_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "souchi",
+        "sushi" .
+
+tc:Gastronomia_japonesa_C17 a ontolex:LexicalConcept ;
+    dct:identifier "17" ;
+    dct:subject "Gastronomia" ;
+    skos:inScheme tc:Gastronomia_japonesa_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_japonesa_C17_teriyaki_ca_noun_sense,
+        tc:Gastronomia_japonesa_C17_teriyaki_en_sense,
+        tc:Gastronomia_japonesa_C17_teriyaki_es_sense,
+        tc:Gastronomia_japonesa_C17_teriyaki_fr_sense .
+
+tc:Gastronomia_japonesa_C17_teriyaki_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C17_teriyaki_ca_noun ;
+    vartrans:translation tc:Gastronomia_japonesa_C17_teriyaki_en_sense,
+        tc:Gastronomia_japonesa_C17_teriyaki_es_sense,
+        tc:Gastronomia_japonesa_C17_teriyaki_fr_sense .
+
+tc:Gastronomia_japonesa_C17_teriyaki_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C17_teriyaki_en ;
+    vartrans:translation tc:Gastronomia_japonesa_C17_teriyaki_ca_noun_sense,
+        tc:Gastronomia_japonesa_C17_teriyaki_es_sense,
+        tc:Gastronomia_japonesa_C17_teriyaki_fr_sense .
+
+tc:Gastronomia_japonesa_C17_teriyaki_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C17_teriyaki_es ;
+    vartrans:translation tc:Gastronomia_japonesa_C17_teriyaki_ca_noun_sense,
+        tc:Gastronomia_japonesa_C17_teriyaki_en_sense,
+        tc:Gastronomia_japonesa_C17_teriyaki_fr_sense .
+
+tc:Gastronomia_japonesa_C17_teriyaki_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C17_teriyaki_fr ;
+    vartrans:translation tc:Gastronomia_japonesa_C17_teriyaki_ca_noun_sense,
+        tc:Gastronomia_japonesa_C17_teriyaki_en_sense,
+        tc:Gastronomia_japonesa_C17_teriyaki_es_sense .
+
+tc:Gastronomia_japonesa_C18_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "ondarie",
+        "wakame",
+        "wakamé" .
+
+tc:Gastronomia_japonesa_C1_dashi_%5Bja%5D_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C1_dashi_%5Bja%5D_ca_noun ;
+    vartrans:translation tc:Gastronomia_japonesa_C1_dashi_en_sense,
+        tc:Gastronomia_japonesa_C1_dashi_es_sense,
+        tc:Gastronomia_japonesa_C1_dashi_fr_sense .
+
+tc:Gastronomia_japonesa_C1_dashi_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C1_dashi_en ;
+    vartrans:translation tc:Gastronomia_japonesa_C1_dashi_%5Bja%5D_ca_noun_sense,
+        tc:Gastronomia_japonesa_C1_dashi_es_sense,
+        tc:Gastronomia_japonesa_C1_dashi_fr_sense .
+
+tc:Gastronomia_japonesa_C1_dashi_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C1_dashi_es ;
+    vartrans:translation tc:Gastronomia_japonesa_C1_dashi_%5Bja%5D_ca_noun_sense,
+        tc:Gastronomia_japonesa_C1_dashi_en_sense,
+        tc:Gastronomia_japonesa_C1_dashi_fr_sense .
+
+tc:Gastronomia_japonesa_C1_dashi_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C1_dashi_fr ;
+    vartrans:translation tc:Gastronomia_japonesa_C1_dashi_%5Bja%5D_ca_noun_sense,
+        tc:Gastronomia_japonesa_C1_dashi_en_sense,
+        tc:Gastronomia_japonesa_C1_dashi_es_sense .
+
+tc:Gastronomia_japonesa_C2 a ontolex:LexicalConcept ;
+    dct:identifier "2" ;
+    dct:subject "Gastronomia" ;
+    skos:inScheme tc:Gastronomia_japonesa_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_japonesa_C2_katsuobushi_%5Bja%5D_ca_noun_sense,
+        tc:Gastronomia_japonesa_C2_katsuobushi_en_sense,
+        tc:Gastronomia_japonesa_C2_katsuobushi_es_sense,
+        tc:Gastronomia_japonesa_C2_katsuobushi_fr_sense .
+
+tc:Gastronomia_japonesa_C20 a ontolex:LexicalConcept ;
+    dct:identifier "20" ;
+    dct:subject "Gastronomia" ;
+    skos:inScheme tc:Gastronomia_japonesa_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_japonesa_C20_yakitori_ca_noun_sense,
+        tc:Gastronomia_japonesa_C20_yakitori_en_sense,
+        tc:Gastronomia_japonesa_C20_yakitori_es_sense,
+        tc:Gastronomia_japonesa_C20_yakitori_fr_sense .
+
+tc:Gastronomia_japonesa_C20_yakitori_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C20_yakitori_ca_noun ;
+    vartrans:translation tc:Gastronomia_japonesa_C20_yakitori_en_sense,
+        tc:Gastronomia_japonesa_C20_yakitori_es_sense,
+        tc:Gastronomia_japonesa_C20_yakitori_fr_sense .
+
+tc:Gastronomia_japonesa_C20_yakitori_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C20_yakitori_en ;
+    vartrans:translation tc:Gastronomia_japonesa_C20_yakitori_ca_noun_sense,
+        tc:Gastronomia_japonesa_C20_yakitori_es_sense,
+        tc:Gastronomia_japonesa_C20_yakitori_fr_sense .
+
+tc:Gastronomia_japonesa_C20_yakitori_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C20_yakitori_es ;
+    vartrans:translation tc:Gastronomia_japonesa_C20_yakitori_ca_noun_sense,
+        tc:Gastronomia_japonesa_C20_yakitori_en_sense,
+        tc:Gastronomia_japonesa_C20_yakitori_fr_sense .
+
+tc:Gastronomia_japonesa_C20_yakitori_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C20_yakitori_fr ;
+    vartrans:translation tc:Gastronomia_japonesa_C20_yakitori_ca_noun_sense,
+        tc:Gastronomia_japonesa_C20_yakitori_en_sense,
+        tc:Gastronomia_japonesa_C20_yakitori_es_sense .
+
+tc:Gastronomia_japonesa_C2_katsuobushi_%5Bja%5D_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C2_katsuobushi_%5Bja%5D_ca_noun ;
+    vartrans:translation tc:Gastronomia_japonesa_C2_katsuobushi_en_sense,
+        tc:Gastronomia_japonesa_C2_katsuobushi_es_sense,
+        tc:Gastronomia_japonesa_C2_katsuobushi_fr_sense .
+
+tc:Gastronomia_japonesa_C2_katsuobushi_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C2_katsuobushi_en ;
+    vartrans:translation tc:Gastronomia_japonesa_C2_katsuobushi_%5Bja%5D_ca_noun_sense,
+        tc:Gastronomia_japonesa_C2_katsuobushi_es_sense,
+        tc:Gastronomia_japonesa_C2_katsuobushi_fr_sense .
+
+tc:Gastronomia_japonesa_C2_katsuobushi_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C2_katsuobushi_es ;
+    vartrans:translation tc:Gastronomia_japonesa_C2_katsuobushi_%5Bja%5D_ca_noun_sense,
+        tc:Gastronomia_japonesa_C2_katsuobushi_en_sense,
+        tc:Gastronomia_japonesa_C2_katsuobushi_fr_sense .
+
+tc:Gastronomia_japonesa_C2_katsuobushi_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C2_katsuobushi_fr ;
+    vartrans:translation tc:Gastronomia_japonesa_C2_katsuobushi_%5Bja%5D_ca_noun_sense,
+        tc:Gastronomia_japonesa_C2_katsuobushi_en_sense,
+        tc:Gastronomia_japonesa_C2_katsuobushi_es_sense .
+
+tc:Gastronomia_japonesa_C4 a ontolex:LexicalConcept ;
+    dct:identifier "4" ;
+    dct:subject "Alimentació" ;
+    skos:inScheme tc:Gastronomia_japonesa_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_japonesa_C4_matsutake_ca_noun_sense,
+        tc:Gastronomia_japonesa_C4_matsutake_en_sense,
+        tc:Gastronomia_japonesa_C4_matsutake_es_sense,
+        tc:Gastronomia_japonesa_C4_matsutake_fr_sense .
+
+tc:Gastronomia_japonesa_C4_matsutake_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C4_matsutake_ca_noun ;
+    vartrans:translation tc:Gastronomia_japonesa_C4_matsutake_en_sense,
+        tc:Gastronomia_japonesa_C4_matsutake_es_sense,
+        tc:Gastronomia_japonesa_C4_matsutake_fr_sense .
+
+tc:Gastronomia_japonesa_C4_matsutake_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C4_matsutake_en ;
+    vartrans:translation tc:Gastronomia_japonesa_C4_matsutake_ca_noun_sense,
+        tc:Gastronomia_japonesa_C4_matsutake_es_sense,
+        tc:Gastronomia_japonesa_C4_matsutake_fr_sense .
+
+tc:Gastronomia_japonesa_C4_matsutake_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C4_matsutake_es ;
+    vartrans:translation tc:Gastronomia_japonesa_C4_matsutake_ca_noun_sense,
+        tc:Gastronomia_japonesa_C4_matsutake_en_sense,
+        tc:Gastronomia_japonesa_C4_matsutake_fr_sense .
+
+tc:Gastronomia_japonesa_C4_matsutake_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C4_matsutake_fr ;
+    vartrans:translation tc:Gastronomia_japonesa_C4_matsutake_ca_noun_sense,
+        tc:Gastronomia_japonesa_C4_matsutake_en_sense,
+        tc:Gastronomia_japonesa_C4_matsutake_es_sense .
+
+tc:Gastronomia_japonesa_C5 a ontolex:LexicalConcept ;
+    dct:identifier "5" ;
+    dct:subject "Alimentació > Begudes" ;
+    skos:inScheme tc:Gastronomia_japonesa_ConSet ;
+    skos:relatedMatch tc:Plats_a_la_carta_C5043 ;
+    ontolex:lexicalizedSense tc:Gastronomia_japonesa_C5_mirin_ca_noun_sense,
+        tc:Gastronomia_japonesa_C5_mirin_en_sense,
+        tc:Gastronomia_japonesa_C5_mirin_es_sense,
+        tc:Gastronomia_japonesa_C5_mirin_fr_sense .
+
+tc:Gastronomia_japonesa_C5_mirin_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C5_mirin_ca_noun ;
+    vartrans:translation tc:Gastronomia_japonesa_C5_mirin_en_sense,
+        tc:Gastronomia_japonesa_C5_mirin_es_sense,
+        tc:Gastronomia_japonesa_C5_mirin_fr_sense .
+
+tc:Gastronomia_japonesa_C5_mirin_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C5_mirin_en ;
+    vartrans:translation tc:Gastronomia_japonesa_C5_mirin_ca_noun_sense,
+        tc:Gastronomia_japonesa_C5_mirin_es_sense,
+        tc:Gastronomia_japonesa_C5_mirin_fr_sense .
+
+tc:Gastronomia_japonesa_C5_mirin_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C5_mirin_es ;
+    vartrans:translation tc:Gastronomia_japonesa_C5_mirin_ca_noun_sense,
+        tc:Gastronomia_japonesa_C5_mirin_en_sense,
+        tc:Gastronomia_japonesa_C5_mirin_fr_sense .
+
+tc:Gastronomia_japonesa_C5_mirin_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C5_mirin_fr ;
+    vartrans:translation tc:Gastronomia_japonesa_C5_mirin_ca_noun_sense,
+        tc:Gastronomia_japonesa_C5_mirin_en_sense,
+        tc:Gastronomia_japonesa_C5_mirin_es_sense .
+
+tc:Gastronomia_japonesa_C6 a ontolex:LexicalConcept ;
+    dct:identifier "6" ;
+    dct:subject "Alimentació" ;
+    skos:inScheme tc:Gastronomia_japonesa_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_japonesa_C6_miso_ca_noun_sense,
+        tc:Gastronomia_japonesa_C6_miso_en_sense,
+        tc:Gastronomia_japonesa_C6_miso_es_sense,
+        tc:Gastronomia_japonesa_C6_miso_fr_sense .
+
+tc:Gastronomia_japonesa_C6_miso_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C6_miso_ca_noun ;
+    vartrans:translation tc:Gastronomia_japonesa_C6_miso_en_sense,
+        tc:Gastronomia_japonesa_C6_miso_es_sense,
+        tc:Gastronomia_japonesa_C6_miso_fr_sense .
+
+tc:Gastronomia_japonesa_C6_miso_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C6_miso_en ;
+    vartrans:translation tc:Gastronomia_japonesa_C6_miso_ca_noun_sense,
+        tc:Gastronomia_japonesa_C6_miso_es_sense,
+        tc:Gastronomia_japonesa_C6_miso_fr_sense .
+
+tc:Gastronomia_japonesa_C6_miso_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C6_miso_es ;
+    vartrans:translation tc:Gastronomia_japonesa_C6_miso_ca_noun_sense,
+        tc:Gastronomia_japonesa_C6_miso_en_sense,
+        tc:Gastronomia_japonesa_C6_miso_fr_sense .
+
+tc:Gastronomia_japonesa_C6_miso_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C6_miso_fr ;
+    vartrans:translation tc:Gastronomia_japonesa_C6_miso_ca_noun_sense,
+        tc:Gastronomia_japonesa_C6_miso_en_sense,
+        tc:Gastronomia_japonesa_C6_miso_es_sense .
+
+tc:Gastronomia_japonesa_C9 a ontolex:LexicalConcept ;
+    dct:identifier "9" ;
+    dct:subject "Gastronomia" ;
+    skos:inScheme tc:Gastronomia_japonesa_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_japonesa_C9_makizushi_en_sense,
+        tc:Gastronomia_japonesa_C9_makizushi_es_sense,
+        tc:Gastronomia_japonesa_C9_makizushi_fr_sense,
+        tc:Gastronomia_japonesa_C9_rotlle_de_sushi_%5Bsushi%3A_ja%5D_ca_noun_sense .
+
+tc:Gastronomia_japonesa_C9_makizushi_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C9_makizushi_en ;
+    vartrans:translation tc:Gastronomia_japonesa_C9_makizushi_es_sense,
+        tc:Gastronomia_japonesa_C9_makizushi_fr_sense,
+        tc:Gastronomia_japonesa_C9_rotlle_de_sushi_%5Bsushi%3A_ja%5D_ca_noun_sense .
+
+tc:Gastronomia_japonesa_C9_makizushi_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C9_makizushi_es ;
+    vartrans:translation tc:Gastronomia_japonesa_C9_makizushi_en_sense,
+        tc:Gastronomia_japonesa_C9_makizushi_fr_sense,
+        tc:Gastronomia_japonesa_C9_rotlle_de_sushi_%5Bsushi%3A_ja%5D_ca_noun_sense .
+
+tc:Gastronomia_japonesa_C9_makizushi_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C9_makizushi_fr ;
+    vartrans:translation tc:Gastronomia_japonesa_C9_makizushi_en_sense,
+        tc:Gastronomia_japonesa_C9_makizushi_es_sense,
+        tc:Gastronomia_japonesa_C9_rotlle_de_sushi_%5Bsushi%3A_ja%5D_ca_noun_sense .
+
+tc:Gastronomia_japonesa_C9_rotlle_de_sushi_%5Bsushi%3A_ja%5D_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C9_rotlle_de_sushi_%5Bsushi%3A_ja%5D_ca_noun ;
+    vartrans:translation tc:Gastronomia_japonesa_C9_makizushi_en_sense,
+        tc:Gastronomia_japonesa_C9_makizushi_es_sense,
+        tc:Gastronomia_japonesa_C9_makizushi_fr_sense .
+
+tc:Gastronomia_japonesa_C10_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "sake",
+        "saki",
+        "saké" .
+
+tc:Gastronomia_japonesa_C14 a ontolex:LexicalConcept ;
+    dct:identifier "14" ;
+    dct:subject "Gastronomia" ;
+    skos:inScheme tc:Gastronomia_japonesa_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_japonesa_C14_soukiyaki_fr_sense,
+        tc:Gastronomia_japonesa_C14_sukiyaki_ca_noun_sense,
+        tc:Gastronomia_japonesa_C14_sukiyaki_en_sense,
+        tc:Gastronomia_japonesa_C14_sukiyaki_es_sense,
+        tc:Gastronomia_japonesa_C14_sukiyaki_fr_sense .
+
+tc:Gastronomia_japonesa_C14_soukiyaki_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C14_soukiyaki_fr ;
+    vartrans:synonym tc:Gastronomia_japonesa_C14_sukiyaki_fr_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C14_sukiyaki_ca_noun_sense,
+        tc:Gastronomia_japonesa_C14_sukiyaki_en_sense,
+        tc:Gastronomia_japonesa_C14_sukiyaki_es_sense .
+
+tc:Gastronomia_japonesa_C14_sukiyaki_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C14_sukiyaki_ca_noun ;
+    vartrans:translation tc:Gastronomia_japonesa_C14_soukiyaki_fr_sense,
+        tc:Gastronomia_japonesa_C14_sukiyaki_en_sense,
+        tc:Gastronomia_japonesa_C14_sukiyaki_es_sense,
+        tc:Gastronomia_japonesa_C14_sukiyaki_fr_sense .
+
+tc:Gastronomia_japonesa_C14_sukiyaki_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C14_sukiyaki_en ;
+    vartrans:translation tc:Gastronomia_japonesa_C14_soukiyaki_fr_sense,
+        tc:Gastronomia_japonesa_C14_sukiyaki_ca_noun_sense,
+        tc:Gastronomia_japonesa_C14_sukiyaki_es_sense,
+        tc:Gastronomia_japonesa_C14_sukiyaki_fr_sense .
+
+tc:Gastronomia_japonesa_C14_sukiyaki_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C14_sukiyaki_es ;
+    vartrans:translation tc:Gastronomia_japonesa_C14_soukiyaki_fr_sense,
+        tc:Gastronomia_japonesa_C14_sukiyaki_ca_noun_sense,
+        tc:Gastronomia_japonesa_C14_sukiyaki_en_sense,
+        tc:Gastronomia_japonesa_C14_sukiyaki_fr_sense .
+
+tc:Gastronomia_japonesa_C14_sukiyaki_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C14_sukiyaki_fr ;
+    vartrans:synonym tc:Gastronomia_japonesa_C14_soukiyaki_fr_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C14_sukiyaki_ca_noun_sense,
+        tc:Gastronomia_japonesa_C14_sukiyaki_en_sense,
+        tc:Gastronomia_japonesa_C14_sukiyaki_es_sense .
+
+tc:Gastronomia_japonesa_C15 a ontolex:LexicalConcept ;
+    dct:identifier "15" ;
+    dct:subject "Gastronomia" ;
+    skos:inScheme tc:Gastronomia_japonesa_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_japonesa_C15_souchi_fr_sense,
+        tc:Gastronomia_japonesa_C15_sushi_%5Bja%5D_ca_noun_sense,
+        tc:Gastronomia_japonesa_C15_sushi_en_sense,
+        tc:Gastronomia_japonesa_C15_sushi_es_sense,
+        tc:Gastronomia_japonesa_C15_sushi_fr_sense .
+
+tc:Gastronomia_japonesa_C15_souchi_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C15_souchi_fr ;
+    vartrans:synonym tc:Gastronomia_japonesa_C15_sushi_fr_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C15_sushi_%5Bja%5D_ca_noun_sense,
+        tc:Gastronomia_japonesa_C15_sushi_en_sense,
+        tc:Gastronomia_japonesa_C15_sushi_es_sense .
+
+tc:Gastronomia_japonesa_C15_sushi_%5Bja%5D_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C15_sushi_%5Bja%5D_ca_noun ;
+    vartrans:translation tc:Gastronomia_japonesa_C15_souchi_fr_sense,
+        tc:Gastronomia_japonesa_C15_sushi_en_sense,
+        tc:Gastronomia_japonesa_C15_sushi_es_sense,
+        tc:Gastronomia_japonesa_C15_sushi_fr_sense .
+
+tc:Gastronomia_japonesa_C15_sushi_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C15_sushi_en ;
+    vartrans:translation tc:Gastronomia_japonesa_C15_souchi_fr_sense,
+        tc:Gastronomia_japonesa_C15_sushi_%5Bja%5D_ca_noun_sense,
+        tc:Gastronomia_japonesa_C15_sushi_es_sense,
+        tc:Gastronomia_japonesa_C15_sushi_fr_sense .
+
+tc:Gastronomia_japonesa_C15_sushi_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C15_sushi_es ;
+    vartrans:translation tc:Gastronomia_japonesa_C15_souchi_fr_sense,
+        tc:Gastronomia_japonesa_C15_sushi_%5Bja%5D_ca_noun_sense,
+        tc:Gastronomia_japonesa_C15_sushi_en_sense,
+        tc:Gastronomia_japonesa_C15_sushi_fr_sense .
+
+tc:Gastronomia_japonesa_C15_sushi_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C15_sushi_fr ;
+    vartrans:synonym tc:Gastronomia_japonesa_C15_souchi_fr_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C15_sushi_%5Bja%5D_ca_noun_sense,
+        tc:Gastronomia_japonesa_C15_sushi_en_sense,
+        tc:Gastronomia_japonesa_C15_sushi_es_sense .
+
+tc:Gastronomia_japonesa_C18 a ontolex:LexicalConcept ;
+    dct:identifier "18" ;
+    dct:subject "Alimentació" ;
+    skos:inScheme tc:Gastronomia_japonesa_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_japonesa_C18_ondarie_fr_sense,
+        tc:Gastronomia_japonesa_C18_wakame_ca_noun_sense,
+        tc:Gastronomia_japonesa_C18_wakame_en_sense,
+        tc:Gastronomia_japonesa_C18_wakame_es_sense,
+        tc:Gastronomia_japonesa_C18_wakame_fr_sense .
+
+tc:Gastronomia_japonesa_C18_ondarie_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C18_ondarie_fr ;
+    vartrans:synonym tc:Gastronomia_japonesa_C18_wakame_fr_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C18_wakame_ca_noun_sense,
+        tc:Gastronomia_japonesa_C18_wakame_en_sense,
+        tc:Gastronomia_japonesa_C18_wakame_es_sense .
+
+tc:Gastronomia_japonesa_C18_wakame_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C18_wakame_ca_noun ;
+    vartrans:translation tc:Gastronomia_japonesa_C18_ondarie_fr_sense,
+        tc:Gastronomia_japonesa_C18_wakame_en_sense,
+        tc:Gastronomia_japonesa_C18_wakame_es_sense,
+        tc:Gastronomia_japonesa_C18_wakame_fr_sense .
+
+tc:Gastronomia_japonesa_C18_wakame_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C18_wakame_en ;
+    vartrans:translation tc:Gastronomia_japonesa_C18_ondarie_fr_sense,
+        tc:Gastronomia_japonesa_C18_wakame_ca_noun_sense,
+        tc:Gastronomia_japonesa_C18_wakame_es_sense,
+        tc:Gastronomia_japonesa_C18_wakame_fr_sense .
+
+tc:Gastronomia_japonesa_C18_wakame_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C18_wakame_es ;
+    vartrans:translation tc:Gastronomia_japonesa_C18_ondarie_fr_sense,
+        tc:Gastronomia_japonesa_C18_wakame_ca_noun_sense,
+        tc:Gastronomia_japonesa_C18_wakame_en_sense,
+        tc:Gastronomia_japonesa_C18_wakame_fr_sense .
+
+tc:Gastronomia_japonesa_C18_wakame_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C18_wakame_fr ;
+    vartrans:synonym tc:Gastronomia_japonesa_C18_ondarie_fr_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C18_wakame_ca_noun_sense,
+        tc:Gastronomia_japonesa_C18_wakame_en_sense,
+        tc:Gastronomia_japonesa_C18_wakame_es_sense .
+
+tc:Gastronomia_japonesa_C8_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "Japanese horseradish",
+        "raifort du Japon",
+        "wasabi" .
+
+tc:Gastronomia_japonesa_C10 a ontolex:LexicalConcept ;
+    dct:identifier "10" ;
+    dct:subject "Alimentació > Begudes" ;
+    skos:inScheme tc:Gastronomia_japonesa_ConSet ;
+    skos:relatedMatch tc:Plats_a_la_carta_C6528 ;
+    ontolex:lexicalizedSense tc:Gastronomia_japonesa_C10_sake_ca_noun_sense,
+        tc:Gastronomia_japonesa_C10_sake_en_sense,
+        tc:Gastronomia_japonesa_C10_sake_es_sense,
+        tc:Gastronomia_japonesa_C10_sake_fr_sense,
+        tc:Gastronomia_japonesa_C10_saki_en_sense,
+        tc:Gastronomia_japonesa_C10_saki_fr_sense .
+
+tc:Gastronomia_japonesa_C10_sake_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C10_sake_ca_noun ;
+    vartrans:translation tc:Gastronomia_japonesa_C10_sake_en_sense,
+        tc:Gastronomia_japonesa_C10_sake_es_sense,
+        tc:Gastronomia_japonesa_C10_sake_fr_sense,
+        tc:Gastronomia_japonesa_C10_saki_en_sense,
+        tc:Gastronomia_japonesa_C10_saki_fr_sense .
+
+tc:Gastronomia_japonesa_C10_sake_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C10_sake_es ;
+    vartrans:translation tc:Gastronomia_japonesa_C10_sake_ca_noun_sense,
+        tc:Gastronomia_japonesa_C10_sake_en_sense,
+        tc:Gastronomia_japonesa_C10_sake_fr_sense,
+        tc:Gastronomia_japonesa_C10_saki_en_sense,
+        tc:Gastronomia_japonesa_C10_saki_fr_sense .
+
+tc:Gastronomia_japonesa_C10_sake_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C10_sake_fr ;
+    vartrans:synonym tc:Gastronomia_japonesa_C10_saki_fr_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C10_sake_ca_noun_sense,
+        tc:Gastronomia_japonesa_C10_sake_en_sense,
+        tc:Gastronomia_japonesa_C10_sake_es_sense,
+        tc:Gastronomia_japonesa_C10_saki_en_sense .
+
+tc:Gastronomia_japonesa_C10_saki_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C10_saki_en ;
+    vartrans:synonym tc:Gastronomia_japonesa_C10_sake_en_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C10_sake_ca_noun_sense,
+        tc:Gastronomia_japonesa_C10_sake_es_sense,
+        tc:Gastronomia_japonesa_C10_sake_fr_sense,
+        tc:Gastronomia_japonesa_C10_saki_fr_sense .
+
+tc:Gastronomia_japonesa_C10_saki_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C10_saki_fr ;
+    vartrans:synonym tc:Gastronomia_japonesa_C10_sake_fr_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C10_sake_ca_noun_sense,
+        tc:Gastronomia_japonesa_C10_sake_en_sense,
+        tc:Gastronomia_japonesa_C10_sake_es_sense,
+        tc:Gastronomia_japonesa_C10_saki_en_sense .
+
+tc:Gastronomia_japonesa_C16_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "tempoura",
+        "tempura",
+        "tenpura" .
+
+tc:Gastronomia_japonesa_C19_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "Oriental black mushroom",
+        "champignon noir chinois",
+        "golden oak mushroom",
+        "shiitake" .
+
+tc:Gastronomia_japonesa_C7_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "adzouki",
+        "adzuki",
+        "alubia adzuki",
+        "azuki bean",
+        "haricot anguleux",
+        "judía azuki" .
+
+tc:Gastronomia_japonesa_C8 a ontolex:LexicalConcept ;
+    dct:identifier "8" ;
+    dct:subject "Alimentació" ;
+    skos:inScheme tc:Gastronomia_japonesa_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_japonesa_C8_Japanese_horseradish_en_sense,
+        tc:Gastronomia_japonesa_C8_raifort_du_Japon_fr_sense,
+        tc:Gastronomia_japonesa_C8_rave_japones_ca_noun_sense,
+        tc:Gastronomia_japonesa_C8_wasabi_en_sense,
+        tc:Gastronomia_japonesa_C8_wasabi_es_sense,
+        tc:Gastronomia_japonesa_C8_wasabi_fr_sense .
+
+tc:Gastronomia_japonesa_C8_Japanese_horseradish_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C8_Japanese_horseradish_en ;
+    vartrans:synonym tc:Gastronomia_japonesa_C8_wasabi_en_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C8_raifort_du_Japon_fr_sense,
+        tc:Gastronomia_japonesa_C8_rave_japones_ca_noun_sense,
+        tc:Gastronomia_japonesa_C8_wasabi_es_sense,
+        tc:Gastronomia_japonesa_C8_wasabi_fr_sense .
+
+tc:Gastronomia_japonesa_C8_raifort_du_Japon_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C8_raifort_du_Japon_fr ;
+    vartrans:synonym tc:Gastronomia_japonesa_C8_wasabi_fr_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C8_Japanese_horseradish_en_sense,
+        tc:Gastronomia_japonesa_C8_rave_japones_ca_noun_sense,
+        tc:Gastronomia_japonesa_C8_wasabi_en_sense,
+        tc:Gastronomia_japonesa_C8_wasabi_es_sense .
+
+tc:Gastronomia_japonesa_C8_rave_japones_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C8_rave_japones_ca_noun ;
+    vartrans:translation tc:Gastronomia_japonesa_C8_Japanese_horseradish_en_sense,
+        tc:Gastronomia_japonesa_C8_raifort_du_Japon_fr_sense,
+        tc:Gastronomia_japonesa_C8_wasabi_en_sense,
+        tc:Gastronomia_japonesa_C8_wasabi_es_sense,
+        tc:Gastronomia_japonesa_C8_wasabi_fr_sense .
+
+tc:Gastronomia_japonesa_C8_wasabi_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C8_wasabi_en ;
+    vartrans:synonym tc:Gastronomia_japonesa_C8_Japanese_horseradish_en_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C8_raifort_du_Japon_fr_sense,
+        tc:Gastronomia_japonesa_C8_rave_japones_ca_noun_sense,
+        tc:Gastronomia_japonesa_C8_wasabi_es_sense,
+        tc:Gastronomia_japonesa_C8_wasabi_fr_sense .
+
+tc:Gastronomia_japonesa_C8_wasabi_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C8_wasabi_es ;
+    vartrans:translation tc:Gastronomia_japonesa_C8_Japanese_horseradish_en_sense,
+        tc:Gastronomia_japonesa_C8_raifort_du_Japon_fr_sense,
+        tc:Gastronomia_japonesa_C8_rave_japones_ca_noun_sense,
+        tc:Gastronomia_japonesa_C8_wasabi_en_sense,
+        tc:Gastronomia_japonesa_C8_wasabi_fr_sense .
+
+tc:Gastronomia_japonesa_C8_wasabi_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C8_wasabi_fr ;
+    vartrans:synonym tc:Gastronomia_japonesa_C8_raifort_du_Japon_fr_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C8_Japanese_horseradish_en_sense,
+        tc:Gastronomia_japonesa_C8_rave_japones_ca_noun_sense,
+        tc:Gastronomia_japonesa_C8_wasabi_en_sense,
+        tc:Gastronomia_japonesa_C8_wasabi_es_sense .
+
+tc:Gastronomia_japonesa_C10_sake_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C10_sake_en ;
+    vartrans:synonym tc:Gastronomia_japonesa_C10_sake_en_sense,
+        tc:Gastronomia_japonesa_C10_saki_en_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C10_sake_ca_noun_sense,
+        tc:Gastronomia_japonesa_C10_sake_es_sense,
+        tc:Gastronomia_japonesa_C10_sake_fr_sense,
+        tc:Gastronomia_japonesa_C10_saki_fr_sense .
+
+tc:Gastronomia_japonesa_C16 a ontolex:LexicalConcept ;
+    dct:identifier "16" ;
+    dct:subject "Gastronomia" ;
+    skos:inScheme tc:Gastronomia_japonesa_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_japonesa_C16_tempoura_fr_sense,
+        tc:Gastronomia_japonesa_C16_tempura_ca_noun_sense,
+        tc:Gastronomia_japonesa_C16_tempura_en_sense,
+        tc:Gastronomia_japonesa_C16_tempura_es_sense,
+        tc:Gastronomia_japonesa_C16_tempura_fr_sense,
+        tc:Gastronomia_japonesa_C16_tenpura_en_sense,
+        tc:Gastronomia_japonesa_C16_tenpura_es_sense .
+
+tc:Gastronomia_japonesa_C16_tempoura_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C16_tempoura_fr ;
+    vartrans:synonym tc:Gastronomia_japonesa_C16_tempura_fr_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C16_tempura_ca_noun_sense,
+        tc:Gastronomia_japonesa_C16_tempura_en_sense,
+        tc:Gastronomia_japonesa_C16_tempura_es_sense,
+        tc:Gastronomia_japonesa_C16_tenpura_en_sense,
+        tc:Gastronomia_japonesa_C16_tenpura_es_sense .
+
+tc:Gastronomia_japonesa_C16_tempura_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C16_tempura_ca_noun ;
+    vartrans:translation tc:Gastronomia_japonesa_C16_tempoura_fr_sense,
+        tc:Gastronomia_japonesa_C16_tempura_en_sense,
+        tc:Gastronomia_japonesa_C16_tempura_es_sense,
+        tc:Gastronomia_japonesa_C16_tempura_fr_sense,
+        tc:Gastronomia_japonesa_C16_tenpura_en_sense,
+        tc:Gastronomia_japonesa_C16_tenpura_es_sense .
+
+tc:Gastronomia_japonesa_C16_tempura_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C16_tempura_en ;
+    vartrans:synonym tc:Gastronomia_japonesa_C16_tenpura_en_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C16_tempoura_fr_sense,
+        tc:Gastronomia_japonesa_C16_tempura_ca_noun_sense,
+        tc:Gastronomia_japonesa_C16_tempura_es_sense,
+        tc:Gastronomia_japonesa_C16_tempura_fr_sense,
+        tc:Gastronomia_japonesa_C16_tenpura_es_sense .
+
+tc:Gastronomia_japonesa_C16_tempura_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C16_tempura_es ;
+    vartrans:synonym tc:Gastronomia_japonesa_C16_tenpura_es_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C16_tempoura_fr_sense,
+        tc:Gastronomia_japonesa_C16_tempura_ca_noun_sense,
+        tc:Gastronomia_japonesa_C16_tempura_en_sense,
+        tc:Gastronomia_japonesa_C16_tempura_fr_sense,
+        tc:Gastronomia_japonesa_C16_tenpura_en_sense .
+
+tc:Gastronomia_japonesa_C16_tempura_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C16_tempura_fr ;
+    vartrans:synonym tc:Gastronomia_japonesa_C16_tempoura_fr_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C16_tempura_ca_noun_sense,
+        tc:Gastronomia_japonesa_C16_tempura_en_sense,
+        tc:Gastronomia_japonesa_C16_tempura_es_sense,
+        tc:Gastronomia_japonesa_C16_tenpura_en_sense,
+        tc:Gastronomia_japonesa_C16_tenpura_es_sense .
+
+tc:Gastronomia_japonesa_C16_tenpura_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C16_tenpura_en ;
+    vartrans:synonym tc:Gastronomia_japonesa_C16_tempura_en_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C16_tempoura_fr_sense,
+        tc:Gastronomia_japonesa_C16_tempura_ca_noun_sense,
+        tc:Gastronomia_japonesa_C16_tempura_es_sense,
+        tc:Gastronomia_japonesa_C16_tempura_fr_sense,
+        tc:Gastronomia_japonesa_C16_tenpura_es_sense .
+
+tc:Gastronomia_japonesa_C16_tenpura_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C16_tenpura_es ;
+    vartrans:synonym tc:Gastronomia_japonesa_C16_tempura_es_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C16_tempoura_fr_sense,
+        tc:Gastronomia_japonesa_C16_tempura_ca_noun_sense,
+        tc:Gastronomia_japonesa_C16_tempura_en_sense,
+        tc:Gastronomia_japonesa_C16_tempura_fr_sense,
+        tc:Gastronomia_japonesa_C16_tenpura_en_sense .
+
+tc:Gastronomia_japonesa_C19 a ontolex:LexicalConcept ;
+    dct:identifier "19" ;
+    dct:subject "Alimentació" ;
+    skos:inScheme tc:Gastronomia_japonesa_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_japonesa_C19_Oriental_black_mushroom_en_sense,
+        tc:Gastronomia_japonesa_C19_champignon_noir_chinois_fr_sense,
+        tc:Gastronomia_japonesa_C19_golden_oak_mushroom_en_sense,
+        tc:Gastronomia_japonesa_C19_shiitake_en_sense,
+        tc:Gastronomia_japonesa_C19_shiitake_es_sense,
+        tc:Gastronomia_japonesa_C19_shiitake_fr_sense,
+        tc:Gastronomia_japonesa_C19_xiitake_ca_noun_sense .
+
+tc:Gastronomia_japonesa_C19_Oriental_black_mushroom_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C19_Oriental_black_mushroom_en ;
+    vartrans:synonym tc:Gastronomia_japonesa_C19_golden_oak_mushroom_en_sense,
+        tc:Gastronomia_japonesa_C19_shiitake_en_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C19_champignon_noir_chinois_fr_sense,
+        tc:Gastronomia_japonesa_C19_shiitake_es_sense,
+        tc:Gastronomia_japonesa_C19_shiitake_fr_sense,
+        tc:Gastronomia_japonesa_C19_xiitake_ca_noun_sense .
+
+tc:Gastronomia_japonesa_C19_champignon_noir_chinois_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C19_champignon_noir_chinois_fr ;
+    vartrans:synonym tc:Gastronomia_japonesa_C19_shiitake_fr_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C19_Oriental_black_mushroom_en_sense,
+        tc:Gastronomia_japonesa_C19_golden_oak_mushroom_en_sense,
+        tc:Gastronomia_japonesa_C19_shiitake_en_sense,
+        tc:Gastronomia_japonesa_C19_shiitake_es_sense,
+        tc:Gastronomia_japonesa_C19_xiitake_ca_noun_sense .
+
+tc:Gastronomia_japonesa_C19_golden_oak_mushroom_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C19_golden_oak_mushroom_en ;
+    vartrans:synonym tc:Gastronomia_japonesa_C19_Oriental_black_mushroom_en_sense,
+        tc:Gastronomia_japonesa_C19_shiitake_en_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C19_champignon_noir_chinois_fr_sense,
+        tc:Gastronomia_japonesa_C19_shiitake_es_sense,
+        tc:Gastronomia_japonesa_C19_shiitake_fr_sense,
+        tc:Gastronomia_japonesa_C19_xiitake_ca_noun_sense .
+
+tc:Gastronomia_japonesa_C19_shiitake_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C19_shiitake_en ;
+    vartrans:synonym tc:Gastronomia_japonesa_C19_Oriental_black_mushroom_en_sense,
+        tc:Gastronomia_japonesa_C19_golden_oak_mushroom_en_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C19_champignon_noir_chinois_fr_sense,
+        tc:Gastronomia_japonesa_C19_shiitake_es_sense,
+        tc:Gastronomia_japonesa_C19_shiitake_fr_sense,
+        tc:Gastronomia_japonesa_C19_xiitake_ca_noun_sense .
+
+tc:Gastronomia_japonesa_C19_shiitake_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C19_shiitake_es ;
+    vartrans:translation tc:Gastronomia_japonesa_C19_Oriental_black_mushroom_en_sense,
+        tc:Gastronomia_japonesa_C19_champignon_noir_chinois_fr_sense,
+        tc:Gastronomia_japonesa_C19_golden_oak_mushroom_en_sense,
+        tc:Gastronomia_japonesa_C19_shiitake_en_sense,
+        tc:Gastronomia_japonesa_C19_shiitake_fr_sense,
+        tc:Gastronomia_japonesa_C19_xiitake_ca_noun_sense .
+
+tc:Gastronomia_japonesa_C19_shiitake_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C19_shiitake_fr ;
+    vartrans:synonym tc:Gastronomia_japonesa_C19_champignon_noir_chinois_fr_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C19_Oriental_black_mushroom_en_sense,
+        tc:Gastronomia_japonesa_C19_golden_oak_mushroom_en_sense,
+        tc:Gastronomia_japonesa_C19_shiitake_en_sense,
+        tc:Gastronomia_japonesa_C19_shiitake_es_sense,
+        tc:Gastronomia_japonesa_C19_xiitake_ca_noun_sense .
+
+tc:Gastronomia_japonesa_C19_xiitake_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C19_xiitake_ca_noun ;
+    vartrans:translation tc:Gastronomia_japonesa_C19_Oriental_black_mushroom_en_sense,
+        tc:Gastronomia_japonesa_C19_champignon_noir_chinois_fr_sense,
+        tc:Gastronomia_japonesa_C19_golden_oak_mushroom_en_sense,
+        tc:Gastronomia_japonesa_C19_shiitake_en_sense,
+        tc:Gastronomia_japonesa_C19_shiitake_es_sense,
+        tc:Gastronomia_japonesa_C19_shiitake_fr_sense .
+
+tc:Gastronomia_japonesa_C3_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "kombou",
+        "kombu",
+        "konbu",
+        "laminaire japonaise" .
+
+tc:Gastronomia_japonesa_C7 a ontolex:LexicalConcept ;
+    dct:identifier "7" ;
+    dct:subject "Alimentació" ;
+    skos:inScheme tc:Gastronomia_japonesa_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_japonesa_C7_adzouki_fr_sense,
+        tc:Gastronomia_japonesa_C7_adzuki_fr_sense,
+        tc:Gastronomia_japonesa_C7_alubia_adzuki_es_sense,
+        tc:Gastronomia_japonesa_C7_azuki_bean_en_sense,
+        tc:Gastronomia_japonesa_C7_haricot_anguleux_fr_sense,
+        tc:Gastronomia_japonesa_C7_judia_azuki_es_sense,
+        tc:Gastronomia_japonesa_C7_mongeta_azuki_ca_noun_sense .
+
+tc:Gastronomia_japonesa_C7_adzouki_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C7_adzouki_fr ;
+    vartrans:synonym tc:Gastronomia_japonesa_C7_adzuki_fr_sense,
+        tc:Gastronomia_japonesa_C7_haricot_anguleux_fr_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C7_alubia_adzuki_es_sense,
+        tc:Gastronomia_japonesa_C7_azuki_bean_en_sense,
+        tc:Gastronomia_japonesa_C7_judia_azuki_es_sense,
+        tc:Gastronomia_japonesa_C7_mongeta_azuki_ca_noun_sense .
+
+tc:Gastronomia_japonesa_C7_adzuki_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C7_adzuki_fr ;
+    vartrans:synonym tc:Gastronomia_japonesa_C7_adzouki_fr_sense,
+        tc:Gastronomia_japonesa_C7_haricot_anguleux_fr_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C7_alubia_adzuki_es_sense,
+        tc:Gastronomia_japonesa_C7_azuki_bean_en_sense,
+        tc:Gastronomia_japonesa_C7_judia_azuki_es_sense,
+        tc:Gastronomia_japonesa_C7_mongeta_azuki_ca_noun_sense .
+
+tc:Gastronomia_japonesa_C7_alubia_adzuki_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C7_alubia_adzuki_es ;
+    vartrans:synonym tc:Gastronomia_japonesa_C7_judia_azuki_es_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C7_adzouki_fr_sense,
+        tc:Gastronomia_japonesa_C7_adzuki_fr_sense,
+        tc:Gastronomia_japonesa_C7_azuki_bean_en_sense,
+        tc:Gastronomia_japonesa_C7_haricot_anguleux_fr_sense,
+        tc:Gastronomia_japonesa_C7_mongeta_azuki_ca_noun_sense .
+
+tc:Gastronomia_japonesa_C7_azuki_bean_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C7_azuki_bean_en ;
+    vartrans:translation tc:Gastronomia_japonesa_C7_adzouki_fr_sense,
+        tc:Gastronomia_japonesa_C7_adzuki_fr_sense,
+        tc:Gastronomia_japonesa_C7_alubia_adzuki_es_sense,
+        tc:Gastronomia_japonesa_C7_haricot_anguleux_fr_sense,
+        tc:Gastronomia_japonesa_C7_judia_azuki_es_sense,
+        tc:Gastronomia_japonesa_C7_mongeta_azuki_ca_noun_sense .
+
+tc:Gastronomia_japonesa_C7_haricot_anguleux_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C7_haricot_anguleux_fr ;
+    vartrans:synonym tc:Gastronomia_japonesa_C7_adzouki_fr_sense,
+        tc:Gastronomia_japonesa_C7_adzuki_fr_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C7_alubia_adzuki_es_sense,
+        tc:Gastronomia_japonesa_C7_azuki_bean_en_sense,
+        tc:Gastronomia_japonesa_C7_judia_azuki_es_sense,
+        tc:Gastronomia_japonesa_C7_mongeta_azuki_ca_noun_sense .
+
+tc:Gastronomia_japonesa_C7_judia_azuki_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C7_judia_azuki_es ;
+    vartrans:synonym tc:Gastronomia_japonesa_C7_alubia_adzuki_es_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C7_adzouki_fr_sense,
+        tc:Gastronomia_japonesa_C7_adzuki_fr_sense,
+        tc:Gastronomia_japonesa_C7_azuki_bean_en_sense,
+        tc:Gastronomia_japonesa_C7_haricot_anguleux_fr_sense,
+        tc:Gastronomia_japonesa_C7_mongeta_azuki_ca_noun_sense .
+
+tc:Gastronomia_japonesa_C7_mongeta_azuki_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C7_mongeta_azuki_ca_noun ;
+    vartrans:translation tc:Gastronomia_japonesa_C7_adzouki_fr_sense,
+        tc:Gastronomia_japonesa_C7_adzuki_fr_sense,
+        tc:Gastronomia_japonesa_C7_alubia_adzuki_es_sense,
+        tc:Gastronomia_japonesa_C7_azuki_bean_en_sense,
+        tc:Gastronomia_japonesa_C7_haricot_anguleux_fr_sense,
+        tc:Gastronomia_japonesa_C7_judia_azuki_es_sense .
+
+tc:Gastronomia_japonesa_C3 a ontolex:LexicalConcept ;
+    dct:identifier "3" ;
+    dct:subject "Alimentació" ;
+    skos:inScheme tc:Gastronomia_japonesa_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_japonesa_C3_kombou_fr_sense,
+        tc:Gastronomia_japonesa_C3_kombu_ca_noun_sense,
+        tc:Gastronomia_japonesa_C3_kombu_en_sense,
+        tc:Gastronomia_japonesa_C3_kombu_es_sense,
+        tc:Gastronomia_japonesa_C3_konbu_en_sense,
+        tc:Gastronomia_japonesa_C3_konbu_es_sense,
+        tc:Gastronomia_japonesa_C3_konbu_fr_sense,
+        tc:Gastronomia_japonesa_C3_laminaire_japonaise_fr_sense .
+
+tc:Gastronomia_japonesa_C3_kombou_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C3_kombou_fr ;
+    vartrans:synonym tc:Gastronomia_japonesa_C3_konbu_fr_sense,
+        tc:Gastronomia_japonesa_C3_laminaire_japonaise_fr_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C3_kombu_ca_noun_sense,
+        tc:Gastronomia_japonesa_C3_kombu_en_sense,
+        tc:Gastronomia_japonesa_C3_kombu_es_sense,
+        tc:Gastronomia_japonesa_C3_konbu_en_sense,
+        tc:Gastronomia_japonesa_C3_konbu_es_sense .
+
+tc:Gastronomia_japonesa_C3_kombu_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C3_kombu_ca_noun ;
+    vartrans:translation tc:Gastronomia_japonesa_C3_kombou_fr_sense,
+        tc:Gastronomia_japonesa_C3_kombu_en_sense,
+        tc:Gastronomia_japonesa_C3_kombu_es_sense,
+        tc:Gastronomia_japonesa_C3_konbu_en_sense,
+        tc:Gastronomia_japonesa_C3_konbu_es_sense,
+        tc:Gastronomia_japonesa_C3_konbu_fr_sense,
+        tc:Gastronomia_japonesa_C3_laminaire_japonaise_fr_sense .
+
+tc:Gastronomia_japonesa_C3_kombu_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C3_kombu_en ;
+    vartrans:synonym tc:Gastronomia_japonesa_C3_konbu_en_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C3_kombou_fr_sense,
+        tc:Gastronomia_japonesa_C3_kombu_ca_noun_sense,
+        tc:Gastronomia_japonesa_C3_kombu_es_sense,
+        tc:Gastronomia_japonesa_C3_konbu_es_sense,
+        tc:Gastronomia_japonesa_C3_konbu_fr_sense,
+        tc:Gastronomia_japonesa_C3_laminaire_japonaise_fr_sense .
+
+tc:Gastronomia_japonesa_C3_kombu_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C3_kombu_es ;
+    vartrans:synonym tc:Gastronomia_japonesa_C3_konbu_es_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C3_kombou_fr_sense,
+        tc:Gastronomia_japonesa_C3_kombu_ca_noun_sense,
+        tc:Gastronomia_japonesa_C3_kombu_en_sense,
+        tc:Gastronomia_japonesa_C3_konbu_en_sense,
+        tc:Gastronomia_japonesa_C3_konbu_fr_sense,
+        tc:Gastronomia_japonesa_C3_laminaire_japonaise_fr_sense .
+
+tc:Gastronomia_japonesa_C3_konbu_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C3_konbu_en ;
+    vartrans:synonym tc:Gastronomia_japonesa_C3_kombu_en_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C3_kombou_fr_sense,
+        tc:Gastronomia_japonesa_C3_kombu_ca_noun_sense,
+        tc:Gastronomia_japonesa_C3_kombu_es_sense,
+        tc:Gastronomia_japonesa_C3_konbu_es_sense,
+        tc:Gastronomia_japonesa_C3_konbu_fr_sense,
+        tc:Gastronomia_japonesa_C3_laminaire_japonaise_fr_sense .
+
+tc:Gastronomia_japonesa_C3_konbu_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C3_konbu_es ;
+    vartrans:synonym tc:Gastronomia_japonesa_C3_kombu_es_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C3_kombou_fr_sense,
+        tc:Gastronomia_japonesa_C3_kombu_ca_noun_sense,
+        tc:Gastronomia_japonesa_C3_kombu_en_sense,
+        tc:Gastronomia_japonesa_C3_konbu_en_sense,
+        tc:Gastronomia_japonesa_C3_konbu_fr_sense,
+        tc:Gastronomia_japonesa_C3_laminaire_japonaise_fr_sense .
+
+tc:Gastronomia_japonesa_C3_konbu_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C3_konbu_fr ;
+    vartrans:synonym tc:Gastronomia_japonesa_C3_kombou_fr_sense,
+        tc:Gastronomia_japonesa_C3_laminaire_japonaise_fr_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C3_kombu_ca_noun_sense,
+        tc:Gastronomia_japonesa_C3_kombu_en_sense,
+        tc:Gastronomia_japonesa_C3_kombu_es_sense,
+        tc:Gastronomia_japonesa_C3_konbu_en_sense,
+        tc:Gastronomia_japonesa_C3_konbu_es_sense .
+
+tc:Gastronomia_japonesa_C3_laminaire_japonaise_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C3_laminaire_japonaise_fr ;
+    vartrans:synonym tc:Gastronomia_japonesa_C3_kombou_fr_sense,
+        tc:Gastronomia_japonesa_C3_konbu_fr_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C3_kombu_ca_noun_sense,
+        tc:Gastronomia_japonesa_C3_kombu_en_sense,
+        tc:Gastronomia_japonesa_C3_kombu_es_sense,
+        tc:Gastronomia_japonesa_C3_konbu_en_sense,
+        tc:Gastronomia_japonesa_C3_konbu_es_sense .
+
+tc:Gastronomia_japonesa_C11_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "gomashio",
+        "gomasio",
+        "sal de sésamo",
+        "sel de sésame",
+        "sesame salt" .
+
+tc:Gastronomia_japonesa_C11 a ontolex:LexicalConcept ;
+    dct:identifier "11" ;
+    dct:subject "Alimentació > Condiments" ;
+    skos:inScheme tc:Gastronomia_japonesa_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_japonesa_C11_gomashio_en_sense,
+        tc:Gastronomia_japonesa_C11_gomashio_es_sense,
+        tc:Gastronomia_japonesa_C11_gomashio_fr_sense,
+        tc:Gastronomia_japonesa_C11_gomasio_en_sense,
+        tc:Gastronomia_japonesa_C11_gomasio_es_sense,
+        tc:Gastronomia_japonesa_C11_gomasio_fr_sense,
+        tc:Gastronomia_japonesa_C11_sal_de_sesam_ca_noun_sense,
+        tc:Gastronomia_japonesa_C11_sal_de_sesamo_es_sense,
+        tc:Gastronomia_japonesa_C11_sel_de_sesame_fr_sense,
+        tc:Gastronomia_japonesa_C11_sesame_salt_en_sense .
+
+tc:Gastronomia_japonesa_C11_gomashio_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C11_gomashio_en ;
+    vartrans:synonym tc:Gastronomia_japonesa_C11_gomasio_en_sense,
+        tc:Gastronomia_japonesa_C11_sesame_salt_en_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C11_gomashio_es_sense,
+        tc:Gastronomia_japonesa_C11_gomashio_fr_sense,
+        tc:Gastronomia_japonesa_C11_gomasio_es_sense,
+        tc:Gastronomia_japonesa_C11_gomasio_fr_sense,
+        tc:Gastronomia_japonesa_C11_sal_de_sesam_ca_noun_sense,
+        tc:Gastronomia_japonesa_C11_sal_de_sesamo_es_sense,
+        tc:Gastronomia_japonesa_C11_sel_de_sesame_fr_sense .
+
+tc:Gastronomia_japonesa_C11_gomashio_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C11_gomashio_es ;
+    vartrans:synonym tc:Gastronomia_japonesa_C11_gomasio_es_sense,
+        tc:Gastronomia_japonesa_C11_sal_de_sesamo_es_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C11_gomashio_en_sense,
+        tc:Gastronomia_japonesa_C11_gomashio_fr_sense,
+        tc:Gastronomia_japonesa_C11_gomasio_en_sense,
+        tc:Gastronomia_japonesa_C11_gomasio_fr_sense,
+        tc:Gastronomia_japonesa_C11_sal_de_sesam_ca_noun_sense,
+        tc:Gastronomia_japonesa_C11_sel_de_sesame_fr_sense,
+        tc:Gastronomia_japonesa_C11_sesame_salt_en_sense .
+
+tc:Gastronomia_japonesa_C11_gomashio_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C11_gomashio_fr ;
+    vartrans:synonym tc:Gastronomia_japonesa_C11_gomasio_fr_sense,
+        tc:Gastronomia_japonesa_C11_sel_de_sesame_fr_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C11_gomashio_en_sense,
+        tc:Gastronomia_japonesa_C11_gomashio_es_sense,
+        tc:Gastronomia_japonesa_C11_gomasio_en_sense,
+        tc:Gastronomia_japonesa_C11_gomasio_es_sense,
+        tc:Gastronomia_japonesa_C11_sal_de_sesam_ca_noun_sense,
+        tc:Gastronomia_japonesa_C11_sal_de_sesamo_es_sense,
+        tc:Gastronomia_japonesa_C11_sesame_salt_en_sense .
+
+tc:Gastronomia_japonesa_C11_gomasio_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C11_gomasio_en ;
+    vartrans:synonym tc:Gastronomia_japonesa_C11_gomashio_en_sense,
+        tc:Gastronomia_japonesa_C11_sesame_salt_en_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C11_gomashio_es_sense,
+        tc:Gastronomia_japonesa_C11_gomashio_fr_sense,
+        tc:Gastronomia_japonesa_C11_gomasio_es_sense,
+        tc:Gastronomia_japonesa_C11_gomasio_fr_sense,
+        tc:Gastronomia_japonesa_C11_sal_de_sesam_ca_noun_sense,
+        tc:Gastronomia_japonesa_C11_sal_de_sesamo_es_sense,
+        tc:Gastronomia_japonesa_C11_sel_de_sesame_fr_sense .
+
+tc:Gastronomia_japonesa_C11_gomasio_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C11_gomasio_es ;
+    vartrans:synonym tc:Gastronomia_japonesa_C11_gomashio_es_sense,
+        tc:Gastronomia_japonesa_C11_sal_de_sesamo_es_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C11_gomashio_en_sense,
+        tc:Gastronomia_japonesa_C11_gomashio_fr_sense,
+        tc:Gastronomia_japonesa_C11_gomasio_en_sense,
+        tc:Gastronomia_japonesa_C11_gomasio_fr_sense,
+        tc:Gastronomia_japonesa_C11_sal_de_sesam_ca_noun_sense,
+        tc:Gastronomia_japonesa_C11_sel_de_sesame_fr_sense,
+        tc:Gastronomia_japonesa_C11_sesame_salt_en_sense .
+
+tc:Gastronomia_japonesa_C11_gomasio_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C11_gomasio_fr ;
+    vartrans:synonym tc:Gastronomia_japonesa_C11_gomashio_fr_sense,
+        tc:Gastronomia_japonesa_C11_sel_de_sesame_fr_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C11_gomashio_en_sense,
+        tc:Gastronomia_japonesa_C11_gomashio_es_sense,
+        tc:Gastronomia_japonesa_C11_gomasio_en_sense,
+        tc:Gastronomia_japonesa_C11_gomasio_es_sense,
+        tc:Gastronomia_japonesa_C11_sal_de_sesam_ca_noun_sense,
+        tc:Gastronomia_japonesa_C11_sal_de_sesamo_es_sense,
+        tc:Gastronomia_japonesa_C11_sesame_salt_en_sense .
+
+tc:Gastronomia_japonesa_C11_sal_de_sesam_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C11_sal_de_sesam_ca_noun ;
+    vartrans:translation tc:Gastronomia_japonesa_C11_gomashio_en_sense,
+        tc:Gastronomia_japonesa_C11_gomashio_es_sense,
+        tc:Gastronomia_japonesa_C11_gomashio_fr_sense,
+        tc:Gastronomia_japonesa_C11_gomasio_en_sense,
+        tc:Gastronomia_japonesa_C11_gomasio_es_sense,
+        tc:Gastronomia_japonesa_C11_gomasio_fr_sense,
+        tc:Gastronomia_japonesa_C11_sal_de_sesamo_es_sense,
+        tc:Gastronomia_japonesa_C11_sel_de_sesame_fr_sense,
+        tc:Gastronomia_japonesa_C11_sesame_salt_en_sense .
+
+tc:Gastronomia_japonesa_C11_sal_de_sesamo_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C11_sal_de_sesamo_es ;
+    vartrans:synonym tc:Gastronomia_japonesa_C11_gomashio_es_sense,
+        tc:Gastronomia_japonesa_C11_gomasio_es_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C11_gomashio_en_sense,
+        tc:Gastronomia_japonesa_C11_gomashio_fr_sense,
+        tc:Gastronomia_japonesa_C11_gomasio_en_sense,
+        tc:Gastronomia_japonesa_C11_gomasio_fr_sense,
+        tc:Gastronomia_japonesa_C11_sal_de_sesam_ca_noun_sense,
+        tc:Gastronomia_japonesa_C11_sel_de_sesame_fr_sense,
+        tc:Gastronomia_japonesa_C11_sesame_salt_en_sense .
+
+tc:Gastronomia_japonesa_C11_sel_de_sesame_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C11_sel_de_sesame_fr ;
+    vartrans:synonym tc:Gastronomia_japonesa_C11_gomashio_fr_sense,
+        tc:Gastronomia_japonesa_C11_gomasio_fr_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C11_gomashio_en_sense,
+        tc:Gastronomia_japonesa_C11_gomashio_es_sense,
+        tc:Gastronomia_japonesa_C11_gomasio_en_sense,
+        tc:Gastronomia_japonesa_C11_gomasio_es_sense,
+        tc:Gastronomia_japonesa_C11_sal_de_sesam_ca_noun_sense,
+        tc:Gastronomia_japonesa_C11_sal_de_sesamo_es_sense,
+        tc:Gastronomia_japonesa_C11_sesame_salt_en_sense .
+
+tc:Gastronomia_japonesa_C11_sesame_salt_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_japonesa_C11_sesame_salt_en ;
+    vartrans:synonym tc:Gastronomia_japonesa_C11_gomashio_en_sense,
+        tc:Gastronomia_japonesa_C11_gomasio_en_sense ;
+    vartrans:translation tc:Gastronomia_japonesa_C11_gomashio_es_sense,
+        tc:Gastronomia_japonesa_C11_gomashio_fr_sense,
+        tc:Gastronomia_japonesa_C11_gomasio_es_sense,
+        tc:Gastronomia_japonesa_C11_gomasio_fr_sense,
+        tc:Gastronomia_japonesa_C11_sal_de_sesam_ca_noun_sense,
+        tc:Gastronomia_japonesa_C11_sal_de_sesamo_es_sense,
+        tc:Gastronomia_japonesa_C11_sel_de_sesame_fr_sense .
+
+tc:Gastronomia_japonesa_ConSet a ontolex:ConceptSet .
+

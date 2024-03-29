@@ -1,0 +1,1435 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix etv: <https://w3id.org/def/easytv#> .
+@prefix grel: <http://semweb.datasciencelab.be/ns/grel#> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lime: <http://www.w3.org/ns/lemon/lime#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix tc: <http://w3id.org/termcat-ld/> .
+@prefix termlex: <https://termlex.oeg.fi.upm.es/static/termlex.rdf/> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+tc:Oli_d%27oliva_en_textures_C1 a ontolex:LexicalConcept;
+  dct:identifier "1";
+  dct:subject "Oli d'oliva en textures";
+  skos:inScheme tc:Oli_d%27oliva_en_textures_ConSet;
+  ontolex:lexicalizedSense tc:Oli_d%27oliva_en_textures_C1_air_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C1_aire_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C1_aire_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C1_escuma_lleugera_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C1_espuma_ligera_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C1_light_oil_foam_en_noun_sense, tc:Oli_d%27oliva_en_textures_C1_oil_air_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C10 a ontolex:LexicalConcept;
+  dct:identifier "10";
+  dct:subject "Oli d'oliva en textures";
+  skos:inScheme tc:Oli_d%27oliva_en_textures_ConSet;
+  ontolex:lexicalizedSense tc:Oli_d%27oliva_en_textures_C10_beurre_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C10_mantega_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C10_mantequilla_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C10_oil_butter_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C10_beurre_d%27huile_fr_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "beurre d'huile" .
+
+tc:Oli_d%27oliva_en_textures_C10_beurre_d%27huile_fr_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "fr";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C10;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C10_beurre_d%27huile_fr_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C10_beurre_d%27huile_fr_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C10_beurre_d%27huile_fr_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C10_mantega_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C10_mantequilla_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C10_oil_butter_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C10_mantega_d%27oli_ca_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "mantega d'oli" .
+
+tc:Oli_d%27oliva_en_textures_C10_mantega_d%27oli_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C10;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C10_mantega_d%27oli_ca_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C10_mantega_d%27oli_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C10_mantega_d%27oli_ca_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C10_beurre_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C10_mantequilla_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C10_oil_butter_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C10_mantequilla_de_aceite_es_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "mantequilla de aceite" .
+
+tc:Oli_d%27oliva_en_textures_C10_mantequilla_de_aceite_es_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "es";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C10;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C10_mantequilla_de_aceite_es_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C10_mantequilla_de_aceite_es_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C10_mantequilla_de_aceite_es_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C10_beurre_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C10_mantega_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C10_oil_butter_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C10_oil_butter_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "oil butter" .
+
+tc:Oli_d%27oliva_en_textures_C10_oil_butter_en_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "en";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C10;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C10_oil_butter_en_form .
+
+tc:Oli_d%27oliva_en_textures_C10_oil_butter_en_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C10_oil_butter_en_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C10_beurre_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C10_mantega_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C10_mantequilla_de_aceite_es_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C11 a ontolex:LexicalConcept;
+  dct:identifier "11";
+  dct:subject "Oli d'oliva en textures";
+  skos:inScheme tc:Oli_d%27oliva_en_textures_ConSet;
+  ontolex:lexicalizedSense tc:Oli_d%27oliva_en_textures_C11_mel_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C11_miel_d%27huile_fr_noun_sense, tc:Oli_d%27oliva_en_textures_C11_miel_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C11_oil_honey_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C11_mel_d%27oli_ca_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "mel d'oli" .
+
+tc:Oli_d%27oliva_en_textures_C11_mel_d%27oli_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C11;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C11_mel_d%27oli_ca_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C11_mel_d%27oli_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C11_mel_d%27oli_ca_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C11_miel_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C11_miel_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C11_oil_honey_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C11_miel_d%27huile_fr_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "miel d'huile" .
+
+tc:Oli_d%27oliva_en_textures_C11_miel_d%27huile_fr_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "fr";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C11;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C11_miel_d%27huile_fr_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C11_miel_d%27huile_fr_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C11_miel_d%27huile_fr_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C11_mel_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C11_miel_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C11_oil_honey_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C11_miel_de_aceite_es_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "miel de aceite" .
+
+tc:Oli_d%27oliva_en_textures_C11_miel_de_aceite_es_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "es";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C11;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C11_miel_de_aceite_es_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C11_miel_de_aceite_es_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C11_miel_de_aceite_es_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C11_mel_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C11_miel_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C11_oil_honey_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C11_oil_honey_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "oil honey" .
+
+tc:Oli_d%27oliva_en_textures_C11_oil_honey_en_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "en";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C11;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C11_oil_honey_en_form .
+
+tc:Oli_d%27oliva_en_textures_C11_oil_honey_en_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C11_oil_honey_en_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C11_mel_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C11_miel_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C11_miel_de_aceite_es_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C12 a ontolex:LexicalConcept;
+  dct:identifier "12";
+  dct:subject "Oli d'oliva en textures";
+  skos:inScheme tc:Oli_d%27oliva_en_textures_ConSet;
+  ontolex:lexicalizedSense tc:Oli_d%27oliva_en_textures_C12_guimauve_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C12_nube_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C12_nuvol_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C12_oil_cloud_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C12_guimauve_d%27huile_fr_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "guimauve d'huile" .
+
+tc:Oli_d%27oliva_en_textures_C12_guimauve_d%27huile_fr_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "fr";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C12;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C12_guimauve_d%27huile_fr_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C12_guimauve_d%27huile_fr_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C12_guimauve_d%27huile_fr_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C12_nube_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C12_nuvol_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C12_oil_cloud_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C12_nube_de_aceite_es_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "nube de aceite" .
+
+tc:Oli_d%27oliva_en_textures_C12_nube_de_aceite_es_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "es";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C12;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C12_nube_de_aceite_es_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C12_nube_de_aceite_es_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C12_nube_de_aceite_es_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C12_guimauve_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C12_nuvol_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C12_oil_cloud_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C12_nuvol_d%27oli_ca_form_masculine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "núvol d'oli" .
+
+tc:Oli_d%27oliva_en_textures_C12_nuvol_d%27oli_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C12;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C12_nuvol_d%27oli_ca_form_masculine .
+
+tc:Oli_d%27oliva_en_textures_C12_nuvol_d%27oli_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C12_nuvol_d%27oli_ca_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C12_guimauve_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C12_nube_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C12_oil_cloud_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C12_oil_cloud_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "oil cloud" .
+
+tc:Oli_d%27oliva_en_textures_C12_oil_cloud_en_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "en";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C12;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C12_oil_cloud_en_form .
+
+tc:Oli_d%27oliva_en_textures_C12_oil_cloud_en_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C12_oil_cloud_en_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C12_guimauve_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C12_nube_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C12_nuvol_d%27oli_ca_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C13 a ontolex:LexicalConcept;
+  dct:identifier "13";
+  dct:subject "Oli d'oliva en textures";
+  skos:inScheme tc:Oli_d%27oliva_en_textures_ConSet;
+  ontolex:lexicalizedSense tc:Oli_d%27oliva_en_textures_C13_migas_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_oil_dust_en_noun_sense, tc:Oli_d%27oliva_en_textures_C13_oil_powder_en_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_oli_polvoritzat_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C13_olive_oil_powder_en_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_pols_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C13_polvo_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_poudre_d%27huile_fr_noun_sense, tc:Oli_d%27oliva_en_textures_C13_sorra_d%27oli_ca_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C13_migas_de_aceite_es_form_femenine_plural a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:number lexinfo:plural;
+  ontolex:writtenRep "migas de aceite" .
+
+tc:Oli_d%27oliva_en_textures_C13_migas_de_aceite_es_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "es";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C13;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C13_migas_de_aceite_es_form_femenine_plural .
+
+tc:Oli_d%27oliva_en_textures_C13_migas_de_aceite_es_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C13_migas_de_aceite_es_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C13_polvo_de_aceite_es_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C13_oil_dust_en_noun_sense, tc:Oli_d%27oliva_en_textures_C13_oil_powder_en_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_oli_polvoritzat_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C13_olive_oil_powder_en_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_pols_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C13_poudre_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_sorra_d%27oli_ca_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C13_oil_dust_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "oil dust" .
+
+tc:Oli_d%27oliva_en_textures_C13_oil_dust_en_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "en";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C13;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C13_oil_dust_en_form .
+
+tc:Oli_d%27oliva_en_textures_C13_oil_dust_en_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C13_oil_dust_en_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C13_oil_powder_en_noun_sense, tc:Oli_d%27oliva_en_textures_C13_olive_oil_powder_en_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C13_migas_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_oli_polvoritzat_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C13_pols_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_polvo_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C13_poudre_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_sorra_d%27oli_ca_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C13_oil_powder_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "oil powder" .
+
+tc:Oli_d%27oliva_en_textures_C13_oil_powder_en_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "en";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C13;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C13_oil_powder_en_form .
+
+tc:Oli_d%27oliva_en_textures_C13_oil_powder_en_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C13_oil_powder_en_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C13_oil_dust_en_noun_sense, tc:Oli_d%27oliva_en_textures_C13_olive_oil_powder_en_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C13_migas_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_oli_polvoritzat_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C13_pols_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_polvo_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C13_poudre_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_sorra_d%27oli_ca_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C13_oli_polvoritzat_ca_form_masculine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "oli polvoritzat" .
+
+tc:Oli_d%27oliva_en_textures_C13_oli_polvoritzat_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C13;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C13_oli_polvoritzat_ca_form_masculine .
+
+tc:Oli_d%27oliva_en_textures_C13_oli_polvoritzat_ca_noun_sense a ontolex:LexicalSense;
+  lexinfo:normativeAuthorization lexinfo:deprecated;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C13_oli_polvoritzat_ca_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C13_pols_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C13_sorra_d%27oli_ca_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C13_migas_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_oil_dust_en_noun_sense, tc:Oli_d%27oliva_en_textures_C13_oil_powder_en_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_olive_oil_powder_en_noun_sense, tc:Oli_d%27oliva_en_textures_C13_polvo_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_poudre_d%27huile_fr_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C13_olive_oil_powder_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "olive oil powder" .
+
+tc:Oli_d%27oliva_en_textures_C13_olive_oil_powder_en_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "en";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C13;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C13_olive_oil_powder_en_form .
+
+tc:Oli_d%27oliva_en_textures_C13_olive_oil_powder_en_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C13_olive_oil_powder_en_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C13_oil_dust_en_noun_sense, tc:Oli_d%27oliva_en_textures_C13_oil_powder_en_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C13_migas_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_oli_polvoritzat_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C13_pols_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_polvo_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C13_poudre_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_sorra_d%27oli_ca_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C13_pols_d%27oli_ca_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "pols d'oli" .
+
+tc:Oli_d%27oliva_en_textures_C13_pols_d%27oli_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C13;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C13_pols_d%27oli_ca_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C13_pols_d%27oli_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C13_pols_d%27oli_ca_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C13_oli_polvoritzat_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C13_sorra_d%27oli_ca_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C13_migas_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_oil_dust_en_noun_sense, tc:Oli_d%27oliva_en_textures_C13_oil_powder_en_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_olive_oil_powder_en_noun_sense, tc:Oli_d%27oliva_en_textures_C13_polvo_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_poudre_d%27huile_fr_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C13_polvo_de_aceite_es_form_masculine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "polvo de aceite" .
+
+tc:Oli_d%27oliva_en_textures_C13_polvo_de_aceite_es_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "es";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C13;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C13_polvo_de_aceite_es_form_masculine .
+
+tc:Oli_d%27oliva_en_textures_C13_polvo_de_aceite_es_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C13_polvo_de_aceite_es_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C13_migas_de_aceite_es_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C13_oil_dust_en_noun_sense, tc:Oli_d%27oliva_en_textures_C13_oil_powder_en_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_oli_polvoritzat_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C13_olive_oil_powder_en_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_pols_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C13_poudre_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_sorra_d%27oli_ca_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C13_poudre_d%27huile_fr_form_masculine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "poudre d'huile" .
+
+tc:Oli_d%27oliva_en_textures_C13_poudre_d%27huile_fr_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "fr";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C13;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C13_poudre_d%27huile_fr_form_masculine .
+
+tc:Oli_d%27oliva_en_textures_C13_poudre_d%27huile_fr_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C13_poudre_d%27huile_fr_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C13_migas_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_oil_dust_en_noun_sense, tc:Oli_d%27oliva_en_textures_C13_oil_powder_en_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_oli_polvoritzat_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C13_olive_oil_powder_en_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_pols_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C13_polvo_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_sorra_d%27oli_ca_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C13_sorra_d%27oli_ca_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "sorra d'oli" .
+
+tc:Oli_d%27oliva_en_textures_C13_sorra_d%27oli_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C13;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C13_sorra_d%27oli_ca_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C13_sorra_d%27oli_ca_noun_sense a ontolex:LexicalSense;
+  lexinfo:normativeAuthorization lexinfo:deprecated;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C13_sorra_d%27oli_ca_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C13_oli_polvoritzat_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C13_pols_d%27oli_ca_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C13_migas_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_oil_dust_en_noun_sense, tc:Oli_d%27oliva_en_textures_C13_oil_powder_en_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_olive_oil_powder_en_noun_sense, tc:Oli_d%27oliva_en_textures_C13_polvo_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C13_poudre_d%27huile_fr_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C14 a ontolex:LexicalConcept;
+  dct:identifier "14";
+  dct:subject "Oli d'oliva en textures";
+  skos:inScheme tc:Oli_d%27oliva_en_textures_ConSet;
+  ontolex:lexicalizedSense tc:Oli_d%27oliva_en_textures_C14_oil_soup_en_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C14_sopa_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C14_sopa_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C14_soupe_d%27huile_fr_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C14_oil_soup_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "oil soup" .
+
+tc:Oli_d%27oliva_en_textures_C14_oil_soup_en_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "en";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C14;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C14_oil_soup_en_form .
+
+tc:Oli_d%27oliva_en_textures_C14_oil_soup_en_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C14_oil_soup_en_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C14_sopa_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C14_sopa_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C14_soupe_d%27huile_fr_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C14_sopa_d%27oli_ca_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "sopa d'oli" .
+
+tc:Oli_d%27oliva_en_textures_C14_sopa_d%27oli_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C14;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C14_sopa_d%27oli_ca_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C14_sopa_d%27oli_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C14_sopa_d%27oli_ca_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C14_oil_soup_en_noun_sense, tc:Oli_d%27oliva_en_textures_C14_sopa_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C14_soupe_d%27huile_fr_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C14_sopa_de_aceite_es_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "sopa de aceite" .
+
+tc:Oli_d%27oliva_en_textures_C14_sopa_de_aceite_es_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "es";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C14;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C14_sopa_de_aceite_es_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C14_sopa_de_aceite_es_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C14_sopa_de_aceite_es_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C14_oil_soup_en_noun_sense, tc:Oli_d%27oliva_en_textures_C14_sopa_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C14_soupe_d%27huile_fr_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C14_soupe_d%27huile_fr_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "soupe d'huile" .
+
+tc:Oli_d%27oliva_en_textures_C14_soupe_d%27huile_fr_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "fr";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C14;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C14_soupe_d%27huile_fr_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C14_soupe_d%27huile_fr_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C14_soupe_d%27huile_fr_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C14_oil_soup_en_noun_sense, tc:Oli_d%27oliva_en_textures_C14_sopa_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C14_sopa_de_aceite_es_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C1_air_d%27huile_fr_form_masculine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "air d'huile" .
+
+tc:Oli_d%27oliva_en_textures_C1_air_d%27huile_fr_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "fr";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C1;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C1_air_d%27huile_fr_form_masculine .
+
+tc:Oli_d%27oliva_en_textures_C1_air_d%27huile_fr_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C1_air_d%27huile_fr_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C1_aire_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C1_aire_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C1_escuma_lleugera_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C1_espuma_ligera_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C1_light_oil_foam_en_noun_sense, tc:Oli_d%27oliva_en_textures_C1_oil_air_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C1_aire_d%27oli_ca_form_masculine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "aire d'oli" .
+
+tc:Oli_d%27oliva_en_textures_C1_aire_d%27oli_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C1;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C1_aire_d%27oli_ca_form_masculine .
+
+tc:Oli_d%27oliva_en_textures_C1_aire_d%27oli_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C1_aire_d%27oli_ca_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C1_escuma_lleugera_d%27oli_ca_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C1_air_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C1_aire_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C1_espuma_ligera_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C1_light_oil_foam_en_noun_sense, tc:Oli_d%27oliva_en_textures_C1_oil_air_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C1_aire_de_aceite_es_form_masculine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "aire de aceite" .
+
+tc:Oli_d%27oliva_en_textures_C1_aire_de_aceite_es_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "es";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C1;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C1_aire_de_aceite_es_form_masculine .
+
+tc:Oli_d%27oliva_en_textures_C1_aire_de_aceite_es_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C1_aire_de_aceite_es_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C1_espuma_ligera_de_aceite_es_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C1_air_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C1_aire_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C1_escuma_lleugera_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C1_light_oil_foam_en_noun_sense, tc:Oli_d%27oliva_en_textures_C1_oil_air_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C1_escuma_lleugera_d%27oli_ca_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "escuma lleugera d'oli" .
+
+tc:Oli_d%27oliva_en_textures_C1_escuma_lleugera_d%27oli_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C1;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C1_escuma_lleugera_d%27oli_ca_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C1_escuma_lleugera_d%27oli_ca_noun_sense a ontolex:LexicalSense;
+  lexinfo:normativeAuthorization lexinfo:deprecated;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C1_escuma_lleugera_d%27oli_ca_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C1_aire_d%27oli_ca_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C1_air_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C1_aire_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C1_espuma_ligera_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C1_light_oil_foam_en_noun_sense, tc:Oli_d%27oliva_en_textures_C1_oil_air_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C1_espuma_ligera_de_aceite_es_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "espuma ligera de aceite" .
+
+tc:Oli_d%27oliva_en_textures_C1_espuma_ligera_de_aceite_es_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "es";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C1;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C1_espuma_ligera_de_aceite_es_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C1_espuma_ligera_de_aceite_es_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C1_espuma_ligera_de_aceite_es_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C1_aire_de_aceite_es_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C1_air_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C1_aire_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C1_escuma_lleugera_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C1_light_oil_foam_en_noun_sense, tc:Oli_d%27oliva_en_textures_C1_oil_air_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C1_light_oil_foam_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "light oil foam" .
+
+tc:Oli_d%27oliva_en_textures_C1_light_oil_foam_en_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "en";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C1;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C1_light_oil_foam_en_form .
+
+tc:Oli_d%27oliva_en_textures_C1_light_oil_foam_en_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C1_light_oil_foam_en_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C1_oil_air_en_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C1_air_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C1_aire_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C1_aire_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C1_escuma_lleugera_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C1_espuma_ligera_de_aceite_es_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C1_oil_air_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "oil air" .
+
+tc:Oli_d%27oliva_en_textures_C1_oil_air_en_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "en";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C1;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C1_oil_air_en_form .
+
+tc:Oli_d%27oliva_en_textures_C1_oil_air_en_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C1_oil_air_en_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C1_light_oil_foam_en_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C1_air_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C1_aire_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C1_aire_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C1_escuma_lleugera_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C1_espuma_ligera_de_aceite_es_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C2 a ontolex:LexicalConcept;
+  dct:identifier "2";
+  dct:subject "Oli d'oliva en textures";
+  skos:inScheme tc:Oli_d%27oliva_en_textures_ConSet;
+  ontolex:lexicalizedSense tc:Oli_d%27oliva_en_textures_C2_caviar_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C2_caviar_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C2_caviar_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C2_encapsulado_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C2_encapsulat_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C2_encapsulated_oil_en_noun_sense, tc:Oli_d%27oliva_en_textures_C2_huile_capsule_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C2_oil_caviar_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C2_caviar_d%27huile_fr_form_masculine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "caviar d'huile" .
+
+tc:Oli_d%27oliva_en_textures_C2_caviar_d%27huile_fr_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "fr";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C2;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C2_caviar_d%27huile_fr_form_masculine .
+
+tc:Oli_d%27oliva_en_textures_C2_caviar_d%27huile_fr_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C2_caviar_d%27huile_fr_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C2_huile_capsule_fr_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C2_caviar_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C2_caviar_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C2_encapsulado_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C2_encapsulat_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C2_encapsulated_oil_en_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C2_oil_caviar_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C2_caviar_d%27oli_ca_form_masculine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "caviar d'oli" .
+
+tc:Oli_d%27oliva_en_textures_C2_caviar_d%27oli_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C2;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C2_caviar_d%27oli_ca_form_masculine .
+
+tc:Oli_d%27oliva_en_textures_C2_caviar_d%27oli_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C2_caviar_d%27oli_ca_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C2_encapsulat_d%27oli_ca_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C2_caviar_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C2_caviar_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C2_encapsulado_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C2_encapsulated_oil_en_noun_sense, tc:Oli_d%27oliva_en_textures_C2_huile_capsule_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C2_oil_caviar_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C2_caviar_de_aceite_es_form_masculine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "caviar de aceite" .
+
+tc:Oli_d%27oliva_en_textures_C2_caviar_de_aceite_es_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "es";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C2;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C2_caviar_de_aceite_es_form_masculine .
+
+tc:Oli_d%27oliva_en_textures_C2_caviar_de_aceite_es_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C2_caviar_de_aceite_es_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C2_encapsulado_de_aceite_es_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C2_caviar_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C2_caviar_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C2_encapsulat_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C2_encapsulated_oil_en_noun_sense, tc:Oli_d%27oliva_en_textures_C2_huile_capsule_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C2_oil_caviar_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C2_encapsulado_de_aceite_es_form_masculine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "encapsulado de aceite" .
+
+tc:Oli_d%27oliva_en_textures_C2_encapsulado_de_aceite_es_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "es";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C2;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C2_encapsulado_de_aceite_es_form_masculine .
+
+tc:Oli_d%27oliva_en_textures_C2_encapsulado_de_aceite_es_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C2_encapsulado_de_aceite_es_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C2_caviar_de_aceite_es_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C2_caviar_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C2_caviar_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C2_encapsulat_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C2_encapsulated_oil_en_noun_sense, tc:Oli_d%27oliva_en_textures_C2_huile_capsule_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C2_oil_caviar_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C2_encapsulat_d%27oli_ca_form_masculine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "encapsulat d'oli" .
+
+tc:Oli_d%27oliva_en_textures_C2_encapsulat_d%27oli_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C2;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C2_encapsulat_d%27oli_ca_form_masculine .
+
+tc:Oli_d%27oliva_en_textures_C2_encapsulat_d%27oli_ca_noun_sense a ontolex:LexicalSense;
+  lexinfo:normativeAuthorization lexinfo:deprecated;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C2_encapsulat_d%27oli_ca_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C2_caviar_d%27oli_ca_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C2_caviar_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C2_caviar_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C2_encapsulado_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C2_encapsulated_oil_en_noun_sense, tc:Oli_d%27oliva_en_textures_C2_huile_capsule_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C2_oil_caviar_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C2_encapsulated_oil_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "encapsulated oil" .
+
+tc:Oli_d%27oliva_en_textures_C2_encapsulated_oil_en_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "en";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C2;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C2_encapsulated_oil_en_form .
+
+tc:Oli_d%27oliva_en_textures_C2_encapsulated_oil_en_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C2_encapsulated_oil_en_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C2_oil_caviar_en_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C2_caviar_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C2_caviar_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C2_caviar_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C2_encapsulado_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C2_encapsulat_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C2_huile_capsule_fr_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C2_huile_capsule_fr_form_masculine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "huile capsulé" .
+
+tc:Oli_d%27oliva_en_textures_C2_huile_capsule_fr_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "fr";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C2;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C2_huile_capsule_fr_form_masculine .
+
+tc:Oli_d%27oliva_en_textures_C2_huile_capsule_fr_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C2_huile_capsule_fr_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C2_caviar_d%27huile_fr_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C2_caviar_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C2_caviar_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C2_encapsulado_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C2_encapsulat_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C2_encapsulated_oil_en_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C2_oil_caviar_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C2_oil_caviar_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "oil caviar" .
+
+tc:Oli_d%27oliva_en_textures_C2_oil_caviar_en_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "en";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C2;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C2_oil_caviar_en_form .
+
+tc:Oli_d%27oliva_en_textures_C2_oil_caviar_en_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C2_oil_caviar_en_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C2_encapsulated_oil_en_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C2_caviar_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C2_caviar_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C2_caviar_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C2_encapsulado_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C2_encapsulat_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C2_huile_capsule_fr_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C3 a ontolex:LexicalConcept;
+  dct:identifier "3";
+  dct:subject "Oli d'oliva en textures";
+  skos:inScheme tc:Oli_d%27oliva_en_textures_ConSet;
+  ontolex:lexicalizedSense tc:Oli_d%27oliva_en_textures_C3_crema_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C3_crema_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C3_creme_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C3_oil_cream_en_noun_sense, tc:Oli_d%27oliva_en_textures_C3_olive_oil_cream_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C3_crema_d%27oli_ca_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "crema d'oli" .
+
+tc:Oli_d%27oliva_en_textures_C3_crema_d%27oli_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C3;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C3_crema_d%27oli_ca_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C3_crema_d%27oli_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C3_crema_d%27oli_ca_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C3_crema_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C3_creme_d%27huile_fr_noun_sense, tc:Oli_d%27oliva_en_textures_C3_oil_cream_en_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C3_olive_oil_cream_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C3_crema_de_aceite_es_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "crema de aceite" .
+
+tc:Oli_d%27oliva_en_textures_C3_crema_de_aceite_es_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "es";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C3;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C3_crema_de_aceite_es_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C3_crema_de_aceite_es_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C3_crema_de_aceite_es_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C3_crema_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C3_creme_d%27huile_fr_noun_sense, tc:Oli_d%27oliva_en_textures_C3_oil_cream_en_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C3_olive_oil_cream_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C3_creme_d%27huile_fr_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "crème d'huile" .
+
+tc:Oli_d%27oliva_en_textures_C3_creme_d%27huile_fr_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "fr";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C3;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C3_creme_d%27huile_fr_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C3_creme_d%27huile_fr_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C3_creme_d%27huile_fr_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C3_crema_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C3_crema_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C3_oil_cream_en_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C3_olive_oil_cream_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C3_oil_cream_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "oil cream" .
+
+tc:Oli_d%27oliva_en_textures_C3_oil_cream_en_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "en";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C3;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C3_oil_cream_en_form .
+
+tc:Oli_d%27oliva_en_textures_C3_oil_cream_en_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C3_oil_cream_en_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C3_olive_oil_cream_en_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C3_crema_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C3_crema_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C3_creme_d%27huile_fr_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C3_olive_oil_cream_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "olive oil cream" .
+
+tc:Oli_d%27oliva_en_textures_C3_olive_oil_cream_en_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "en";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C3;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C3_olive_oil_cream_en_form .
+
+tc:Oli_d%27oliva_en_textures_C3_olive_oil_cream_en_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C3_olive_oil_cream_en_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C3_oil_cream_en_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C3_crema_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C3_crema_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C3_creme_d%27huile_fr_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C4 a ontolex:LexicalConcept;
+  dct:identifier "4";
+  dct:subject "Oli d'oliva en textures";
+  skos:inScheme tc:Oli_d%27oliva_en_textures_ConSet;
+  ontolex:lexicalizedSense tc:Oli_d%27oliva_en_textures_C4_crispetes_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C4_oil_popcorn_en_noun_sense, tc:Oli_d%27oliva_en_textures_C4_palomitas_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C4_pop-corn_d%27huile_fr_noun_sense, tc:Oli_d%27oliva_en_textures_C4_pop-corn_huile_fr_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C4_crispetes_d%27oli_ca_form_femenine_plural a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:number lexinfo:plural;
+  ontolex:writtenRep "crispetes d'oli" .
+
+tc:Oli_d%27oliva_en_textures_C4_crispetes_d%27oli_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C4;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C4_crispetes_d%27oli_ca_form_femenine_plural .
+
+tc:Oli_d%27oliva_en_textures_C4_crispetes_d%27oli_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C4_crispetes_d%27oli_ca_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C4_oil_popcorn_en_noun_sense, tc:Oli_d%27oliva_en_textures_C4_palomitas_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C4_pop-corn_d%27huile_fr_noun_sense, tc:Oli_d%27oliva_en_textures_C4_pop-corn_huile_fr_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C4_oil_popcorn_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "oil popcorn" .
+
+tc:Oli_d%27oliva_en_textures_C4_oil_popcorn_en_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "en";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C4;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C4_oil_popcorn_en_form .
+
+tc:Oli_d%27oliva_en_textures_C4_oil_popcorn_en_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C4_oil_popcorn_en_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C4_crispetes_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C4_palomitas_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C4_pop-corn_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C4_pop-corn_huile_fr_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C4_palomitas_de_aceite_es_form_femenine_plural a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:number lexinfo:plural;
+  ontolex:writtenRep "palomitas de aceite" .
+
+tc:Oli_d%27oliva_en_textures_C4_palomitas_de_aceite_es_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "es";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C4;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C4_palomitas_de_aceite_es_form_femenine_plural .
+
+tc:Oli_d%27oliva_en_textures_C4_palomitas_de_aceite_es_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C4_palomitas_de_aceite_es_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C4_crispetes_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C4_oil_popcorn_en_noun_sense, tc:Oli_d%27oliva_en_textures_C4_pop-corn_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C4_pop-corn_huile_fr_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C4_pop-corn_d%27huile_fr_form_masculine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "pop-corn d'huile" .
+
+tc:Oli_d%27oliva_en_textures_C4_pop-corn_d%27huile_fr_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "fr";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C4;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C4_pop-corn_d%27huile_fr_form_masculine .
+
+tc:Oli_d%27oliva_en_textures_C4_pop-corn_d%27huile_fr_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C4_pop-corn_d%27huile_fr_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C4_pop-corn_huile_fr_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C4_crispetes_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C4_oil_popcorn_en_noun_sense, tc:Oli_d%27oliva_en_textures_C4_palomitas_de_aceite_es_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C4_pop-corn_huile_fr_form_masculine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "pop-corn huile" .
+
+tc:Oli_d%27oliva_en_textures_C4_pop-corn_huile_fr_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "fr";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C4;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C4_pop-corn_huile_fr_form_masculine .
+
+tc:Oli_d%27oliva_en_textures_C4_pop-corn_huile_fr_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C4_pop-corn_huile_fr_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C4_pop-corn_d%27huile_fr_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C4_crispetes_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C4_oil_popcorn_en_noun_sense, tc:Oli_d%27oliva_en_textures_C4_palomitas_de_aceite_es_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C5 a ontolex:LexicalConcept;
+  dct:identifier "5";
+  dct:subject "Oli d'oliva en textures";
+  skos:inScheme tc:Oli_d%27oliva_en_textures_ConSet;
+  ontolex:lexicalizedSense tc:Oli_d%27oliva_en_textures_C5_destil%2Alat_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C5_destilado_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C5_distillat_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C5_distillate_of_oil_en_noun_sense, tc:Oli_d%27oliva_en_textures_C5_distillation_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C5_oil_distillate_en_noun_sense, tc:Oli_d%27oliva_en_textures_C5_oil_distillation_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C5_destil%2Alat_d%27oli_ca_form_masculine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "destil·lat d'oli" .
+
+tc:Oli_d%27oliva_en_textures_C5_destil%2Alat_d%27oli_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C5;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C5_destil%2Alat_d%27oli_ca_form_masculine .
+
+tc:Oli_d%27oliva_en_textures_C5_destil%2Alat_d%27oli_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C5_destil%2Alat_d%27oli_ca_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C5_destilado_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C5_distillat_d%27huile_fr_noun_sense, tc:Oli_d%27oliva_en_textures_C5_distillate_of_oil_en_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C5_distillation_d%27huile_fr_noun_sense, tc:Oli_d%27oliva_en_textures_C5_oil_distillate_en_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C5_oil_distillation_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C5_destilado_de_aceite_es_form_masculine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "destilado de aceite" .
+
+tc:Oli_d%27oliva_en_textures_C5_destilado_de_aceite_es_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "es";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C5;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C5_destilado_de_aceite_es_form_masculine .
+
+tc:Oli_d%27oliva_en_textures_C5_destilado_de_aceite_es_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C5_destilado_de_aceite_es_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C5_destil%2Alat_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C5_distillat_d%27huile_fr_noun_sense, tc:Oli_d%27oliva_en_textures_C5_distillate_of_oil_en_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C5_distillation_d%27huile_fr_noun_sense, tc:Oli_d%27oliva_en_textures_C5_oil_distillate_en_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C5_oil_distillation_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C5_distillat_d%27huile_fr_form_masculine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "distillat d'huile" .
+
+tc:Oli_d%27oliva_en_textures_C5_distillat_d%27huile_fr_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "fr";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C5;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C5_distillat_d%27huile_fr_form_masculine .
+
+tc:Oli_d%27oliva_en_textures_C5_distillat_d%27huile_fr_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C5_distillat_d%27huile_fr_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C5_distillation_d%27huile_fr_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C5_destil%2Alat_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C5_destilado_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C5_distillate_of_oil_en_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C5_oil_distillate_en_noun_sense, tc:Oli_d%27oliva_en_textures_C5_oil_distillation_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C5_distillate_of_oil_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "distillate of oil" .
+
+tc:Oli_d%27oliva_en_textures_C5_distillate_of_oil_en_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "en";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C5;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C5_distillate_of_oil_en_form .
+
+tc:Oli_d%27oliva_en_textures_C5_distillate_of_oil_en_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C5_distillate_of_oil_en_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C5_oil_distillate_en_noun_sense, tc:Oli_d%27oliva_en_textures_C5_oil_distillation_en_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C5_destil%2Alat_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C5_destilado_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C5_distillat_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C5_distillation_d%27huile_fr_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C5_distillation_d%27huile_fr_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "distillation d'huile" .
+
+tc:Oli_d%27oliva_en_textures_C5_distillation_d%27huile_fr_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "fr";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C5;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C5_distillation_d%27huile_fr_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C5_distillation_d%27huile_fr_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C5_distillation_d%27huile_fr_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C5_distillat_d%27huile_fr_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C5_destil%2Alat_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C5_destilado_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C5_distillate_of_oil_en_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C5_oil_distillate_en_noun_sense, tc:Oli_d%27oliva_en_textures_C5_oil_distillation_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C5_oil_distillate_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "oil distillate" .
+
+tc:Oli_d%27oliva_en_textures_C5_oil_distillate_en_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "en";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C5;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C5_oil_distillate_en_form .
+
+tc:Oli_d%27oliva_en_textures_C5_oil_distillate_en_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C5_oil_distillate_en_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C5_distillate_of_oil_en_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C5_oil_distillation_en_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C5_destil%2Alat_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C5_destilado_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C5_distillat_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C5_distillation_d%27huile_fr_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C5_oil_distillation_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "oil distillation" .
+
+tc:Oli_d%27oliva_en_textures_C5_oil_distillation_en_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "en";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C5;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C5_oil_distillation_en_form .
+
+tc:Oli_d%27oliva_en_textures_C5_oil_distillation_en_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C5_oil_distillation_en_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C5_distillate_of_oil_en_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C5_oil_distillate_en_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C5_destil%2Alat_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C5_destilado_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C5_distillat_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C5_distillation_d%27huile_fr_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C6 a ontolex:LexicalConcept;
+  dct:identifier "6";
+  dct:subject "Oli d'oliva en textures";
+  skos:inScheme tc:Oli_d%27oliva_en_textures_ConSet;
+  ontolex:lexicalizedSense tc:Oli_d%27oliva_en_textures_C6_emulsio_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_maionesa_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C6_mayonesa_de_aceite_de_oliva_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_mayonesa_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C6_mayonnaise_a_l%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_mayonnaise_d%27huile_d%27olive_fr_noun_sense, tc:Oli_d%27oliva_en_textures_C6_mayonnaise_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_oil_mayonnaise_en_noun_sense, tc:Oli_d%27oliva_en_textures_C6_olive_oil_mayonnaise_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C6_emulsio_d%27oli_ca_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "emulsió d'oli" .
+
+tc:Oli_d%27oliva_en_textures_C6_emulsio_d%27oli_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C6;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C6_emulsio_d%27oli_ca_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C6_emulsio_d%27oli_ca_noun_sense a ontolex:LexicalSense;
+  lexinfo:normativeAuthorization lexinfo:deprecated;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C6_emulsio_d%27oli_ca_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C6_maionesa_d%27oli_ca_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C6_mayonesa_de_aceite_de_oliva_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_mayonesa_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C6_mayonnaise_a_l%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_mayonnaise_d%27huile_d%27olive_fr_noun_sense, tc:Oli_d%27oliva_en_textures_C6_mayonnaise_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_oil_mayonnaise_en_noun_sense, tc:Oli_d%27oliva_en_textures_C6_olive_oil_mayonnaise_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C6_maionesa_d%27oli_ca_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "maionesa d'oli" .
+
+tc:Oli_d%27oliva_en_textures_C6_maionesa_d%27oli_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C6;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C6_maionesa_d%27oli_ca_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C6_maionesa_d%27oli_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C6_maionesa_d%27oli_ca_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C6_emulsio_d%27oli_ca_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C6_mayonesa_de_aceite_de_oliva_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_mayonesa_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C6_mayonnaise_a_l%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_mayonnaise_d%27huile_d%27olive_fr_noun_sense, tc:Oli_d%27oliva_en_textures_C6_mayonnaise_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_oil_mayonnaise_en_noun_sense, tc:Oli_d%27oliva_en_textures_C6_olive_oil_mayonnaise_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C6_mayonesa_de_aceite_de_oliva_es_form_masculine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "mayonesa de aceite de oliva" .
+
+tc:Oli_d%27oliva_en_textures_C6_mayonesa_de_aceite_de_oliva_es_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "es";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C6;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C6_mayonesa_de_aceite_de_oliva_es_form_masculine .
+
+tc:Oli_d%27oliva_en_textures_C6_mayonesa_de_aceite_de_oliva_es_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C6_mayonesa_de_aceite_de_oliva_es_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C6_mayonesa_de_aceite_es_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C6_emulsio_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_maionesa_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C6_mayonnaise_a_l%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_mayonnaise_d%27huile_d%27olive_fr_noun_sense, tc:Oli_d%27oliva_en_textures_C6_mayonnaise_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_oil_mayonnaise_en_noun_sense, tc:Oli_d%27oliva_en_textures_C6_olive_oil_mayonnaise_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C6_mayonesa_de_aceite_es_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "mayonesa de aceite" .
+
+tc:Oli_d%27oliva_en_textures_C6_mayonesa_de_aceite_es_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "es";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C6;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C6_mayonesa_de_aceite_es_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C6_mayonesa_de_aceite_es_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C6_mayonesa_de_aceite_es_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C6_mayonesa_de_aceite_de_oliva_es_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C6_emulsio_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_maionesa_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C6_mayonnaise_a_l%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_mayonnaise_d%27huile_d%27olive_fr_noun_sense, tc:Oli_d%27oliva_en_textures_C6_mayonnaise_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_oil_mayonnaise_en_noun_sense, tc:Oli_d%27oliva_en_textures_C6_olive_oil_mayonnaise_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C6_mayonnaise_a_l%27huile_fr_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "mayonnaise à l'huile" .
+
+tc:Oli_d%27oliva_en_textures_C6_mayonnaise_a_l%27huile_fr_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "fr";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C6;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C6_mayonnaise_a_l%27huile_fr_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C6_mayonnaise_a_l%27huile_fr_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C6_mayonnaise_a_l%27huile_fr_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C6_mayonnaise_d%27huile_d%27olive_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_mayonnaise_d%27huile_fr_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C6_emulsio_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_maionesa_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C6_mayonesa_de_aceite_de_oliva_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_mayonesa_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C6_oil_mayonnaise_en_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_olive_oil_mayonnaise_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C6_mayonnaise_d%27huile_d%27olive_fr_form_femenine a
+    ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "mayonnaise d'huile d'olive" .
+
+tc:Oli_d%27oliva_en_textures_C6_mayonnaise_d%27huile_d%27olive_fr_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "fr";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C6;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C6_mayonnaise_d%27huile_d%27olive_fr_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C6_mayonnaise_d%27huile_d%27olive_fr_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C6_mayonnaise_d%27huile_d%27olive_fr_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C6_mayonnaise_a_l%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_mayonnaise_d%27huile_fr_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C6_emulsio_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_maionesa_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C6_mayonesa_de_aceite_de_oliva_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_mayonesa_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C6_oil_mayonnaise_en_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_olive_oil_mayonnaise_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C6_mayonnaise_d%27huile_fr_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "mayonnaise d'huile" .
+
+tc:Oli_d%27oliva_en_textures_C6_mayonnaise_d%27huile_fr_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "fr";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C6;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C6_mayonnaise_d%27huile_fr_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C6_mayonnaise_d%27huile_fr_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C6_mayonnaise_d%27huile_fr_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C6_mayonnaise_a_l%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_mayonnaise_d%27huile_d%27olive_fr_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C6_emulsio_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_maionesa_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C6_mayonesa_de_aceite_de_oliva_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_mayonesa_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C6_oil_mayonnaise_en_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_olive_oil_mayonnaise_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C6_oil_mayonnaise_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "oil mayonnaise" .
+
+tc:Oli_d%27oliva_en_textures_C6_oil_mayonnaise_en_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "en";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C6;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C6_oil_mayonnaise_en_form .
+
+tc:Oli_d%27oliva_en_textures_C6_oil_mayonnaise_en_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C6_oil_mayonnaise_en_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C6_olive_oil_mayonnaise_en_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C6_emulsio_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_maionesa_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C6_mayonesa_de_aceite_de_oliva_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_mayonesa_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C6_mayonnaise_a_l%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_mayonnaise_d%27huile_d%27olive_fr_noun_sense, tc:Oli_d%27oliva_en_textures_C6_mayonnaise_d%27huile_fr_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C6_olive_oil_mayonnaise_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "olive oil mayonnaise" .
+
+tc:Oli_d%27oliva_en_textures_C6_olive_oil_mayonnaise_en_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "en";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C6;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C6_olive_oil_mayonnaise_en_form .
+
+tc:Oli_d%27oliva_en_textures_C6_olive_oil_mayonnaise_en_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C6_olive_oil_mayonnaise_en_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C6_oil_mayonnaise_en_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C6_emulsio_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_maionesa_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C6_mayonesa_de_aceite_de_oliva_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_mayonesa_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C6_mayonnaise_a_l%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C6_mayonnaise_d%27huile_d%27olive_fr_noun_sense, tc:Oli_d%27oliva_en_textures_C6_mayonnaise_d%27huile_fr_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C7 a ontolex:LexicalConcept;
+  dct:identifier "7";
+  dct:subject "Oli d'oliva en textures";
+  skos:inScheme tc:Oli_d%27oliva_en_textures_ConSet;
+  ontolex:lexicalizedSense tc:Oli_d%27oliva_en_textures_C7_ecume_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C7_escuma_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C7_espuma_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C7_oil_foam_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C7_ecume_d%27huile_fr_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "écume d'huile" .
+
+tc:Oli_d%27oliva_en_textures_C7_ecume_d%27huile_fr_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "fr";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C7;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C7_ecume_d%27huile_fr_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C7_ecume_d%27huile_fr_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C7_ecume_d%27huile_fr_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C7_escuma_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C7_espuma_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C7_oil_foam_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C7_escuma_d%27oli_ca_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "escuma d'oli" .
+
+tc:Oli_d%27oliva_en_textures_C7_escuma_d%27oli_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C7;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C7_escuma_d%27oli_ca_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C7_escuma_d%27oli_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C7_escuma_d%27oli_ca_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C7_ecume_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C7_espuma_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C7_oil_foam_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C7_espuma_de_aceite_es_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "espuma de aceite" .
+
+tc:Oli_d%27oliva_en_textures_C7_espuma_de_aceite_es_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "es";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C7;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C7_espuma_de_aceite_es_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C7_espuma_de_aceite_es_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C7_espuma_de_aceite_es_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C7_ecume_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C7_escuma_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C7_oil_foam_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C7_oil_foam_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "oil foam" .
+
+tc:Oli_d%27oliva_en_textures_C7_oil_foam_en_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "en";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C7;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C7_oil_foam_en_form .
+
+tc:Oli_d%27oliva_en_textures_C7_oil_foam_en_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C7_oil_foam_en_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C7_ecume_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C7_escuma_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C7_espuma_de_aceite_es_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C8 a ontolex:LexicalConcept;
+  dct:identifier "8";
+  dct:subject "Oli d'oliva en textures";
+  skos:inScheme tc:Oli_d%27oliva_en_textures_ConSet;
+  ontolex:lexicalizedSense tc:Oli_d%27oliva_en_textures_C8_creme_caramel_a_l%27huile_d%27olive_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C8_flam_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C8_flan_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C8_flan_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C8_oil_cream_caramel_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C8_creme_caramel_a_l%27huile_d%27olive_fr_form_femenine
+  a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "crème caramel à l'huile d'olive" .
+
+tc:Oli_d%27oliva_en_textures_C8_creme_caramel_a_l%27huile_d%27olive_fr_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "fr";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C8;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C8_creme_caramel_a_l%27huile_d%27olive_fr_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C8_creme_caramel_a_l%27huile_d%27olive_fr_noun_sense
+  a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C8_creme_caramel_a_l%27huile_d%27olive_fr_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C8_flan_d%27huile_fr_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C8_flam_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C8_flan_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C8_oil_cream_caramel_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C8_flam_d%27oli_ca_form_masculine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "flam d'oli" .
+
+tc:Oli_d%27oliva_en_textures_C8_flam_d%27oli_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C8;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C8_flam_d%27oli_ca_form_masculine .
+
+tc:Oli_d%27oliva_en_textures_C8_flam_d%27oli_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C8_flam_d%27oli_ca_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C8_creme_caramel_a_l%27huile_d%27olive_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C8_flan_d%27huile_fr_noun_sense, tc:Oli_d%27oliva_en_textures_C8_flan_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C8_oil_cream_caramel_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C8_flan_d%27huile_fr_form_masculine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "flan d'huile" .
+
+tc:Oli_d%27oliva_en_textures_C8_flan_d%27huile_fr_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "fr";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C8;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C8_flan_d%27huile_fr_form_masculine .
+
+tc:Oli_d%27oliva_en_textures_C8_flan_d%27huile_fr_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C8_flan_d%27huile_fr_noun;
+  vartrans:synonym tc:Oli_d%27oliva_en_textures_C8_creme_caramel_a_l%27huile_d%27olive_fr_noun_sense;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C8_flam_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C8_flan_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C8_oil_cream_caramel_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C8_flan_de_aceite_es_form_masculine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:masculine;
+  ontolex:writtenRep "flan de aceite" .
+
+tc:Oli_d%27oliva_en_textures_C8_flan_de_aceite_es_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "es";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C8;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C8_flan_de_aceite_es_form_masculine .
+
+tc:Oli_d%27oliva_en_textures_C8_flan_de_aceite_es_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C8_flan_de_aceite_es_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C8_creme_caramel_a_l%27huile_d%27olive_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C8_flam_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C8_flan_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C8_oil_cream_caramel_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C8_oil_cream_caramel_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "oil cream caramel" .
+
+tc:Oli_d%27oliva_en_textures_C8_oil_cream_caramel_en_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "en";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C8;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C8_oil_cream_caramel_en_form .
+
+tc:Oli_d%27oliva_en_textures_C8_oil_cream_caramel_en_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C8_oil_cream_caramel_en_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C8_creme_caramel_a_l%27huile_d%27olive_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C8_flam_d%27oli_ca_noun_sense, tc:Oli_d%27oliva_en_textures_C8_flan_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C8_flan_de_aceite_es_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C9 a ontolex:LexicalConcept;
+  dct:identifier "9";
+  dct:subject "Oli d'oliva en textures";
+  skos:inScheme tc:Oli_d%27oliva_en_textures_ConSet;
+  ontolex:lexicalizedSense tc:Oli_d%27oliva_en_textures_C9_gelatina_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C9_gelatina_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C9_gelee_d%27huile_fr_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C9_oil_jelly_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C9_gelatina_d%27oli_ca_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "gelatina d'oli" .
+
+tc:Oli_d%27oliva_en_textures_C9_gelatina_d%27oli_ca_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "ca";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C9;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C9_gelatina_d%27oli_ca_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C9_gelatina_d%27oli_ca_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C9_gelatina_d%27oli_ca_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C9_gelatina_de_aceite_es_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C9_gelee_d%27huile_fr_noun_sense, tc:Oli_d%27oliva_en_textures_C9_oil_jelly_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C9_gelatina_de_aceite_es_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "gelatina de aceite" .
+
+tc:Oli_d%27oliva_en_textures_C9_gelatina_de_aceite_es_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "es";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C9;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C9_gelatina_de_aceite_es_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C9_gelatina_de_aceite_es_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C9_gelatina_de_aceite_es_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C9_gelatina_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C9_gelee_d%27huile_fr_noun_sense, tc:Oli_d%27oliva_en_textures_C9_oil_jelly_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C9_gelee_d%27huile_fr_form_femenine a ontolex:LexicalForm;
+  ontolex:gender lexinfo:femenine;
+  ontolex:writtenRep "gelée d'huile" .
+
+tc:Oli_d%27oliva_en_textures_C9_gelee_d%27huile_fr_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "fr";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C9;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C9_gelee_d%27huile_fr_form_femenine .
+
+tc:Oli_d%27oliva_en_textures_C9_gelee_d%27huile_fr_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C9_gelee_d%27huile_fr_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C9_gelatina_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C9_gelatina_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C9_oil_jelly_en_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_C9_oil_jelly_en_form a ontolex:LexicalForm;
+  ontolex:writtenRep "oil jelly" .
+
+tc:Oli_d%27oliva_en_textures_C9_oil_jelly_en_noun a ontolex:LexicalEntry;
+  lexinfo:partOfSpeech lexinfo:noun;
+  lime:language "en";
+  ontolex:evokes tc:Oli_d%27oliva_en_textures_C9;
+  ontolex:lexicalForm tc:Oli_d%27oliva_en_textures_C9_oil_jelly_en_form .
+
+tc:Oli_d%27oliva_en_textures_C9_oil_jelly_en_noun_sense a ontolex:LexicalSense;
+  ontolex:isSenseOf tc:Oli_d%27oliva_en_textures_C9_oil_jelly_en_noun;
+  vartrans:translation tc:Oli_d%27oliva_en_textures_C9_gelatina_d%27oli_ca_noun_sense,
+    tc:Oli_d%27oliva_en_textures_C9_gelatina_de_aceite_es_noun_sense, tc:Oli_d%27oliva_en_textures_C9_gelee_d%27huile_fr_noun_sense .
+
+tc:Oli_d%27oliva_en_textures_ConSet a ontolex:ConceptSet .

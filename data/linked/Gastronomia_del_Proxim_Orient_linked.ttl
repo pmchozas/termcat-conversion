@@ -1,0 +1,3584 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lime: <http://www.w3.org/ns/lemon/lime#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix tc: <http://w3id.org/termcat-ld/> .
+@prefix vartrans: <http://www.w3.org/ns/lemon/vartrans#> .
+
+tc:Gastronomia_del_Proxim_Orient_C10_fatouche_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C10 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C10_fatouche_fr_form,
+        tc:Gastronomia_del_Proxim_Orient_C10_form .
+
+tc:Gastronomia_del_Proxim_Orient_C10_fatouche_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "fatouche" .
+
+tc:Gastronomia_del_Proxim_Orient_C10_fatoush_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C10 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C10_fatoush_en_form,
+        tc:Gastronomia_del_Proxim_Orient_C10_form .
+
+tc:Gastronomia_del_Proxim_Orient_C10_fatoush_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "fatoush" .
+
+tc:Gastronomia_del_Proxim_Orient_C10_fattouche_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C10 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C10_fattouche_fr_form,
+        tc:Gastronomia_del_Proxim_Orient_C10_form .
+
+tc:Gastronomia_del_Proxim_Orient_C10_fattouche_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "fattouche" .
+
+tc:Gastronomia_del_Proxim_Orient_C10_fattoush_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C10 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C10_fattoush_en_form,
+        tc:Gastronomia_del_Proxim_Orient_C10_form .
+
+tc:Gastronomia_del_Proxim_Orient_C10_fattoush_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "fattoush" .
+
+tc:Gastronomia_del_Proxim_Orient_C10_fattush_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C10 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C10_fattush_es_form,
+        tc:Gastronomia_del_Proxim_Orient_C10_form .
+
+tc:Gastronomia_del_Proxim_Orient_C10_fattush_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "fattush" .
+
+tc:Gastronomia_del_Proxim_Orient_C10_fatuix_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "fatuix" .
+
+tc:Gastronomia_del_Proxim_Orient_C10_fatuix_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C10 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C10_fatuix_ca_form_masculine .
+
+tc:Gastronomia_del_Proxim_Orient_C10_fatush_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C10 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C10_fatush_es_form,
+        tc:Gastronomia_del_Proxim_Orient_C10_form .
+
+tc:Gastronomia_del_Proxim_Orient_C10_fatush_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "fatush" .
+
+tc:Gastronomia_del_Proxim_Orient_C11_harira_ca_form_femenine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:femenine ;
+    ontolex:writtenRep "harira" .
+
+tc:Gastronomia_del_Proxim_Orient_C11_harira_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C11 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C11_harira_ca_form_femenine .
+
+tc:Gastronomia_del_Proxim_Orient_C11_harira_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C11 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C11_form,
+        tc:Gastronomia_del_Proxim_Orient_C11_harira_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C11_harira_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "harira" .
+
+tc:Gastronomia_del_Proxim_Orient_C11_harira_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C11 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C11_form,
+        tc:Gastronomia_del_Proxim_Orient_C11_harira_es_form .
+
+tc:Gastronomia_del_Proxim_Orient_C11_harira_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "harira" .
+
+tc:Gastronomia_del_Proxim_Orient_C11_harira_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C11 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C11_form,
+        tc:Gastronomia_del_Proxim_Orient_C11_harira_fr_form .
+
+tc:Gastronomia_del_Proxim_Orient_C11_harira_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "harira" .
+
+tc:Gastronomia_del_Proxim_Orient_C12_harisa_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C12 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C12_form,
+        tc:Gastronomia_del_Proxim_Orient_C12_harisa_es_form .
+
+tc:Gastronomia_del_Proxim_Orient_C12_harisa_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "harisa" .
+
+tc:Gastronomia_del_Proxim_Orient_C12_harissa_ca_form_femenine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:femenine ;
+    ontolex:writtenRep "harissa" .
+
+tc:Gastronomia_del_Proxim_Orient_C12_harissa_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C12 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C12_harissa_ca_form_femenine .
+
+tc:Gastronomia_del_Proxim_Orient_C12_harissa_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C12 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C12_form,
+        tc:Gastronomia_del_Proxim_Orient_C12_harissa_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C12_harissa_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "harissa" .
+
+tc:Gastronomia_del_Proxim_Orient_C12_harissa_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C12 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C12_form,
+        tc:Gastronomia_del_Proxim_Orient_C12_harissa_es_form .
+
+tc:Gastronomia_del_Proxim_Orient_C12_harissa_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "harissa" .
+
+tc:Gastronomia_del_Proxim_Orient_C12_harissa_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C12 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C12_form,
+        tc:Gastronomia_del_Proxim_Orient_C12_harissa_fr_form .
+
+tc:Gastronomia_del_Proxim_Orient_C12_harissa_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "harissa" .
+
+tc:Gastronomia_del_Proxim_Orient_C13_hommos_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C13 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C13_form,
+        tc:Gastronomia_del_Proxim_Orient_C13_hommos_fr_form .
+
+tc:Gastronomia_del_Proxim_Orient_C13_hommos_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "hommos" .
+
+tc:Gastronomia_del_Proxim_Orient_C13_hoummos_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C13 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C13_form,
+        tc:Gastronomia_del_Proxim_Orient_C13_hoummos_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C13_hoummos_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "hoummos" .
+
+tc:Gastronomia_del_Proxim_Orient_C13_hoummos_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C13 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C13_form,
+        tc:Gastronomia_del_Proxim_Orient_C13_hoummos_fr_form .
+
+tc:Gastronomia_del_Proxim_Orient_C13_hoummos_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "hoummos" .
+
+tc:Gastronomia_del_Proxim_Orient_C13_hummus_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "hummus" .
+
+tc:Gastronomia_del_Proxim_Orient_C13_hummus_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C13 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C13_hummus_ca_form_masculine .
+
+tc:Gastronomia_del_Proxim_Orient_C13_hummus_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C13 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C13_form,
+        tc:Gastronomia_del_Proxim_Orient_C13_hummus_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C13_hummus_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "hummus" .
+
+tc:Gastronomia_del_Proxim_Orient_C13_hummus_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C13 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C13_form,
+        tc:Gastronomia_del_Proxim_Orient_C13_hummus_es_form .
+
+tc:Gastronomia_del_Proxim_Orient_C13_hummus_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "hummus" .
+
+tc:Gastronomia_del_Proxim_Orient_C13_humus_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C13 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C13_form,
+        tc:Gastronomia_del_Proxim_Orient_C13_humus_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C13_humus_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "humus" .
+
+tc:Gastronomia_del_Proxim_Orient_C13_humus_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C13 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C13_form,
+        tc:Gastronomia_del_Proxim_Orient_C13_humus_es_form .
+
+tc:Gastronomia_del_Proxim_Orient_C13_humus_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "humus" .
+
+tc:Gastronomia_del_Proxim_Orient_C14_chiche-kebab_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C14 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C14_chiche-kebab_fr_form,
+        tc:Gastronomia_del_Proxim_Orient_C14_form .
+
+tc:Gastronomia_del_Proxim_Orient_C14_chiche-kebab_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "chiche-kébab" .
+
+tc:Gastronomia_del_Proxim_Orient_C14_kebab_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "kebab" .
+
+tc:Gastronomia_del_Proxim_Orient_C14_kebab_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C14 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C14_kebab_ca_form_masculine .
+
+tc:Gastronomia_del_Proxim_Orient_C14_kebab_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C14 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C14_form,
+        tc:Gastronomia_del_Proxim_Orient_C14_kebab_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C14_kebab_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "kebab" .
+
+tc:Gastronomia_del_Proxim_Orient_C14_kebab_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C14 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C14_form,
+        tc:Gastronomia_del_Proxim_Orient_C14_kebab_es_form .
+
+tc:Gastronomia_del_Proxim_Orient_C14_kebab_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "kebab" .
+
+tc:Gastronomia_del_Proxim_Orient_C14_kebab_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C14 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C14_form,
+        tc:Gastronomia_del_Proxim_Orient_C14_kebab_fr_form .
+
+tc:Gastronomia_del_Proxim_Orient_C14_kebab_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "kébab" .
+
+tc:Gastronomia_del_Proxim_Orient_C14_shish_kebab_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C14 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C14_form,
+        tc:Gastronomia_del_Proxim_Orient_C14_shish_kebab_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C14_shish_kebab_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "shish kebab" .
+
+tc:Gastronomia_del_Proxim_Orient_C14_shish_kebab_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C14 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C14_form,
+        tc:Gastronomia_del_Proxim_Orient_C14_shish_kebab_es_form .
+
+tc:Gastronomia_del_Proxim_Orient_C14_shish_kebab_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "shish kebab" .
+
+tc:Gastronomia_del_Proxim_Orient_C14_xix_kebab_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "xix kebab" .
+
+tc:Gastronomia_del_Proxim_Orient_C14_xix_kebab_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C14 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C14_xix_kebab_ca_form_masculine .
+
+tc:Gastronomia_del_Proxim_Orient_C15_kebbe_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C15 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C15_form,
+        tc:Gastronomia_del_Proxim_Orient_C15_kebbe_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C15_kebbe_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "kebbe" .
+
+tc:Gastronomia_del_Proxim_Orient_C15_kebbe_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C15 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C15_form,
+        tc:Gastronomia_del_Proxim_Orient_C15_kebbe_es_form .
+
+tc:Gastronomia_del_Proxim_Orient_C15_kebbe_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "kebbe" .
+
+tc:Gastronomia_del_Proxim_Orient_C15_kebbe_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C15 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C15_form,
+        tc:Gastronomia_del_Proxim_Orient_C15_kebbe_fr_form .
+
+tc:Gastronomia_del_Proxim_Orient_C15_kebbe_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "kebbe" .
+
+tc:Gastronomia_del_Proxim_Orient_C15_kebe_ca_form_femenine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:femenine ;
+    ontolex:writtenRep "kebe" .
+
+tc:Gastronomia_del_Proxim_Orient_C15_kebe_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C15 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C15_kebe_ca_form_femenine .
+
+tc:Gastronomia_del_Proxim_Orient_C15_kibba_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C15 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C15_form,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibba_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C15_kibba_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "kibba" .
+
+tc:Gastronomia_del_Proxim_Orient_C15_kibba_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C15 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C15_form,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibba_es_form .
+
+tc:Gastronomia_del_Proxim_Orient_C15_kibba_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "kibba" .
+
+tc:Gastronomia_del_Proxim_Orient_C15_kibbeh_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C15 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C15_form,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibbeh_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C15_kibbeh_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "kibbeh" .
+
+tc:Gastronomia_del_Proxim_Orient_C15_kibbeh_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C15 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C15_form,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibbeh_fr_form .
+
+tc:Gastronomia_del_Proxim_Orient_C15_kibbeh_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "kibbeh" .
+
+tc:Gastronomia_del_Proxim_Orient_C16_kafta_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C16 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C16_form,
+        tc:Gastronomia_del_Proxim_Orient_C16_kafta_es_form .
+
+tc:Gastronomia_del_Proxim_Orient_C16_kafta_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "kafta" .
+
+tc:Gastronomia_del_Proxim_Orient_C16_kafta_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C16 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C16_form,
+        tc:Gastronomia_del_Proxim_Orient_C16_kafta_fr_form .
+
+tc:Gastronomia_del_Proxim_Orient_C16_kafta_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "kafta" .
+
+tc:Gastronomia_del_Proxim_Orient_C16_kefta_ca_form_femenine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:femenine ;
+    ontolex:writtenRep "kefta" .
+
+tc:Gastronomia_del_Proxim_Orient_C16_kefta_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C16 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C16_kefta_ca_form_femenine .
+
+tc:Gastronomia_del_Proxim_Orient_C16_kefta_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C16 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C16_form,
+        tc:Gastronomia_del_Proxim_Orient_C16_kefta_es_form .
+
+tc:Gastronomia_del_Proxim_Orient_C16_kefta_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "kefta" .
+
+tc:Gastronomia_del_Proxim_Orient_C16_kefta_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C16 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C16_form,
+        tc:Gastronomia_del_Proxim_Orient_C16_kefta_fr_form .
+
+tc:Gastronomia_del_Proxim_Orient_C16_kefta_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "kefta" .
+
+tc:Gastronomia_del_Proxim_Orient_C16_kofta_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C16 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C16_form,
+        tc:Gastronomia_del_Proxim_Orient_C16_kofta_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C16_kofta_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "kofta" .
+
+tc:Gastronomia_del_Proxim_Orient_C17_laban_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "làban" .
+
+tc:Gastronomia_del_Proxim_Orient_C17_laban_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C17 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C17_laban_ca_form_masculine .
+
+tc:Gastronomia_del_Proxim_Orient_C17_laban_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C17 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C17_form,
+        tc:Gastronomia_del_Proxim_Orient_C17_laban_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C17_laban_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "laban" .
+
+tc:Gastronomia_del_Proxim_Orient_C17_laban_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C17 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C17_form,
+        tc:Gastronomia_del_Proxim_Orient_C17_laban_es_form .
+
+tc:Gastronomia_del_Proxim_Orient_C17_laban_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "laban" .
+
+tc:Gastronomia_del_Proxim_Orient_C17_laban_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C17 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C17_form,
+        tc:Gastronomia_del_Proxim_Orient_C17_laban_fr_form .
+
+tc:Gastronomia_del_Proxim_Orient_C17_laban_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "laban" .
+
+tc:Gastronomia_del_Proxim_Orient_C17_lebban_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C17 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C17_form,
+        tc:Gastronomia_del_Proxim_Orient_C17_lebban_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C17_lebban_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "lebban" .
+
+tc:Gastronomia_del_Proxim_Orient_C17_leben_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C17 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C17_form,
+        tc:Gastronomia_del_Proxim_Orient_C17_leben_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C17_leben_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "leben" .
+
+tc:Gastronomia_del_Proxim_Orient_C17_leben_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C17 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C17_form,
+        tc:Gastronomia_del_Proxim_Orient_C17_leben_es_form .
+
+tc:Gastronomia_del_Proxim_Orient_C17_leben_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "leben" .
+
+tc:Gastronomia_del_Proxim_Orient_C17_leben_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C17 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C17_form,
+        tc:Gastronomia_del_Proxim_Orient_C17_leben_fr_form .
+
+tc:Gastronomia_del_Proxim_Orient_C17_leben_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "leben" .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pa_de_pita_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "pa de pita" .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pa_de_pita_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C18 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C18_pa_de_pita_ca_form_masculine .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pain_pita_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C18 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C18_form,
+        tc:Gastronomia_del_Proxim_Orient_C18_pain_pita_fr_form .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pain_pita_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "pain pita" .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pan_de_pita_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C18 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C18_form,
+        tc:Gastronomia_del_Proxim_Orient_C18_pan_de_pita_es_form .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pan_de_pita_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "pan de pita" .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pita_bread_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C18 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C18_form,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_bread_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pita_bread_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "pita bread" .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pita_ca_form_femenine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:femenine ;
+    ontolex:writtenRep "pita" .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pita_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C18 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C18_pita_ca_form_femenine .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pita_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C18 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C18_form,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pita_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "pita" .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pita_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C18 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C18_form,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_es_form .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pita_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "pita" .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pita_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C18 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C18_form,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_fr_form .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pita_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "pita" .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pitta_bread_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C18 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C18_form,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_bread_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pitta_bread_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "pitta bread" .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pitta_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C18 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C18_form,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pitta_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "pitta" .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pitta_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C18 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C18_form,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_fr_form .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pitta_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "pitta" .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pocket_bread_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C18 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C18_form,
+        tc:Gastronomia_del_Proxim_Orient_C18_pocket_bread_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pocket_bread_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "pocket bread" .
+
+tc:Gastronomia_del_Proxim_Orient_C19_tabboule_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C19 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C19_form,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabboule_fr_form .
+
+tc:Gastronomia_del_Proxim_Orient_C19_tabboule_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "tabboulé" .
+
+tc:Gastronomia_del_Proxim_Orient_C19_tabbouleh_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C19 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C19_form,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabbouleh_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C19_tabbouleh_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "tabbouleh" .
+
+tc:Gastronomia_del_Proxim_Orient_C19_tabbule_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C19 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C19_form,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabbule_es_form .
+
+tc:Gastronomia_del_Proxim_Orient_C19_tabbule_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "tabbule" .
+
+tc:Gastronomia_del_Proxim_Orient_C19_taboule_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C19 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C19_form,
+        tc:Gastronomia_del_Proxim_Orient_C19_taboule_fr_form .
+
+tc:Gastronomia_del_Proxim_Orient_C19_taboule_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "taboulé" .
+
+tc:Gastronomia_del_Proxim_Orient_C19_tabouleh_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C19 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C19_form,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabouleh_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C19_tabouleh_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "tabouleh" .
+
+tc:Gastronomia_del_Proxim_Orient_C19_tabule_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "tabule" .
+
+tc:Gastronomia_del_Proxim_Orient_C19_tabule_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C19 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C19_tabule_ca_form_masculine .
+
+tc:Gastronomia_del_Proxim_Orient_C19_tabule_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C19 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C19_form,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabule_es_form .
+
+tc:Gastronomia_del_Proxim_Orient_C19_tabule_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "tabule",
+        "tabulé" .
+
+tc:Gastronomia_del_Proxim_Orient_C1_baba_ganooj_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C1 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C1_baba_ganooj_en_form,
+        tc:Gastronomia_del_Proxim_Orient_C1_form .
+
+tc:Gastronomia_del_Proxim_Orient_C1_baba_ganooj_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "baba ganooj" .
+
+tc:Gastronomia_del_Proxim_Orient_C1_baba_ganoush_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C1 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C1_baba_ganoush_en_form,
+        tc:Gastronomia_del_Proxim_Orient_C1_form .
+
+tc:Gastronomia_del_Proxim_Orient_C1_baba_ganoush_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "baba ganoush" .
+
+tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouge_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C1 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouge_fr_form,
+        tc:Gastronomia_del_Proxim_Orient_C1_form .
+
+tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouge_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "baba ghannouge" .
+
+tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouj_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C1 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouj_fr_form,
+        tc:Gastronomia_del_Proxim_Orient_C1_form .
+
+tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouj_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "baba ghannouj" .
+
+tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannuj_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C1 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannuj_es_form,
+        tc:Gastronomia_del_Proxim_Orient_C1_form .
+
+tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannuj_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "baba ghannuj" .
+
+tc:Gastronomia_del_Proxim_Orient_C1_babaganuix_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "babaganuix" .
+
+tc:Gastronomia_del_Proxim_Orient_C1_babaganuix_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C1 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C1_babaganuix_ca_form_masculine .
+
+tc:Gastronomia_del_Proxim_Orient_C1_caviar_d%27aubergines_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C1 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C1_caviar_d%27aubergines_fr_form,
+        tc:Gastronomia_del_Proxim_Orient_C1_form .
+
+tc:Gastronomia_del_Proxim_Orient_C1_caviar_d%27aubergines_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "caviar d'aubergines" .
+
+tc:Gastronomia_del_Proxim_Orient_C1_moutabal_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C1 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C1_form,
+        tc:Gastronomia_del_Proxim_Orient_C1_moutabal_fr_form .
+
+tc:Gastronomia_del_Proxim_Orient_C1_moutabal_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "moutabal" .
+
+tc:Gastronomia_del_Proxim_Orient_C1_moutabbal_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C1 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C1_form,
+        tc:Gastronomia_del_Proxim_Orient_C1_moutabbal_fr_form .
+
+tc:Gastronomia_del_Proxim_Orient_C1_moutabbal_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "moutabbal" .
+
+tc:Gastronomia_del_Proxim_Orient_C1_mutabal_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "mutàbal" .
+
+tc:Gastronomia_del_Proxim_Orient_C1_mutabal_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C1 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C1_mutabal_ca_form_masculine .
+
+tc:Gastronomia_del_Proxim_Orient_C1_mutabal_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C1 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C1_form,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C1_mutabal_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "mutabal" .
+
+tc:Gastronomia_del_Proxim_Orient_C1_mutabal_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C1 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C1_form,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_es_form .
+
+tc:Gastronomia_del_Proxim_Orient_C1_mutabal_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "mutabal" .
+
+tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C1 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C1_form,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "mutabbal" .
+
+tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C1 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C1_form,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_es_form .
+
+tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "mutabbal" .
+
+tc:Gastronomia_del_Proxim_Orient_C20_tagin_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "tagín" .
+
+tc:Gastronomia_del_Proxim_Orient_C20_tagin_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C20 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C20_tagin_ca_form_masculine .
+
+tc:Gastronomia_del_Proxim_Orient_C20_tagine_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C20 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C20_form,
+        tc:Gastronomia_del_Proxim_Orient_C20_tagine_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C20_tagine_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "tagine" .
+
+tc:Gastronomia_del_Proxim_Orient_C20_tajin_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C20 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C20_form,
+        tc:Gastronomia_del_Proxim_Orient_C20_tajin_es_form .
+
+tc:Gastronomia_del_Proxim_Orient_C20_tajin_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "tajin" .
+
+tc:Gastronomia_del_Proxim_Orient_C20_tajine_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C20 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C20_form,
+        tc:Gastronomia_del_Proxim_Orient_C20_tajine_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C20_tajine_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "tajine" .
+
+tc:Gastronomia_del_Proxim_Orient_C20_tajine_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C20 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C20_form,
+        tc:Gastronomia_del_Proxim_Orient_C20_tajine_fr_form .
+
+tc:Gastronomia_del_Proxim_Orient_C20_tajine_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "tajine" .
+
+tc:Gastronomia_del_Proxim_Orient_C21_tagin_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "tagín" .
+
+tc:Gastronomia_del_Proxim_Orient_C21_tagin_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C21 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C21_tagin_ca_form_masculine .
+
+tc:Gastronomia_del_Proxim_Orient_C21_tagine_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C21 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C21_form,
+        tc:Gastronomia_del_Proxim_Orient_C21_tagine_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C21_tagine_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "tagine" .
+
+tc:Gastronomia_del_Proxim_Orient_C21_tajin_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C21 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C21_form,
+        tc:Gastronomia_del_Proxim_Orient_C21_tajin_es_form .
+
+tc:Gastronomia_del_Proxim_Orient_C21_tajin_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "tajin" .
+
+tc:Gastronomia_del_Proxim_Orient_C21_tajine_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C21 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C21_form,
+        tc:Gastronomia_del_Proxim_Orient_C21_tajine_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C21_tajine_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "tajine" .
+
+tc:Gastronomia_del_Proxim_Orient_C21_tajine_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C21 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C21_form,
+        tc:Gastronomia_del_Proxim_Orient_C21_tajine_fr_form .
+
+tc:Gastronomia_del_Proxim_Orient_C21_tajine_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "tajine" .
+
+tc:Gastronomia_del_Proxim_Orient_C22_tahin_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C22 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C22_form,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahin_fr_form .
+
+tc:Gastronomia_del_Proxim_Orient_C22_tahin_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "tahin" .
+
+tc:Gastronomia_del_Proxim_Orient_C22_tahina_ca_form_femenine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:femenine ;
+    ontolex:writtenRep "tahina" .
+
+tc:Gastronomia_del_Proxim_Orient_C22_tahina_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C22 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C22_tahina_ca_form_femenine .
+
+tc:Gastronomia_del_Proxim_Orient_C22_tahina_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C22 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C22_form,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahina_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C22_tahina_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "tahina" .
+
+tc:Gastronomia_del_Proxim_Orient_C22_tahina_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C22 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C22_form,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahina_es_form .
+
+tc:Gastronomia_del_Proxim_Orient_C22_tahina_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "tahina" .
+
+tc:Gastronomia_del_Proxim_Orient_C22_tahina_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C22 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C22_form,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahina_fr_form .
+
+tc:Gastronomia_del_Proxim_Orient_C22_tahina_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "tahina" .
+
+tc:Gastronomia_del_Proxim_Orient_C22_tahini_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C22 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C22_form,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahini_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C22_tahini_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "tahini" .
+
+tc:Gastronomia_del_Proxim_Orient_C22_tahini_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C22 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C22_form,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahini_fr_form .
+
+tc:Gastronomia_del_Proxim_Orient_C22_tahini_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "tahini" .
+
+tc:Gastronomia_del_Proxim_Orient_C23_chabbakia_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C23 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C23_chabbakia_fr_form,
+        tc:Gastronomia_del_Proxim_Orient_C23_form .
+
+tc:Gastronomia_del_Proxim_Orient_C23_chabbakia_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "chabbakia" .
+
+tc:Gastronomia_del_Proxim_Orient_C23_chebbakia_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C23 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C23_chebbakia_fr_form,
+        tc:Gastronomia_del_Proxim_Orient_C23_form .
+
+tc:Gastronomia_del_Proxim_Orient_C23_chebbakia_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "chebbakia" .
+
+tc:Gastronomia_del_Proxim_Orient_C23_haloua_chebbakia_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C23 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C23_form,
+        tc:Gastronomia_del_Proxim_Orient_C23_haloua_chebbakia_fr_form .
+
+tc:Gastronomia_del_Proxim_Orient_C23_haloua_chebbakia_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "haloua chebbakia" .
+
+tc:Gastronomia_del_Proxim_Orient_C23_halwa_shebakia_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C23 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C23_form,
+        tc:Gastronomia_del_Proxim_Orient_C23_halwa_shebakia_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C23_halwa_shebakia_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "halwa shebakia" .
+
+tc:Gastronomia_del_Proxim_Orient_C23_shabakia_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C23 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C23_form,
+        tc:Gastronomia_del_Proxim_Orient_C23_shabakia_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C23_shabakia_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "shabakia" .
+
+tc:Gastronomia_del_Proxim_Orient_C23_shebakia_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C23 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C23_form,
+        tc:Gastronomia_del_Proxim_Orient_C23_shebakia_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C23_shebakia_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "shebakia" .
+
+tc:Gastronomia_del_Proxim_Orient_C23_shebbakia_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C23 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C23_form,
+        tc:Gastronomia_del_Proxim_Orient_C23_shebbakia_es_form .
+
+tc:Gastronomia_del_Proxim_Orient_C23_shebbakia_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "shebbakia" .
+
+tc:Gastronomia_del_Proxim_Orient_C23_xabakia_ca_form_femenine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:femenine ;
+    ontolex:writtenRep "xabàkia" .
+
+tc:Gastronomia_del_Proxim_Orient_C23_xabakia_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C23 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C23_xabakia_ca_form_femenine .
+
+tc:Gastronomia_del_Proxim_Orient_C2_baclaua_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "baclaua" .
+
+tc:Gastronomia_del_Proxim_Orient_C2_baclaua_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C2 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C2_baclaua_ca_form_masculine .
+
+tc:Gastronomia_del_Proxim_Orient_C2_baclava_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C2 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C2_baclava_en_form,
+        tc:Gastronomia_del_Proxim_Orient_C2_form .
+
+tc:Gastronomia_del_Proxim_Orient_C2_baclava_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "baclava" .
+
+tc:Gastronomia_del_Proxim_Orient_C2_baclava_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C2 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C2_baclava_es_form,
+        tc:Gastronomia_del_Proxim_Orient_C2_form .
+
+tc:Gastronomia_del_Proxim_Orient_C2_baclava_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "baclava" .
+
+tc:Gastronomia_del_Proxim_Orient_C2_baklava_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C2 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C2_baklava_en_form,
+        tc:Gastronomia_del_Proxim_Orient_C2_form .
+
+tc:Gastronomia_del_Proxim_Orient_C2_baklava_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "baklava" .
+
+tc:Gastronomia_del_Proxim_Orient_C2_baklava_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C2 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C2_baklava_es_form,
+        tc:Gastronomia_del_Proxim_Orient_C2_form .
+
+tc:Gastronomia_del_Proxim_Orient_C2_baklava_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "baklava" .
+
+tc:Gastronomia_del_Proxim_Orient_C2_baklava_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C2 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C2_baklava_fr_form,
+        tc:Gastronomia_del_Proxim_Orient_C2_form .
+
+tc:Gastronomia_del_Proxim_Orient_C2_baklava_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "baklava" .
+
+tc:Gastronomia_del_Proxim_Orient_C3_banya_de_gasela_ca_form_femenine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:femenine ;
+    ontolex:writtenRep "banya de gasela" .
+
+tc:Gastronomia_del_Proxim_Orient_C3_banya_de_gasela_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C3 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C3_banya_de_gasela_ca_form_femenine .
+
+tc:Gastronomia_del_Proxim_Orient_C3_corne_de_gazelle_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C3 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C3_corne_de_gazelle_fr_form,
+        tc:Gastronomia_del_Proxim_Orient_C3_form .
+
+tc:Gastronomia_del_Proxim_Orient_C3_corne_de_gazelle_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "corne de gazelle" .
+
+tc:Gastronomia_del_Proxim_Orient_C3_cuerno_de_gacela_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C3 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C3_cuerno_de_gacela_es_form,
+        tc:Gastronomia_del_Proxim_Orient_C3_form .
+
+tc:Gastronomia_del_Proxim_Orient_C3_cuerno_de_gacela_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "cuerno de gacela" .
+
+tc:Gastronomia_del_Proxim_Orient_C3_gazelle%27s_horn_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C3 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C3_form,
+        tc:Gastronomia_del_Proxim_Orient_C3_gazelle%27s_horn_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C3_gazelle%27s_horn_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "gazelle's horn" .
+
+tc:Gastronomia_del_Proxim_Orient_C3_kaab_al_ghazal_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C3 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C3_form,
+        tc:Gastronomia_del_Proxim_Orient_C3_kaab_al_ghazal_es_form .
+
+tc:Gastronomia_del_Proxim_Orient_C3_kaab_al_ghazal_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "kaab al ghazal" .
+
+tc:Gastronomia_del_Proxim_Orient_C3_kaab_el_ghzal_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C3 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C3_form,
+        tc:Gastronomia_del_Proxim_Orient_C3_kaab_el_ghzal_fr_form .
+
+tc:Gastronomia_del_Proxim_Orient_C3_kaab_el_ghzal_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "kaab el ghzal" .
+
+tc:Gastronomia_del_Proxim_Orient_C3_kab_al-gazal_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C3 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C3_form,
+        tc:Gastronomia_del_Proxim_Orient_C3_kab_al-gazal_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C3_kab_al-gazal_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "kab al-gazal" .
+
+tc:Gastronomia_del_Proxim_Orient_C4_bastela_ca_form_femenine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:femenine ;
+    ontolex:writtenRep "bastela" .
+
+tc:Gastronomia_del_Proxim_Orient_C4_bastela_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C4 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C4_bastela_ca_form_femenine .
+
+tc:Gastronomia_del_Proxim_Orient_C4_bastela_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C4 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C4_bastela_en_form,
+        tc:Gastronomia_del_Proxim_Orient_C4_form .
+
+tc:Gastronomia_del_Proxim_Orient_C4_bastela_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "bastela" .
+
+tc:Gastronomia_del_Proxim_Orient_C4_bastela_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C4 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C4_bastela_es_form,
+        tc:Gastronomia_del_Proxim_Orient_C4_form .
+
+tc:Gastronomia_del_Proxim_Orient_C4_bastela_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "bastela" .
+
+tc:Gastronomia_del_Proxim_Orient_C4_bastila_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C4 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C4_bastila_en_form,
+        tc:Gastronomia_del_Proxim_Orient_C4_form .
+
+tc:Gastronomia_del_Proxim_Orient_C4_bastila_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "bastila" .
+
+tc:Gastronomia_del_Proxim_Orient_C4_pastilla_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C4 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C4_form,
+        tc:Gastronomia_del_Proxim_Orient_C4_pastilla_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C4_pastilla_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "pastilla" .
+
+tc:Gastronomia_del_Proxim_Orient_C4_pastilla_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C4 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C4_form,
+        tc:Gastronomia_del_Proxim_Orient_C4_pastilla_es_form .
+
+tc:Gastronomia_del_Proxim_Orient_C4_pastilla_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "pastilla" .
+
+tc:Gastronomia_del_Proxim_Orient_C4_pastilla_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C4 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C4_form,
+        tc:Gastronomia_del_Proxim_Orient_C4_pastilla_fr_form .
+
+tc:Gastronomia_del_Proxim_Orient_C4_pastilla_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "pastilla" .
+
+tc:Gastronomia_del_Proxim_Orient_C5_briouat_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C5 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C5_briouat_en_form,
+        tc:Gastronomia_del_Proxim_Orient_C5_form .
+
+tc:Gastronomia_del_Proxim_Orient_C5_briouat_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "briouat" .
+
+tc:Gastronomia_del_Proxim_Orient_C5_briouat_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C5 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C5_briouat_fr_form,
+        tc:Gastronomia_del_Proxim_Orient_C5_form .
+
+tc:Gastronomia_del_Proxim_Orient_C5_briouat_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "briouat" .
+
+tc:Gastronomia_del_Proxim_Orient_C5_briuat_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "briuat" .
+
+tc:Gastronomia_del_Proxim_Orient_C5_briuat_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C5 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C5_briuat_ca_form_masculine .
+
+tc:Gastronomia_del_Proxim_Orient_C5_briuat_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C5 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C5_briuat_es_form,
+        tc:Gastronomia_del_Proxim_Orient_C5_form .
+
+tc:Gastronomia_del_Proxim_Orient_C5_briuat_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "briuat" .
+
+tc:Gastronomia_del_Proxim_Orient_C6_boulghour_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C6 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C6_boulghour_fr_form,
+        tc:Gastronomia_del_Proxim_Orient_C6_form .
+
+tc:Gastronomia_del_Proxim_Orient_C6_boulghour_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "boulghour" .
+
+tc:Gastronomia_del_Proxim_Orient_C6_bulgur_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C6 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C6_bulgur_en_form,
+        tc:Gastronomia_del_Proxim_Orient_C6_form .
+
+tc:Gastronomia_del_Proxim_Orient_C6_bulgur_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "bulgur" .
+
+tc:Gastronomia_del_Proxim_Orient_C6_bulgur_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C6 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C6_bulgur_es_form,
+        tc:Gastronomia_del_Proxim_Orient_C6_form .
+
+tc:Gastronomia_del_Proxim_Orient_C6_bulgur_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "bulgur" .
+
+tc:Gastronomia_del_Proxim_Orient_C6_burghul_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C6 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C6_burghul_es_form,
+        tc:Gastronomia_del_Proxim_Orient_C6_form .
+
+tc:Gastronomia_del_Proxim_Orient_C6_burghul_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "burghul" .
+
+tc:Gastronomia_del_Proxim_Orient_C6_burgul_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "búrgul" .
+
+tc:Gastronomia_del_Proxim_Orient_C6_burgul_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C6 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C6_burgul_ca_form_masculine .
+
+tc:Gastronomia_del_Proxim_Orient_C6_burgul_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C6 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C6_burgul_fr_form,
+        tc:Gastronomia_del_Proxim_Orient_C6_form .
+
+tc:Gastronomia_del_Proxim_Orient_C6_burgul_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "burgul" .
+
+tc:Gastronomia_del_Proxim_Orient_C7_chawarma_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C7 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C7_chawarma_es_form,
+        tc:Gastronomia_del_Proxim_Orient_C7_form .
+
+tc:Gastronomia_del_Proxim_Orient_C7_chawarma_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "chawarma" .
+
+tc:Gastronomia_del_Proxim_Orient_C7_chawarma_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C7 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C7_chawarma_fr_form,
+        tc:Gastronomia_del_Proxim_Orient_C7_form .
+
+tc:Gastronomia_del_Proxim_Orient_C7_chawarma_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "chawarma" .
+
+tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "dóner kebab" .
+
+tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C7 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_ca_form_masculine .
+
+tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C7 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_en_form,
+        tc:Gastronomia_del_Proxim_Orient_C7_form .
+
+tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "doner kebab" .
+
+tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C7 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_es_form,
+        tc:Gastronomia_del_Proxim_Orient_C7_form .
+
+tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "doner kebab" .
+
+tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C7 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_fr_form,
+        tc:Gastronomia_del_Proxim_Orient_C7_form .
+
+tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "doner kebab" .
+
+tc:Gastronomia_del_Proxim_Orient_C7_shawarma_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C7 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C7_form,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_en_form .
+
+tc:Gastronomia_del_Proxim_Orient_C7_shawarma_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "shawarma" .
+
+tc:Gastronomia_del_Proxim_Orient_C7_shawarma_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C7 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C7_form,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_es_form .
+
+tc:Gastronomia_del_Proxim_Orient_C7_shawarma_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "shawarma" .
+
+tc:Gastronomia_del_Proxim_Orient_C7_shawarma_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C7 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C7_form,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_fr_form .
+
+tc:Gastronomia_del_Proxim_Orient_C7_shawarma_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "shawarma" .
+
+tc:Gastronomia_del_Proxim_Orient_C7_xauarma_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "xauarma" .
+
+tc:Gastronomia_del_Proxim_Orient_C7_xauarma_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C7 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C7_xauarma_ca_form_masculine .
+
+tc:Gastronomia_del_Proxim_Orient_C8_durum_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "durum" .
+
+tc:Gastronomia_del_Proxim_Orient_C8_durum_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C8 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C8_durum_ca_form_masculine .
+
+tc:Gastronomia_del_Proxim_Orient_C8_durum_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C8 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C8_durum_en_form,
+        tc:Gastronomia_del_Proxim_Orient_C8_form .
+
+tc:Gastronomia_del_Proxim_Orient_C8_durum_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "dürüm" .
+
+tc:Gastronomia_del_Proxim_Orient_C8_durum_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C8 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C8_durum_es_form,
+        tc:Gastronomia_del_Proxim_Orient_C8_form .
+
+tc:Gastronomia_del_Proxim_Orient_C8_durum_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "dürüm" .
+
+tc:Gastronomia_del_Proxim_Orient_C8_durum_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C8 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C8_durum_fr_form,
+        tc:Gastronomia_del_Proxim_Orient_C8_form .
+
+tc:Gastronomia_del_Proxim_Orient_C8_durum_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "dürüm" .
+
+tc:Gastronomia_del_Proxim_Orient_C8_durum_it a ontolex:LexicalEntry ;
+    lime:language "it" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C8 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C8_durum_it_form,
+        tc:Gastronomia_del_Proxim_Orient_C8_form .
+
+tc:Gastronomia_del_Proxim_Orient_C8_durum_it_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "dürüm" .
+
+tc:Gastronomia_del_Proxim_Orient_C9_falafal_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C9 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C9_falafal_en_form,
+        tc:Gastronomia_del_Proxim_Orient_C9_form .
+
+tc:Gastronomia_del_Proxim_Orient_C9_falafal_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "falafal" .
+
+tc:Gastronomia_del_Proxim_Orient_C9_falafel_ca_form_masculine a ontolex:LexicalForm ;
+    ontolex:gender lexinfo:masculine ;
+    ontolex:writtenRep "falàfel" .
+
+tc:Gastronomia_del_Proxim_Orient_C9_falafel_ca_noun a ontolex:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lime:language "ca" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C9 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C9_falafel_ca_form_masculine .
+
+tc:Gastronomia_del_Proxim_Orient_C9_falafel_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C9 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C9_falafel_en_form,
+        tc:Gastronomia_del_Proxim_Orient_C9_form .
+
+tc:Gastronomia_del_Proxim_Orient_C9_falafel_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "falafel" .
+
+tc:Gastronomia_del_Proxim_Orient_C9_falafel_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C9 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C9_falafel_es_form,
+        tc:Gastronomia_del_Proxim_Orient_C9_form .
+
+tc:Gastronomia_del_Proxim_Orient_C9_falafel_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "falafel" .
+
+tc:Gastronomia_del_Proxim_Orient_C9_falafel_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C9 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C9_falafel_fr_form,
+        tc:Gastronomia_del_Proxim_Orient_C9_form .
+
+tc:Gastronomia_del_Proxim_Orient_C9_falafel_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "falafel" .
+
+tc:Gastronomia_del_Proxim_Orient_C9_felafel_en a ontolex:LexicalEntry ;
+    lime:language "en" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C9 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C9_felafel_en_form,
+        tc:Gastronomia_del_Proxim_Orient_C9_form .
+
+tc:Gastronomia_del_Proxim_Orient_C9_felafel_en_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "felafel" .
+
+tc:Gastronomia_del_Proxim_Orient_C9_felafel_es a ontolex:LexicalEntry ;
+    lime:language "es" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C9 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C9_felafel_es_form,
+        tc:Gastronomia_del_Proxim_Orient_C9_form .
+
+tc:Gastronomia_del_Proxim_Orient_C9_felafel_es_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "felafel" .
+
+tc:Gastronomia_del_Proxim_Orient_C9_felafel_fr a ontolex:LexicalEntry ;
+    lime:language "fr" ;
+    ontolex:evokes tc:Gastronomia_del_Proxim_Orient_C9 ;
+    ontolex:lexicalForm tc:Gastronomia_del_Proxim_Orient_C9_felafel_fr_form,
+        tc:Gastronomia_del_Proxim_Orient_C9_form .
+
+tc:Gastronomia_del_Proxim_Orient_C9_felafel_fr_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "felafel" .
+
+tc:Gastronomia_del_Proxim_Orient_C11_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "harira" .
+
+tc:Gastronomia_del_Proxim_Orient_C5_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "briouat",
+        "briuat" .
+
+tc:Gastronomia_del_Proxim_Orient_C11 a ontolex:LexicalConcept ;
+    dct:identifier "11" ;
+    dct:subject "Gastronomia" ;
+    skos:inScheme tc:Gastronomia_del_Proxim_Orient_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_del_Proxim_Orient_C11_harira_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C11_harira_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C11_harira_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C11_harira_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C11_harira_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C11_harira_ca_noun ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C11_harira_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C11_harira_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C11_harira_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C11_harira_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C11_harira_en ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C11_harira_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C11_harira_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C11_harira_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C11_harira_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C11_harira_es ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C11_harira_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C11_harira_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C11_harira_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C11_harira_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C11_harira_fr ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C11_harira_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C11_harira_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C11_harira_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C12_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "harisa",
+        "harissa" .
+
+tc:Gastronomia_del_Proxim_Orient_C20_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "tagine",
+        "tajin",
+        "tajine" .
+
+tc:Gastronomia_del_Proxim_Orient_C21_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "tagine",
+        "tajin",
+        "tajine" .
+
+tc:Gastronomia_del_Proxim_Orient_C5 a ontolex:LexicalConcept ;
+    dct:identifier "5" ;
+    dct:subject "Gastronomia" ;
+    skos:inScheme tc:Gastronomia_del_Proxim_Orient_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_del_Proxim_Orient_C5_briouat_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C5_briouat_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C5_briuat_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C5_briuat_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C5_briouat_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C5_briouat_en ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C5_briouat_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C5_briuat_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C5_briuat_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C5_briouat_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C5_briouat_fr ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C5_briouat_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C5_briuat_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C5_briuat_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C5_briuat_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C5_briuat_ca_noun ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C5_briouat_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C5_briouat_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C5_briuat_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C5_briuat_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C5_briuat_es ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C5_briouat_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C5_briouat_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C5_briuat_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C8_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "dürüm" .
+
+tc:Gastronomia_del_Proxim_Orient_C12 a ontolex:LexicalConcept ;
+    dct:identifier "12" ;
+    dct:subject "Gastronomia" ;
+    skos:inScheme tc:Gastronomia_del_Proxim_Orient_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_del_Proxim_Orient_C12_harisa_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C12_harissa_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C12_harissa_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C12_harissa_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C12_harissa_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C12_harisa_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C12_harisa_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C12_harissa_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C12_harissa_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C12_harissa_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C12_harissa_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C12_harissa_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C12_harissa_ca_noun ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C12_harisa_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C12_harissa_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C12_harissa_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C12_harissa_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C12_harissa_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C12_harissa_en ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C12_harisa_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C12_harissa_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C12_harissa_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C12_harissa_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C12_harissa_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C12_harissa_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C12_harisa_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C12_harissa_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C12_harissa_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C12_harissa_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C12_harissa_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C12_harissa_fr ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C12_harisa_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C12_harissa_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C12_harissa_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C12_harissa_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C16_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "kafta",
+        "kefta",
+        "kofta" .
+
+tc:Gastronomia_del_Proxim_Orient_C20 a ontolex:LexicalConcept ;
+    dct:identifier "20" ;
+    dct:subject "Gastronomia" ;
+    skos:inScheme tc:Gastronomia_del_Proxim_Orient_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_del_Proxim_Orient_C20_tagin_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C20_tagine_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C20_tajin_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C20_tajine_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C20_tajine_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C20_tagin_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C20_tagin_ca_noun ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C20_tagine_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C20_tajin_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C20_tajine_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C20_tajine_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C20_tagine_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C20_tagine_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C20_tajine_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C20_tagin_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C20_tajin_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C20_tajine_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C20_tajin_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C20_tajin_es ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C20_tagin_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C20_tagine_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C20_tajine_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C20_tajine_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C20_tajine_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C20_tajine_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C20_tagine_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C20_tagin_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C20_tajin_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C20_tajine_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C20_tajine_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C20_tajine_fr ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C20_tagin_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C20_tagine_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C20_tajin_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C20_tajine_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C21 a ontolex:LexicalConcept ;
+    dct:identifier "21" ;
+    dct:subject "Equipament de la llar > Utillatge de cuina" ;
+    skos:inScheme tc:Gastronomia_del_Proxim_Orient_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_del_Proxim_Orient_C21_tagin_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C21_tagine_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C21_tajin_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C21_tajine_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C21_tajine_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C21_tagin_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C21_tagin_ca_noun ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C21_tagine_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C21_tajin_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C21_tajine_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C21_tajine_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C21_tagine_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C21_tagine_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C21_tajine_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C21_tagin_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C21_tajin_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C21_tajine_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C21_tajin_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C21_tajin_es ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C21_tagin_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C21_tagine_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C21_tajine_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C21_tajine_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C21_tajine_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C21_tajine_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C21_tagine_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C21_tagin_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C21_tajin_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C21_tajine_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C21_tajine_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C21_tajine_fr ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C21_tagin_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C21_tagine_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C21_tajin_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C21_tajine_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C2_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "baclava",
+        "baklava" .
+
+tc:Gastronomia_del_Proxim_Orient_C6_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "boulghour",
+        "bulgur",
+        "burghul",
+        "burgul" .
+
+tc:Gastronomia_del_Proxim_Orient_C8 a ontolex:LexicalConcept ;
+    dct:identifier "8" ;
+    dct:subject "Gastronomia" ;
+    skos:inScheme tc:Gastronomia_del_Proxim_Orient_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_del_Proxim_Orient_C8_durum_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C8_durum_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C8_durum_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C8_durum_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C8_durum_it_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C8_durum_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C8_durum_ca_noun ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C8_durum_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C8_durum_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C8_durum_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C8_durum_it_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C8_durum_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C8_durum_en ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C8_durum_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C8_durum_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C8_durum_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C8_durum_it_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C8_durum_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C8_durum_es ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C8_durum_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C8_durum_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C8_durum_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C8_durum_it_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C8_durum_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C8_durum_fr ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C8_durum_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C8_durum_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C8_durum_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C8_durum_it_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C8_durum_it_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C8_durum_it ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C8_durum_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C8_durum_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C8_durum_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C8_durum_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C10_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "fatouche",
+        "fatoush",
+        "fattouche",
+        "fattoush",
+        "fattush",
+        "fatush" .
+
+tc:Gastronomia_del_Proxim_Orient_C14_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "chiche-kébab",
+        "kebab",
+        "kébab",
+        "shish kebab" .
+
+tc:Gastronomia_del_Proxim_Orient_C16 a ontolex:LexicalConcept ;
+    dct:identifier "16" ;
+    dct:subject "Gastronomia" ;
+    skos:inScheme tc:Gastronomia_del_Proxim_Orient_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_del_Proxim_Orient_C16_kafta_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C16_kafta_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C16_kefta_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C16_kefta_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C16_kefta_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C16_kofta_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C16_kafta_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C16_kafta_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C16_kefta_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C16_kafta_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C16_kefta_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C16_kefta_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C16_kofta_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C16_kafta_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C16_kafta_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C16_kefta_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C16_kafta_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C16_kefta_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C16_kefta_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C16_kofta_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C16_kefta_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C16_kefta_ca_noun ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C16_kafta_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C16_kafta_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C16_kefta_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C16_kefta_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C16_kofta_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C16_kefta_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C16_kefta_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C16_kafta_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C16_kafta_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C16_kefta_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C16_kefta_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C16_kofta_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C16_kefta_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C16_kefta_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C16_kafta_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C16_kafta_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C16_kefta_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C16_kefta_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C16_kofta_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C16_kofta_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C16_kofta_en ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C16_kafta_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C16_kafta_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C16_kefta_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C16_kefta_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C16_kefta_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C19_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "tabbouleh",
+        "tabboulé",
+        "tabbule",
+        "tabouleh",
+        "taboulé",
+        "tabule",
+        "tabulé" .
+
+tc:Gastronomia_del_Proxim_Orient_C2 a ontolex:LexicalConcept ;
+    dct:identifier "2" ;
+    dct:subject "Gastronomia" ;
+    skos:inScheme tc:Gastronomia_del_Proxim_Orient_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_del_Proxim_Orient_C2_baclaua_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C2_baclava_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C2_baclava_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C2_baklava_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C2_baklava_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C2_baklava_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C22_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "tahin",
+        "tahina",
+        "tahini" .
+
+tc:Gastronomia_del_Proxim_Orient_C2_baclaua_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C2_baclaua_ca_noun ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C2_baclava_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C2_baclava_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C2_baklava_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C2_baklava_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C2_baklava_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C2_baclava_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C2_baclava_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C2_baklava_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C2_baclaua_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C2_baclava_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C2_baklava_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C2_baklava_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C2_baclava_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C2_baclava_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C2_baklava_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C2_baclaua_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C2_baclava_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C2_baklava_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C2_baklava_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C2_baklava_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C2_baklava_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C2_baclava_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C2_baclaua_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C2_baclava_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C2_baklava_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C2_baklava_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C2_baklava_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C2_baklava_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C2_baclava_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C2_baclaua_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C2_baclava_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C2_baklava_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C2_baklava_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C2_baklava_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C2_baklava_fr ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C2_baclaua_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C2_baclava_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C2_baclava_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C2_baklava_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C2_baklava_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C3_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "corne de gazelle",
+        "cuerno de gacela",
+        "gazelle's horn",
+        "kaab al ghazal",
+        "kaab el ghzal",
+        "kab al-gazal" .
+
+tc:Gastronomia_del_Proxim_Orient_C4_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "bastela",
+        "bastila",
+        "pastilla" .
+
+tc:Gastronomia_del_Proxim_Orient_C6 a ontolex:LexicalConcept ;
+    dct:identifier "6" ;
+    dct:subject "Alimentació" ;
+    skos:inScheme tc:Gastronomia_del_Proxim_Orient_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_del_Proxim_Orient_C6_boulghour_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C6_bulgur_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C6_bulgur_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C6_burghul_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C6_burgul_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C6_burgul_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C6_boulghour_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C6_boulghour_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C6_burgul_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C6_bulgur_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C6_bulgur_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C6_burghul_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C6_burgul_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C6_bulgur_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C6_bulgur_en ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C6_boulghour_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C6_bulgur_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C6_burghul_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C6_burgul_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C6_burgul_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C6_bulgur_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C6_bulgur_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C6_burghul_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C6_boulghour_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C6_bulgur_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C6_burgul_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C6_burgul_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C6_burghul_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C6_burghul_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C6_bulgur_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C6_boulghour_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C6_bulgur_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C6_burgul_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C6_burgul_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C6_burgul_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C6_burgul_ca_noun ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C6_boulghour_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C6_bulgur_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C6_bulgur_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C6_burghul_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C6_burgul_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C6_burgul_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C6_burgul_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C6_boulghour_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C6_bulgur_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C6_bulgur_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C6_burghul_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C6_burgul_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C10 a ontolex:LexicalConcept ;
+    dct:identifier "10" ;
+    dct:subject "Gastronomia" ;
+    skos:inScheme tc:Gastronomia_del_Proxim_Orient_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_del_Proxim_Orient_C10_fatouche_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fatoush_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fattouche_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fattoush_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fattush_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fatuix_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fatush_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C10_fatouche_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C10_fatouche_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C10_fattouche_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C10_fatoush_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fattoush_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fattush_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fatuix_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fatush_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C10_fatoush_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C10_fatoush_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C10_fattoush_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C10_fatouche_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fattouche_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fattush_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fatuix_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fatush_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C10_fattouche_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C10_fattouche_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C10_fatouche_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C10_fatoush_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fattoush_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fattush_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fatuix_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fatush_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C10_fattoush_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C10_fattoush_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C10_fatoush_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C10_fatouche_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fattouche_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fattush_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fatuix_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fatush_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C10_fattush_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C10_fattush_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C10_fatush_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C10_fatouche_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fatoush_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fattouche_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fattoush_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fatuix_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C10_fatuix_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C10_fatuix_ca_noun ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C10_fatouche_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fatoush_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fattouche_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fattoush_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fattush_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fatush_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C10_fatush_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C10_fatush_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C10_fattush_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C10_fatouche_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fatoush_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fattouche_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fattoush_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C10_fatuix_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C13_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "hommos",
+        "hoummos",
+        "hummus",
+        "humus" .
+
+tc:Gastronomia_del_Proxim_Orient_C15_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "kebbe",
+        "kibba",
+        "kibbeh" .
+
+tc:Gastronomia_del_Proxim_Orient_C17_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "laban",
+        "lebban",
+        "leben" .
+
+tc:Gastronomia_del_Proxim_Orient_C19 a ontolex:LexicalConcept ;
+    dct:identifier "19" ;
+    dct:subject "Gastronomia" ;
+    skos:inScheme tc:Gastronomia_del_Proxim_Orient_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_del_Proxim_Orient_C19_tabboule_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabbouleh_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabbule_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_taboule_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabouleh_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabule_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabule_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C19_tabboule_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C19_tabboule_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C19_taboule_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C19_tabbouleh_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabbule_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabouleh_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabule_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabule_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C19_tabbouleh_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C19_tabbouleh_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C19_tabouleh_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C19_tabboule_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabbule_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_taboule_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabule_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabule_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C19_tabbule_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C19_tabbule_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C19_tabule_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C19_tabboule_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabbouleh_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_taboule_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabouleh_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabule_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C19_taboule_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C19_taboule_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C19_tabboule_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C19_tabbouleh_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabbule_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabouleh_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabule_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabule_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C19_tabouleh_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C19_tabouleh_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C19_tabbouleh_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C19_tabboule_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabbule_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_taboule_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabule_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabule_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C19_tabule_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C19_tabule_ca_noun ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C19_tabboule_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabbouleh_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabbule_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_taboule_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabouleh_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabule_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C22 a ontolex:LexicalConcept ;
+    dct:identifier "22" ;
+    dct:subject "Alimentació" ;
+    skos:inScheme tc:Gastronomia_del_Proxim_Orient_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_del_Proxim_Orient_C22_tahin_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahina_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahina_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahina_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahina_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahini_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahini_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C22_tahin_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C22_tahin_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C22_tahina_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahini_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C22_tahina_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahina_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahina_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahini_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C22_tahina_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C22_tahina_ca_noun ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C22_tahin_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahina_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahina_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahina_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahini_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahini_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C22_tahina_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C22_tahina_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C22_tahini_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C22_tahin_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahina_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahina_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahina_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahini_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C22_tahina_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C22_tahina_es ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C22_tahin_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahina_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahina_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahina_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahini_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahini_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C22_tahina_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C22_tahina_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C22_tahin_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahini_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C22_tahina_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahina_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahina_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahini_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C22_tahini_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C22_tahini_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C22_tahina_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C22_tahin_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahina_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahina_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahina_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahini_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C22_tahini_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C22_tahini_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C22_tahin_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahina_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C22_tahina_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahina_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahina_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C22_tahini_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C23_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "chabbakia",
+        "chebbakia",
+        "haloua chebbakia",
+        "halwa shebakia",
+        "shabakia",
+        "shebakia",
+        "shebbakia" .
+
+tc:Gastronomia_del_Proxim_Orient_C3 a ontolex:LexicalConcept ;
+    dct:identifier "3" ;
+    dct:subject "Gastronomia" ;
+    skos:inScheme tc:Gastronomia_del_Proxim_Orient_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_del_Proxim_Orient_C3_banya_de_gasela_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_corne_de_gazelle_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_cuerno_de_gacela_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_gazelle%27s_horn_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_kaab_al_ghazal_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_kaab_el_ghzal_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_kab_al-gazal_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C3_banya_de_gasela_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C3_banya_de_gasela_ca_noun ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C3_corne_de_gazelle_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_cuerno_de_gacela_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_gazelle%27s_horn_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_kaab_al_ghazal_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_kaab_el_ghzal_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_kab_al-gazal_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C3_corne_de_gazelle_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C3_corne_de_gazelle_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C3_kaab_el_ghzal_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C3_banya_de_gasela_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_cuerno_de_gacela_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_gazelle%27s_horn_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_kaab_al_ghazal_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_kab_al-gazal_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C3_cuerno_de_gacela_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C3_cuerno_de_gacela_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C3_kaab_al_ghazal_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C3_banya_de_gasela_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_corne_de_gazelle_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_gazelle%27s_horn_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_kaab_el_ghzal_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_kab_al-gazal_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C3_gazelle%27s_horn_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C3_gazelle%27s_horn_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C3_kab_al-gazal_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C3_banya_de_gasela_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_corne_de_gazelle_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_cuerno_de_gacela_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_kaab_al_ghazal_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_kaab_el_ghzal_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C3_kaab_al_ghazal_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C3_kaab_al_ghazal_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C3_cuerno_de_gacela_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C3_banya_de_gasela_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_corne_de_gazelle_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_gazelle%27s_horn_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_kaab_el_ghzal_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_kab_al-gazal_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C3_kaab_el_ghzal_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C3_kaab_el_ghzal_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C3_corne_de_gazelle_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C3_banya_de_gasela_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_cuerno_de_gacela_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_gazelle%27s_horn_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_kaab_al_ghazal_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_kab_al-gazal_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C3_kab_al-gazal_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C3_kab_al-gazal_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C3_gazelle%27s_horn_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C3_banya_de_gasela_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_corne_de_gazelle_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_cuerno_de_gacela_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_kaab_al_ghazal_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C3_kaab_el_ghzal_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C4 a ontolex:LexicalConcept ;
+    dct:identifier "4" ;
+    dct:subject "Gastronomia" ;
+    skos:inScheme tc:Gastronomia_del_Proxim_Orient_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_del_Proxim_Orient_C4_bastela_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_bastela_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_bastela_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_bastila_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_pastilla_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_pastilla_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_pastilla_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C4_bastela_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C4_bastela_ca_noun ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C4_bastela_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_bastela_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_bastila_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_pastilla_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_pastilla_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_pastilla_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C4_bastela_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C4_bastela_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C4_bastila_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_pastilla_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C4_bastela_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_bastela_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_pastilla_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_pastilla_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C4_bastela_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C4_bastela_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C4_pastilla_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C4_bastela_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_bastela_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_bastila_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_pastilla_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_pastilla_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C4_bastila_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C4_bastila_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C4_bastela_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_pastilla_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C4_bastela_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_bastela_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_pastilla_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_pastilla_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C4_pastilla_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C4_pastilla_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C4_bastela_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_bastila_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C4_bastela_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_bastela_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_pastilla_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_pastilla_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C4_pastilla_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C4_pastilla_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C4_bastela_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C4_bastela_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_bastela_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_bastila_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_pastilla_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_pastilla_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C4_pastilla_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C4_pastilla_fr ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C4_bastela_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_bastela_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_bastela_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_bastila_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_pastilla_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C4_pastilla_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C9_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "falafal",
+        "falafel",
+        "felafel" .
+
+tc:Gastronomia_del_Proxim_Orient_C13 a ontolex:LexicalConcept ;
+    dct:identifier "13" ;
+    dct:subject "Gastronomia" ;
+    skos:inScheme tc:Gastronomia_del_Proxim_Orient_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_del_Proxim_Orient_C13_hommos_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hoummos_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hoummos_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hummus_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hummus_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hummus_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_humus_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_humus_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C13_hommos_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C13_hommos_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C13_hoummos_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C13_hoummos_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hummus_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hummus_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hummus_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_humus_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_humus_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C13_hoummos_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C13_hoummos_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C13_hummus_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_humus_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C13_hommos_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hoummos_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hummus_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hummus_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_humus_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C13_hoummos_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C13_hoummos_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C13_hommos_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C13_hoummos_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hummus_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hummus_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hummus_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_humus_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_humus_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C13_hummus_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C13_hummus_ca_noun ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C13_hommos_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hoummos_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hoummos_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hummus_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hummus_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_humus_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_humus_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C13_hummus_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C13_hummus_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C13_hoummos_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_humus_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C13_hommos_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hoummos_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hummus_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hummus_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_humus_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C13_hummus_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C13_hummus_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C13_humus_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C13_hommos_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hoummos_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hoummos_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hummus_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hummus_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_humus_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C13_humus_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C13_humus_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C13_hoummos_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hummus_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C13_hommos_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hoummos_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hummus_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hummus_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_humus_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C13_humus_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C13_humus_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C13_hummus_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C13_hommos_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hoummos_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hoummos_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hummus_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_hummus_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C13_humus_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C14 a ontolex:LexicalConcept ;
+    dct:identifier "14" ;
+    dct:subject "Gastronomia" ;
+    skos:inScheme tc:Gastronomia_del_Proxim_Orient_ConSet ;
+    skos:relatedMatch tc:Plats_a_la_carta_C1590 ;
+    ontolex:lexicalizedSense tc:Gastronomia_del_Proxim_Orient_C14_chiche-kebab_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_kebab_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_kebab_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_kebab_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_kebab_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_shish_kebab_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_shish_kebab_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_xix_kebab_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C14_chiche-kebab_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C14_chiche-kebab_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C14_kebab_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C14_kebab_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_kebab_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_kebab_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_shish_kebab_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_shish_kebab_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_xix_kebab_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C14_kebab_ca_noun_sense a ontolex:LexicalSense ;
+    lexinfo:normativeAuthorization lexinfo:deprecated ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C14_kebab_ca_noun ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C14_xix_kebab_ca_noun_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C14_chiche-kebab_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_kebab_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_kebab_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_kebab_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_shish_kebab_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_shish_kebab_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C14_kebab_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C14_kebab_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C14_shish_kebab_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C14_chiche-kebab_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_kebab_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_kebab_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_kebab_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_shish_kebab_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_xix_kebab_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C14_kebab_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C14_kebab_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C14_shish_kebab_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C14_chiche-kebab_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_kebab_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_kebab_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_kebab_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_shish_kebab_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_xix_kebab_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C14_kebab_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C14_kebab_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C14_chiche-kebab_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C14_kebab_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_kebab_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_kebab_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_shish_kebab_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_shish_kebab_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_xix_kebab_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C14_shish_kebab_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C14_shish_kebab_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C14_kebab_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C14_chiche-kebab_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_kebab_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_kebab_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_kebab_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_shish_kebab_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_xix_kebab_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C14_shish_kebab_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C14_shish_kebab_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C14_kebab_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C14_chiche-kebab_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_kebab_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_kebab_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_kebab_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_shish_kebab_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_xix_kebab_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C14_xix_kebab_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C14_xix_kebab_ca_noun ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C14_kebab_ca_noun_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C14_chiche-kebab_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_kebab_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_kebab_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_kebab_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_shish_kebab_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C14_shish_kebab_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C15 a ontolex:LexicalConcept ;
+    dct:identifier "15" ;
+    dct:subject "Gastronomia" ;
+    skos:inScheme tc:Gastronomia_del_Proxim_Orient_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_del_Proxim_Orient_C15_kebbe_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kebbe_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kebbe_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kebe_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibba_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibba_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibbeh_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibbeh_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C15_kebbe_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C15_kebbe_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C15_kibba_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibbeh_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C15_kebbe_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kebbe_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kebe_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibba_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibbeh_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C15_kebbe_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C15_kebbe_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C15_kibba_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C15_kebbe_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kebbe_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kebe_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibba_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibbeh_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibbeh_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C15_kebbe_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C15_kebbe_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C15_kibbeh_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C15_kebbe_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kebbe_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kebe_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibba_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibba_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibbeh_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C15_kebe_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C15_kebe_ca_noun ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C15_kebbe_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kebbe_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kebbe_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibba_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibba_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibbeh_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibbeh_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C15_kibba_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C15_kibba_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C15_kebbe_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibbeh_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C15_kebbe_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kebbe_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kebe_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibba_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibbeh_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C15_kibba_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C15_kibba_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C15_kebbe_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C15_kebbe_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kebbe_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kebe_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibba_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibbeh_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibbeh_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C15_kibbeh_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C15_kibbeh_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C15_kebbe_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibba_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C15_kebbe_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kebbe_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kebe_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibba_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibbeh_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C15_kibbeh_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C15_kibbeh_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C15_kebbe_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C15_kebbe_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kebbe_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kebe_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibba_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibba_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C15_kibbeh_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C17 a ontolex:LexicalConcept ;
+    dct:identifier "17" ;
+    dct:subject "Alimentació > Llet i derivats" ;
+    skos:inScheme tc:Gastronomia_del_Proxim_Orient_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_del_Proxim_Orient_C17_laban_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_laban_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_laban_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_laban_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_lebban_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_leben_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_leben_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_leben_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C17_laban_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C17_laban_ca_noun ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C17_laban_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_laban_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_laban_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_lebban_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_leben_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_leben_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_leben_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C17_laban_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C17_laban_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C17_lebban_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_leben_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C17_laban_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_laban_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_laban_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_leben_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_leben_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C17_laban_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C17_laban_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C17_leben_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C17_laban_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_laban_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_laban_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_lebban_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_leben_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_leben_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C17_laban_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C17_laban_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C17_leben_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C17_laban_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_laban_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_laban_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_lebban_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_leben_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_leben_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C17_lebban_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C17_lebban_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C17_laban_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_leben_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C17_laban_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_laban_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_laban_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_leben_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_leben_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C17_leben_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C17_leben_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C17_laban_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_lebban_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C17_laban_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_laban_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_laban_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_leben_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_leben_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C17_leben_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C17_leben_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C17_laban_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C17_laban_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_laban_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_laban_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_lebban_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_leben_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_leben_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C17_leben_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C17_leben_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C17_laban_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C17_laban_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_laban_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_laban_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_lebban_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_leben_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C17_leben_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C19_tabule_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C19_tabule_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C19_tabbule_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabule_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C19_tabboule_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabbouleh_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_taboule_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabouleh_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C19_tabule_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C23 a ontolex:LexicalConcept ;
+    dct:identifier "23" ;
+    dct:subject "Gastronomia" ;
+    skos:inScheme tc:Gastronomia_del_Proxim_Orient_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_del_Proxim_Orient_C23_chabbakia_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_chebbakia_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_haloua_chebbakia_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_halwa_shebakia_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_shabakia_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_shebakia_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_shebbakia_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_xabakia_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C23_chabbakia_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C23_chabbakia_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C23_chebbakia_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_haloua_chebbakia_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C23_halwa_shebakia_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_shabakia_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_shebakia_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_shebbakia_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_xabakia_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C23_chebbakia_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C23_chebbakia_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C23_chabbakia_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_haloua_chebbakia_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C23_halwa_shebakia_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_shabakia_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_shebakia_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_shebbakia_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_xabakia_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C23_haloua_chebbakia_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C23_haloua_chebbakia_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C23_chabbakia_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_chebbakia_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C23_halwa_shebakia_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_shabakia_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_shebakia_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_shebbakia_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_xabakia_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C23_halwa_shebakia_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C23_halwa_shebakia_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C23_shabakia_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_shebakia_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C23_chabbakia_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_chebbakia_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_haloua_chebbakia_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_shebbakia_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_xabakia_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C23_shabakia_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C23_shabakia_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C23_halwa_shebakia_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_shebakia_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C23_chabbakia_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_chebbakia_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_haloua_chebbakia_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_shebbakia_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_xabakia_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C23_shebakia_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C23_shebakia_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C23_halwa_shebakia_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_shabakia_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C23_chabbakia_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_chebbakia_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_haloua_chebbakia_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_shebbakia_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_xabakia_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C23_shebbakia_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C23_shebbakia_es ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C23_chabbakia_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_chebbakia_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_haloua_chebbakia_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_halwa_shebakia_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_shabakia_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_shebakia_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_xabakia_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C23_xabakia_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C23_xabakia_ca_noun ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C23_chabbakia_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_chebbakia_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_haloua_chebbakia_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_halwa_shebakia_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_shabakia_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_shebakia_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C23_shebbakia_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C7_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "chawarma",
+        "doner kebab",
+        "shawarma" .
+
+tc:Gastronomia_del_Proxim_Orient_C9 a ontolex:LexicalConcept ;
+    dct:identifier "9" ;
+    dct:subject "Gastronomia" ;
+    skos:inScheme tc:Gastronomia_del_Proxim_Orient_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_del_Proxim_Orient_C9_falafal_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_falafel_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_falafel_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_falafel_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_falafel_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_felafel_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_felafel_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_felafel_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C9_falafal_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C9_falafal_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C9_falafel_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_felafel_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C9_falafel_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_falafel_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_falafel_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_felafel_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_felafel_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C9_falafel_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C9_falafel_ca_noun ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C9_falafal_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_falafel_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_falafel_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_falafel_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_felafel_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_felafel_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_felafel_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C9_falafel_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C9_falafel_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C9_falafal_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_felafel_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C9_falafel_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_falafel_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_falafel_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_felafel_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_felafel_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C9_falafel_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C9_falafel_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C9_felafel_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C9_falafal_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_falafel_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_falafel_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_falafel_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_felafel_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_felafel_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C9_falafel_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C9_falafel_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C9_felafel_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C9_falafal_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_falafel_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_falafel_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_falafel_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_felafel_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_felafel_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C9_felafel_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C9_felafel_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C9_falafal_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_falafel_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C9_falafel_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_falafel_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_falafel_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_felafel_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_felafel_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C9_felafel_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C9_felafel_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C9_falafel_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C9_falafal_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_falafel_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_falafel_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_falafel_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_felafel_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_felafel_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C9_felafel_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C9_felafel_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C9_falafel_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C9_falafal_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_falafel_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_falafel_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_falafel_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_felafel_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C9_felafel_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C18_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "pain pita",
+        "pan de pita",
+        "pita",
+        "pita bread",
+        "pitta",
+        "pitta bread",
+        "pocket bread" .
+
+tc:Gastronomia_del_Proxim_Orient_C7 a ontolex:LexicalConcept ;
+    dct:identifier "7" ;
+    dct:subject "Gastronomia" ;
+    skos:inScheme tc:Gastronomia_del_Proxim_Orient_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_del_Proxim_Orient_C7_chawarma_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_chawarma_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_xauarma_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C7_chawarma_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C7_chawarma_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C7_chawarma_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_xauarma_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C7_chawarma_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C7_chawarma_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C7_chawarma_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_xauarma_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_ca_noun_sense a ontolex:LexicalSense ;
+    lexinfo:normativeAuthorization lexinfo:deprecated ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_ca_noun ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C7_xauarma_ca_noun_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C7_chawarma_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_chawarma_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C7_shawarma_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C7_chawarma_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_chawarma_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_xauarma_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C7_chawarma_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C7_chawarma_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_xauarma_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C7_chawarma_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C7_chawarma_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_xauarma_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C7_shawarma_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C7_shawarma_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C7_chawarma_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_chawarma_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_xauarma_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C7_shawarma_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C7_shawarma_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C7_chawarma_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C7_chawarma_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_xauarma_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C7_shawarma_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C7_shawarma_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C7_chawarma_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C7_chawarma_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_xauarma_ca_noun_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C7_xauarma_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C7_xauarma_ca_noun ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_ca_noun_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C7_chawarma_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_chawarma_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_doner_kebab_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C7_shawarma_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C18 a ontolex:LexicalConcept ;
+    dct:identifier "18" ;
+    dct:subject "Alimentació" ;
+    skos:inScheme tc:Gastronomia_del_Proxim_Orient_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_del_Proxim_Orient_C18_pa_de_pita_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pain_pita_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pan_de_pita_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_bread_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_bread_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pocket_bread_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pa_de_pita_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C18_pa_de_pita_ca_noun ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C18_pita_ca_noun_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C18_pain_pita_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pan_de_pita_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_bread_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_bread_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pocket_bread_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pain_pita_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C18_pain_pita_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C18_pita_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C18_pa_de_pita_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pan_de_pita_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_bread_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_bread_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pocket_bread_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pan_de_pita_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C18_pan_de_pita_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C18_pita_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C18_pa_de_pita_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pain_pita_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_bread_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_bread_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pocket_bread_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pita_bread_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C18_pita_bread_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C18_pita_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_bread_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pocket_bread_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C18_pa_de_pita_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pain_pita_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pan_de_pita_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pita_ca_noun_sense a ontolex:LexicalSense ;
+    lexinfo:normativeAuthorization lexinfo:deprecated ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C18_pita_ca_noun ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C18_pa_de_pita_ca_noun_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C18_pain_pita_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pan_de_pita_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_bread_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_bread_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pocket_bread_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pita_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C18_pita_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C18_pita_bread_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_bread_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pocket_bread_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C18_pa_de_pita_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pain_pita_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pan_de_pita_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pita_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C18_pita_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C18_pan_de_pita_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C18_pa_de_pita_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pain_pita_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_bread_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_bread_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pocket_bread_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pita_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C18_pita_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C18_pain_pita_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C18_pa_de_pita_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pan_de_pita_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_bread_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_bread_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pocket_bread_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pitta_bread_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C18_pitta_bread_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C18_pita_bread_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pocket_bread_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C18_pa_de_pita_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pain_pita_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pan_de_pita_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pitta_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C18_pitta_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C18_pita_bread_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_bread_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pocket_bread_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C18_pa_de_pita_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pain_pita_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pan_de_pita_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pitta_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C18_pitta_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C18_pain_pita_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C18_pa_de_pita_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pan_de_pita_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_bread_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_bread_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pocket_bread_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C18_pocket_bread_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C18_pocket_bread_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C18_pita_bread_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_bread_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C18_pa_de_pita_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pain_pita_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pan_de_pita_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pita_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C18_pitta_fr_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C1_form a ontolex:LexicalForm ;
+    ontolex:writtenRep "baba ganooj",
+        "baba ganoush",
+        "baba ghannouge",
+        "baba ghannouj",
+        "baba ghannuj",
+        "caviar d'aubergines",
+        "moutabal",
+        "moutabbal",
+        "mutabal",
+        "mutabbal" .
+
+tc:Gastronomia_del_Proxim_Orient_C1 a ontolex:LexicalConcept ;
+    dct:identifier "1" ;
+    dct:subject "Gastronomia" ;
+    skos:inScheme tc:Gastronomia_del_Proxim_Orient_ConSet ;
+    ontolex:lexicalizedSense tc:Gastronomia_del_Proxim_Orient_C1_baba_ganooj_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ganoush_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouge_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouj_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannuj_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_babaganuix_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_caviar_d%27aubergines_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_moutabal_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_moutabbal_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C1_baba_ganooj_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C1_baba_ganooj_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C1_baba_ganoush_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouge_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouj_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannuj_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_babaganuix_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_caviar_d%27aubergines_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_moutabal_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_moutabbal_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C1_baba_ganoush_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C1_baba_ganoush_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C1_baba_ganooj_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouge_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouj_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannuj_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_babaganuix_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_caviar_d%27aubergines_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_moutabal_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_moutabbal_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouge_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouge_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouj_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_caviar_d%27aubergines_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_moutabal_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_moutabbal_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C1_baba_ganooj_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ganoush_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannuj_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_babaganuix_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouj_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouj_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouge_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_caviar_d%27aubergines_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_moutabal_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_moutabbal_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C1_baba_ganooj_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ganoush_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannuj_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_babaganuix_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannuj_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannuj_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C1_mutabal_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C1_baba_ganooj_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ganoush_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouge_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouj_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_babaganuix_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_caviar_d%27aubergines_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_moutabal_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_moutabbal_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C1_babaganuix_ca_noun_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C1_babaganuix_ca_noun ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C1_mutabal_ca_noun_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C1_baba_ganooj_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ganoush_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouge_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouj_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannuj_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_caviar_d%27aubergines_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_moutabal_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_moutabbal_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C1_caviar_d%27aubergines_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C1_caviar_d%27aubergines_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouge_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouj_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_moutabal_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_moutabbal_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C1_baba_ganooj_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ganoush_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannuj_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_babaganuix_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C1_moutabal_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C1_moutabal_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouge_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouj_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_caviar_d%27aubergines_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_moutabbal_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C1_baba_ganooj_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ganoush_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannuj_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_babaganuix_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C1_moutabbal_fr_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C1_moutabbal_fr ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouge_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouj_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_caviar_d%27aubergines_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_moutabal_fr_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C1_baba_ganooj_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ganoush_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannuj_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_babaganuix_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C1_mutabal_ca_noun_sense a ontolex:LexicalSense ;
+    lexinfo:normativeAuthorization lexinfo:deprecated ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C1_mutabal_ca_noun ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C1_babaganuix_ca_noun_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C1_baba_ganooj_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ganoush_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouge_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouj_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannuj_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_caviar_d%27aubergines_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_moutabal_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_moutabbal_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C1_mutabal_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C1_mutabal_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C1_baba_ganooj_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ganoush_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouge_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouj_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannuj_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_babaganuix_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_caviar_d%27aubergines_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_moutabal_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_moutabbal_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C1_mutabal_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C1_mutabal_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannuj_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C1_baba_ganooj_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ganoush_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouge_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouj_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_babaganuix_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_caviar_d%27aubergines_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_moutabal_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_moutabbal_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_en_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_en ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C1_baba_ganooj_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ganoush_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_en_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouge_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouj_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannuj_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_babaganuix_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_caviar_d%27aubergines_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_moutabal_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_moutabbal_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_es_sense .
+
+tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_es_sense a ontolex:LexicalSense ;
+    ontolex:isSenseOf tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_es ;
+    vartrans:synonym tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannuj_es_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_es_sense ;
+    vartrans:translation tc:Gastronomia_del_Proxim_Orient_C1_baba_ganooj_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ganoush_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouge_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_baba_ghannouj_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_babaganuix_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_caviar_d%27aubergines_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_moutabal_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_moutabbal_fr_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_ca_noun_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabal_en_sense,
+        tc:Gastronomia_del_Proxim_Orient_C1_mutabbal_en_sense .
+
+tc:Gastronomia_del_Proxim_Orient_ConSet a ontolex:ConceptSet .
+
