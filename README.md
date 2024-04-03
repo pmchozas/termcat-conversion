@@ -1,4 +1,4 @@
-# Towards the Development a Mapping-based Conversion Platform for Terminological Resources
+# Mapping-based Conversion Service for Terminological Resources: The TERMCAT Use Case
 
 This is the repository for the Termcat use case of the Automatic Terminology Converters into RDF.
 
