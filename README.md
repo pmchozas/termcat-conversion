@@ -12,7 +12,7 @@ In order to ease the data conversion to the producers of terminological resource
 
 <p align="center">
 
-<img src="https://github.com/pmchozas/termcat-conversion/blob/main/static/mapping-platform.png" width=80% >
+<img src="https://github.com/pmchozas/termcat-conversion/blob/main/static/conversion_pipeline.png" width=80% >
 
 </p>
 
