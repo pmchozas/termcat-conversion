@@ -8,7 +8,7 @@ Exposing and sharing language resources in the Linguistic Linked Open Data (LLOD
 
 <p align="center">
 
-<img src="[https://github.com/pmchozas/termcat-conversion/main/conversion-pipeline.png](https://github.com/pmchozas/termcat-conversion/blob/main/conversion-pipeline.png)" width=80% >
+<img src="https://github.com/pmchozas/termcat-conversion/blob/main/conversion-pipeline.png" width=80% >
 
 </p>
 
